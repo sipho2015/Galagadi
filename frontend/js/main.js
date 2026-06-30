@@ -205,38 +205,6 @@
     return "";
   };
 
-  // Backend API URL (update when deploying)
-  const API_URL = "http://localhost:5000/api";
-
-  /**
-   * Submit form data to backend
-   */
-  const submitFormToBackend = async (formData, endpoint) => {
-    try {
-      const response = await fetch(`${API_URL}/${endpoint}`, {
-        method: "POST",
-        headers: {
-          "Content-Type": "application/json",
-        },
-        body: JSON.stringify(formData)
-      });
-
-      const result = await response.json();
-
-      if (!response.ok) {
-        throw new Error(result.message || "Form submission failed");
-      }
-
-      return { success: true, message: result.message };
-    } catch (error) {
-      console.error(`Error submitting to ${endpoint}:`, error);
-      return { 
-        success: false, 
-        message: error.message || "An error occurred. Please try again later."
-      };
-    }
-  };
-
   /**
    * Collect form data into an object
    */
@@ -300,8 +268,8 @@
       const formData = getFormData(form, isBookingForm);
       const endpoint = isBookingForm ? "booking" : "contact";
 
-      // Submit to backend
-      const result = await submitFormToBackend(formData, endpoint);
+      // Submit to backend via shared api.js
+      const result = await window.submitFormToAPI(formData, endpoint);
 
       if (result.success) {
         form.reset();

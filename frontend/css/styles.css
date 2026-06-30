@@ -124,6 +124,13 @@ textarea {
   text-transform: uppercase;
 }
 
+.brand-logo {
+  width: 28px;
+  height: 28px;
+  object-fit: contain;
+  flex-shrink: 0;
+}
+
 .brand-mark {
   display: grid;
   place-items: center;
