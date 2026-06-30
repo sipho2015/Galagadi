@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="View a filterable safari gallery featuring wildlife, lodges, landscapes, and guest moments.">
+  <title>Gallery | Galagadi Tours & Safari</title>
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+  <div class="loader" aria-label="Page loading"><span></span></div>
+  <header class="site-header" data-header>
+    <a class="brand" href="index.html"><span class="brand-mark">GS</span><span>Galagadi Tours & Safari</span></a>
+    <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="primary-nav"><span></span><span></span><span></span><span class="sr-only">Menu</span></button>
+    <nav class="primary-nav" id="primary-nav" aria-label="Primary navigation">
+      <a href="index.html">Home</a><a href="about.html">About</a><a href="packages.html">Safari Packages</a><a href="destinations.html">Destinations</a><a href="gallery.html" class="active">Gallery</a><a href="booking.html">Booking</a><a href="contact.html">Contact</a>
+    </nav>
+  </header>
+  <main>
+    <section class="page-hero gallery-hero"><div class="hero-overlay"></div><div class="container page-hero-content reveal"><p class="eyebrow">Gallery</p><h1>Moments from the field.</h1></div></section>
+    <section class="section">
+      <div class="container filter-bar reveal" role="group" aria-label="Gallery filters">
+        <button type="button" class="active" data-filter="all">All</button>
+        <button type="button" data-filter="wildlife">Wildlife</button>
+        <button type="button" data-filter="lodges">Lodges</button>
+        <button type="button" data-filter="landscapes">Landscapes</button>
+      </div>
+      <div class="container gallery-grid">
+        <button class="gallery-item reveal" data-category="wildlife"><img src="https://images.unsplash.com/photo-1547471080-7cc2caa01a7e?auto=format&fit=crop&w=900&q=80" alt="Lion resting in grass"></button>
+        <button class="gallery-item reveal" data-category="landscapes"><img src="https://images.unsplash.com/photo-1516026672322-bc52d61a55d5?auto=format&fit=crop&w=900&q=80" alt="Tall desert dunes"></button>
+        <button class="gallery-item reveal" data-category="wildlife"><img src="https://images.unsplash.com/photo-1516426122078-c23e76319801?auto=format&fit=crop&w=900&q=80" alt="Elephants on safari"></button>
+        <button class="gallery-item reveal" data-category="lodges"><img src="https://images.unsplash.com/photo-1534177616072-ef7dc120449d?auto=format&fit=crop&w=900&q=80" alt="Luxury lodge deck"></button>
+        <button class="gallery-item reveal" data-category="landscapes"><img src="https://images.unsplash.com/photo-1489392191049-fc10c97e64b6?auto=format&fit=crop&w=900&q=80" alt="Delta waterways"></button>
+        <button class="gallery-item reveal" data-category="lodges"><img src="https://images.unsplash.com/photo-1540541338287-41700207dee6?auto=format&fit=crop&w=900&q=80" alt="Pool at a travel lodge"></button>
+      </div>
+    </section>
+  </main>
+  <div class="lightbox" aria-hidden="true" role="dialog" aria-label="Image preview">
+    <button type="button" class="lightbox-close" aria-label="Close preview">Close</button>
+    <img src="" alt="">
+  </div>
+  <footer class="site-footer"><div class="container footer-grid"><div><a class="brand footer-brand" href="index.html"><span class="brand-mark">GS</span><span>Galagadi Tours & Safari</span></a><p>Victoria Falls and Chobe safari planning with local insight.</p></div><nav aria-label="Footer navigation"><a href="about.html">About</a><a href="packages.html">Packages</a><a href="activities.html">Activities</a><a href="booking.html">Booking</a><a href="contact.html">Contact</a><a href="privacy-policy.html">Privacy</a><a href="refund-policy.html">Refunds</a><a href="terms-of-use.html">Terms</a></nav><div><p>Victoria Falls, Zimbabwe</p><p>booking@galagadisafari.com</p><p><a href="https://wa.me/263782363947">WhatsApp +263 78 236 3947</a></p></div></div><p class="copyright">© 2026 All Rights Reserved @ Galagadi Safari</p></footer>
+  <a href="https://wa.me/263782363947" class="whatsapp-button" aria-label="Contact us on WhatsApp" target="_blank" rel="noopener noreferrer">
+    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+      <path d="M21.5 2H2.5A.5.5 0 0 0 2 2.5v19A.5.5 0 0 0 2.5 22h19a.5.5 0 0 0 .5-.5v-19a.5.5 0 0 0-.5-.5z"></path>
+      <path d="M6 9h12M6 13h12M6 17h7" stroke="currentColor" stroke-linecap="round"></path>
+    </svg>
+  </a>
+  <button class="back-to-top" type="button" aria-label="Back to top">Top</button>
+  <script src="js/main.js" defer></script>
+</body>
+</html>

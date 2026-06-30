@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Submit a validated safari booking inquiry for Galagadi Tours & Safari.">
+  <title>Booking | Galagadi Tours & Safari</title>
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+  <div class="loader" aria-label="Page loading"><span></span></div>
+  <header class="site-header" data-header>
+    <a class="brand" href="index.html"><span class="brand-mark">GS</span><span>Galagadi Tours & Safari</span></a>
+    <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="primary-nav"><span></span><span></span><span></span><span class="sr-only">Menu</span></button>
+    <nav class="primary-nav" id="primary-nav" aria-label="Primary navigation">
+      <a href="index.html">Home</a><a href="about.html">About</a><a href="packages.html">Safari Packages</a><a href="destinations.html">Destinations</a><a href="activities.html">Activities</a><a href="gallery.html">Gallery</a><a href="booking.html" class="active">Booking</a><a href="contact.html">Contact</a>
+    </nav>
+  </header>
+  <main>
+    <section class="page-hero booking-hero"><div class="hero-overlay"></div><div class="container page-hero-content reveal"><p class="eyebrow">Booking Inquiry</p><h1>Build your Victoria Falls and Chobe journey.</h1></div></section>
+    <section class="section">
+      <div class="container form-layout">
+        <aside class="booking-note reveal">
+          <p class="eyebrow">Booking Details</p>
+          <h2>Send your inquiry to Galagadi.</h2>
+          <p>This static form validates your details locally and shows a success message. To complete a real booking, contact us at <a class="text-link" href="mailto:booking@galagadisafari.com">booking@galagadisafari.com</a> or WhatsApp <a class="text-link" href="https://wa.me/263782363947">+263 78 236 3947</a>.</p>
+          <h3>Bank Deposit Details</h3>
+          <ul class="bank-list">
+            <li><strong>Account Name:</strong> Thembelihle Hopewell Moyo</li>
+            <li><strong>Account Number:</strong> 59804533348</li>
+            <li><strong>Bank Name:</strong> First Capital</li>
+            <li><strong>Sort Code:</strong> 5980</li>
+            <li><strong>SWIFT:</strong> BARCZWHX</li>
+          </ul>
+          <p>A 10% non-refundable deposit is required at the time of booking to secure your tour or safari experience.</p>
+        </aside>
+        <form class="form-card reveal" data-validated-form novalidate>
+          <div class="form-row"><label for="name">Full name</label><input id="name" name="name" type="text" required minlength="2"><small></small></div>
+          <div class="form-row"><label for="email">Email</label><input id="email" name="email" type="email" required><small></small></div>
+          <div class="form-row"><label for="phone">Phone number</label><input id="phone" name="phone" type="tel" required pattern="^[0-9+()\\s-]{7,}$"><small></small></div>
+          <div class="form-row"><label for="package">Safari package</label><select id="package" name="package" required><option value="">Choose a package</option><option>Victoria Falls Itinerary</option><option>Victoria Falls & Chobe Day Trip Itinerary</option><option>Victoria Falls & Chobe Safari Itinerary</option><option>Build Your Own Trip</option></select><small></small></div>
+          <div class="form-row"><label for="arrival">Arrival date</label><input id="arrival" name="arrival" type="date" required><small></small></div>
+          <div class="form-row"><label for="departure">Departure date</label><input id="departure" name="departure" type="date" required><small></small></div>
+          <div class="form-row"><label for="guests">Number of guests</label><input id="guests" name="guests" type="number" min="1" max="20" required><small></small></div>
+          <div class="form-row form-wide"><label for="requests">Additional trip details / requests</label><textarea id="requests" name="requests" rows="5" placeholder="Hotel preference, activities, dietary needs, border crossing questions, preferred pace"></textarea><small></small></div>
+          <button class="btn btn-primary form-wide" type="submit">Send Inquiry</button>
+          <p class="success-message form-wide" role="status" hidden>Your booking inquiry has been received! We will contact you shortly to confirm details.</p>
+        </form>
+      </div>
+    </section>
+  </main>
+  <footer class="site-footer"><div class="container footer-grid"><div><a class="brand footer-brand" href="index.html"><span class="brand-mark">GS</span><span>Galagadi Tours & Safari</span></a><p>Victoria Falls and Chobe safari planning with local insight.</p></div><nav aria-label="Footer navigation"><a href="about.html">About</a><a href="packages.html">Packages</a><a href="activities.html">Activities</a><a href="booking.html">Booking</a><a href="contact.html">Contact</a><a href="privacy-policy.html">Privacy</a><a href="refund-policy.html">Refunds</a><a href="terms-of-use.html">Terms</a></nav><div><p>Victoria Falls, Zimbabwe</p><p>booking@galagadisafari.com</p><p><a href="https://wa.me/263782363947">WhatsApp +263 78 236 3947</a></p></div></div><p class="copyright">© 2026 All Rights Reserved @ Galagadi Safari</p></footer>
+  <a href="https://wa.me/263782363947" class="whatsapp-button" aria-label="Contact us on WhatsApp" target="_blank" rel="noopener noreferrer">
+    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+      <path d="M21.5 2H2.5A.5.5 0 0 0 2 2.5v19A.5.5 0 0 0 2.5 22h19a.5.5 0 0 0 .5-.5v-19a.5.5 0 0 0-.5-.5z"></path>
+      <path d="M6 9h12M6 13h12M6 17h7" stroke="currentColor" stroke-linecap="round"></path>
+    </svg>
+  </a>
+  <button class="back-to-top" type="button" aria-label="Back to top">Top</button>
+  <script src="js/main.js" defer></script>
+</body>
+</html>
