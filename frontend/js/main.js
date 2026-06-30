@@ -275,7 +275,8 @@
         form.reset();
         fields.forEach((field) => setFieldError(field, ""));
         if (success) {
-          success.textContent = result.message;
+          success.textContent = result.emailWarning ? `${result.message} ${result.emailWarning}` : result.message;
+          success.classList.remove("error");
           success.hidden = false;
           setTimeout(() => {
             success.hidden = true;
@@ -285,13 +286,11 @@
         // Show error message
         if (success) {
           success.textContent = result.message;
-          success.style.background = "rgba(162, 59, 42, 0.14)";
-          success.style.color = "#a23b2a";
+          success.classList.add("error");
           success.hidden = false;
           setTimeout(() => {
             success.hidden = true;
-            success.style.background = "";
-            success.style.color = "";
+            success.classList.remove("error");
           }, 8000);
         }
       }

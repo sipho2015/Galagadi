@@ -1,15 +1,18 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap");
+
 :root {
-  --ink: #17201d;
-  --muted: #69756f;
-  --paper: #fbfaf6;
-  --sand: #e8ddc8;
-  --moss: #52664b;
-  --copper: #b56b39;
-  --night: #101615;
+  --ink: #2a211b;
+  --muted: #75675d;
+  --paper: #fdf9f3;
+  --sand: #efe2d0;
+  --moss: #4f6242;
+  --copper: #8b4f2d;
+  --brown: #5a3320;
+  --night: #21170f;
   --white: #ffffff;
   --error: #a23b2a;
-  --line: rgba(23, 32, 29, 0.14);
-  --shadow: 0 22px 50px rgba(20, 26, 24, 0.14);
+  --line: rgba(90, 51, 32, 0.16);
+  --shadow: 0 22px 50px rgba(70, 42, 25, 0.14);
   --radius: 8px;
 }
 
@@ -23,7 +26,7 @@ html {
 
 body {
   margin: 0;
-  font-family: Georgia, "Times New Roman", serif;
+  font-family: "Poppins", Arial, sans-serif;
   color: var(--ink);
   background: var(--paper);
   line-height: 1.6;
@@ -109,26 +112,29 @@ textarea {
 
 .site-header.scrolled {
   padding-block: 12px;
-  background: rgba(16, 22, 21, 0.95);
-  box-shadow: 0 12px 32px rgba(20, 26, 24, 0.18);
+  background: rgba(33, 23, 15, 0.95);
+  box-shadow: 0 12px 32px rgba(70, 42, 25, 0.18);
   backdrop-filter: blur(16px);
 }
 
 .brand {
   display: inline-flex;
   align-items: center;
-  gap: 10px;
-  font-family: Arial, sans-serif;
+  gap: 12px;
+  font-family: "Poppins", Arial, sans-serif;
   font-weight: 700;
   letter-spacing: 0.08em;
   text-transform: uppercase;
 }
 
 .brand-logo {
-  width: 28px;
-  height: 28px;
-  object-fit: contain;
+  width: 50px;
+  height: 50px;
+  object-fit: cover;
   flex-shrink: 0;
+  padding: 2px;
+  border-radius: 50%;
+  background: var(--white);
 }
 
 .brand-mark {
@@ -141,11 +147,11 @@ textarea {
   font-size: 0.78rem;
 }
 
-.primary-nav {
+  .primary-nav {
   display: flex;
   align-items: center;
   gap: clamp(14px, 2vw, 28px);
-  font-family: Arial, sans-serif;
+  font-family: "Poppins", Arial, sans-serif;
   font-size: 0.84rem;
   text-transform: uppercase;
   letter-spacing: 0.08em;
@@ -233,7 +239,7 @@ textarea {
 .hero-overlay {
   position: absolute;
   inset: 0;
-  background: linear-gradient(90deg, rgba(16, 22, 21, 0.82), rgba(16, 22, 21, 0.34) 55%, rgba(16, 22, 21, 0.16));
+  background: linear-gradient(90deg, rgba(33, 23, 15, 0.84), rgba(90, 51, 32, 0.4) 55%, rgba(33, 23, 15, 0.18));
 }
 
 .hero-content,
@@ -256,7 +262,7 @@ textarea {
 .eyebrow,
 .tag {
   margin: 0 0 12px;
-  font-family: Arial, sans-serif;
+  font-family: "Poppins", Arial, sans-serif;
   font-size: 0.78rem;
   font-weight: 700;
   letter-spacing: 0.14em;
@@ -281,12 +287,12 @@ h1 {
   max-width: 780px;
   margin-bottom: 22px;
   font-size: clamp(3rem, 7vw, 6.8rem);
-  font-weight: 400;
+  font-weight: 600;
 }
 
 h2 {
   font-size: clamp(2rem, 4vw, 3.6rem);
-  font-weight: 400;
+  font-weight: 600;
 }
 
 h3 {
@@ -317,7 +323,7 @@ h3 {
   padding: 0 22px;
   border: 1px solid transparent;
   border-radius: var(--radius);
-  font-family: Arial, sans-serif;
+  font-family: "Poppins", Arial, sans-serif;
   font-size: 0.82rem;
   font-weight: 700;
   letter-spacing: 0.08em;
@@ -350,7 +356,7 @@ h3 {
 
 .text-link {
   color: var(--copper);
-  font-family: Arial, sans-serif;
+  font-family: "Poppins", Arial, sans-serif;
   font-weight: 700;
   text-transform: uppercase;
   letter-spacing: 0.08em;
@@ -442,7 +448,7 @@ h3 {
 
 .stat span,
 .destination-card span {
-  font-family: Arial, sans-serif;
+  font-family: "Poppins", Arial, sans-serif;
   font-size: 0.86rem;
   color: var(--muted);
 }
@@ -657,7 +663,7 @@ h3 {
 }
 
 .package-toolbar label {
-  font-family: Arial, sans-serif;
+  font-family: "Poppins", Arial, sans-serif;
   font-weight: 700;
 }
 
@@ -685,7 +691,7 @@ h3 {
 }
 
 .filter-bar button.active {
-  background: var(--moss);
+  background: var(--brown);
   color: var(--white);
 }
 
@@ -751,7 +757,7 @@ h3 {
 }
 
 .form-row label {
-  font-family: Arial, sans-serif;
+  font-family: "Poppins", Arial, sans-serif;
   font-size: 0.85rem;
   font-weight: 700;
 }
@@ -780,6 +786,11 @@ h3 {
   font-weight: 700;
 }
 
+.success-message.error {
+  background: rgba(162, 59, 42, 0.14);
+  color: var(--error);
+}
+
 .contact-layout {
   grid-template-columns: 0.8fr 1.2fr;
 }
@@ -791,8 +802,8 @@ h3 {
   margin-top: 24px;
   border: 1px dashed rgba(23, 32, 29, 0.3);
   border-radius: var(--radius);
-  background: linear-gradient(135deg, rgba(82, 102, 75, 0.16), rgba(181, 107, 57, 0.14));
-  font-family: Arial, sans-serif;
+  background: linear-gradient(135deg, rgba(90, 51, 32, 0.18), rgba(79, 98, 66, 0.14));
+  font-family: "Poppins", Arial, sans-serif;
   font-weight: 700;
 }
 
@@ -899,14 +910,14 @@ h3 {
     z-index: 1001;
   }
 
-  .primary-nav {
+.primary-nav {
     position: fixed;
     inset: 0;
     z-index: 1000;
     display: grid;
     place-content: center;
     gap: 22px;
-    background: rgba(16, 22, 21, 0.98);
+    background: rgba(33, 23, 15, 0.98);
     font-size: 1rem;
     opacity: 0;
     visibility: hidden;
