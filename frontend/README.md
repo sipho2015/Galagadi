@@ -53,16 +53,16 @@ Forms are validated client-side and submitted to the backend which sends confirm
 ## Running Locally
 
 ### Quick Start (Windows)
-Double-click `run-site.bat` to open the site in your default browser.
+Double-click `run-site.bat` to serve the site and open `http://localhost:3000/` in your default browser.
 
 ### With Local Server
 For better development and to avoid CORS issues with the backend:
 
 ```bash
 # Using Python (if available)
-python -m http.server 8000
+python -m http.server 3000
 
-# Then visit: http://localhost:8000
+# Then visit: http://localhost:3000
 ```
 
 ## Backend Setup

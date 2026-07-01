@@ -613,11 +613,74 @@ h3 {
   grid-template-columns: repeat(3, 1fr);
 }
 
+.activity-card {
+  overflow: hidden;
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+  background: var(--white);
+  box-shadow: var(--shadow);
+}
+
+.activity-card img {
+  height: 220px;
+  object-fit: cover;
+}
+
+.activity-card > div {
+  padding: 24px;
+}
+
+.activity-card .tag {
+  margin-bottom: 10px;
+  font-size: 0.72rem;
+  color: var(--moss);
+}
+
+.activity-card h3 {
+  margin-bottom: 14px;
+}
+
 .value-card ul,
+.activity-card ul,
 .bank-list {
   margin: 0;
   padding-left: 20px;
   color: var(--muted);
+}
+
+.partner-strip {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) minmax(320px, 0.85fr);
+  gap: clamp(28px, 5vw, 62px);
+  align-items: center;
+}
+
+.partner-strip p:not(.eyebrow) {
+  max-width: 680px;
+  color: var(--muted);
+}
+
+.partner-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 12px;
+}
+
+.partner-grid span {
+  display: grid;
+  min-height: 72px;
+  place-items: center;
+  padding: 14px;
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+  background: rgba(255, 255, 255, 0.72);
+  color: var(--brown);
+  font-family: "Poppins", Arial, sans-serif;
+  font-size: 0.84rem;
+  font-weight: 700;
+  letter-spacing: 0.06em;
+  text-align: center;
+  text-transform: uppercase;
 }
 
 .policy-page {
@@ -936,7 +999,8 @@ h3 {
   .faq-layout,
   .form-layout,
   .contact-layout,
-  .destination-card {
+  .destination-card,
+  .partner-strip {
     grid-template-columns: 1fr;
   }
 

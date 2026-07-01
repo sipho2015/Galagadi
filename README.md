@@ -124,7 +124,7 @@ Galagadi/
 cd frontend
 .\run-site.bat
 ```
-This opens the site in your browser directly (no backend required for UI).
+This starts a local static server and opens the site at `http://localhost:3000/`.
 
 ### Full Stack (Frontend + Backend with Forms)
 
