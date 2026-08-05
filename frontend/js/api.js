@@ -31,7 +31,7 @@
 
       if (!response.ok) {
         const validationMessage = Array.isArray(result.errors)
-          ? result.errors.map((item) => item.msg).join(" ")
+          ? result.errors.map((item) => item.msg || item.message).filter(Boolean).join(" ")
           : "";
         throw new Error(result.message || validationMessage || "Form submission failed.");
       }

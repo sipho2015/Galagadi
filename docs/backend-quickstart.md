@@ -160,7 +160,7 @@ const API_URL = "https://your-backend-url.com/api";
 2. **AWS** - https://aws.amazon.com
 3. **DigitalOcean** - https://www.digitalocean.com
 
-**See DEPLOYMENT_GUIDE.md for step-by-step instructions**
+**See `deployment.md` for step-by-step instructions**
 
 ---
 
@@ -180,7 +180,7 @@ Galagadi/
 │   ├── package.json
 │   ├── .env               # Your email config
 │   └── [routes, controllers, config]
-└── DEPLOYMENT_GUIDE.md    # ← Deployment instructions
+└── deployment.md          # ← Deployment instructions
 ```
 
 ---

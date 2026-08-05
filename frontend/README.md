@@ -71,7 +71,7 @@ To enable form submissions and email notifications, you need to set up the backe
 
 1. Navigate to the `/backend` folder
 2. Run `npm install` to install dependencies
-3. Create `.env` file with Gmail credentials (see `BACKEND_QUICKSTART.md`)
+3. Create `.env` file with Gmail credentials (see [`docs/backend-quickstart.md`](../docs/backend-quickstart.md))
 4. Run `npm run dev` to start the backend server on port 5000
 
 ## Responsive Design

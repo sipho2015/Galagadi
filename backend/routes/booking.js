@@ -1,11 +1,16 @@
 const express = require('express');
 const router = express.Router();
-const { validateBookingForm, submitBooking } = require('../controllers/bookingController');
+const { 
+  validateBookingForm, 
+  submitBooking, 
+  bookingRateLimiter 
+} = require('../controllers/bookingController');
 
-/**
- * POST /api/booking
- * Submit a booking inquiry
- */
-router.post('/', validateBookingForm, submitBooking);
+router.post(
+  '/', 
+  bookingRateLimiter,
+  validateBookingForm,
+  submitBooking
+);
 
 module.exports = router;

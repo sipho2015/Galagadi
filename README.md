@@ -8,7 +8,7 @@ The project is organized into two main folders:
 
 ```
 Galagadi/
-├── frontend/                   # All frontend files (HTML, CSS, JS, images, assets)
+├── frontend/                   # Static website (HTML, CSS, JavaScript, images)
 │   ├── index.html
 │   ├── about.html
 │   ├── activities.html
@@ -25,8 +25,7 @@ Galagadi/
 │   ├── js/
 │   │   ├── main.js            # Core functionality and form handling
 │   │   └── api.js             # Backend API utilities
-│   ├── images/                # Local images folder
-│   ├── assets/                # Downloadables and resources
+│   ├── images/                # Local images
 │   ├── run-site.bat          # Quick launcher
 │   └── README.md              # Frontend documentation
 │
@@ -44,10 +43,11 @@ Galagadi/
 │   ├── .env.example           # Template for environment variables
 │   └── README.md              # Backend documentation
 │
-├── IMPLEMENTATION_SUMMARY.md  # Full architecture overview
-├── BACKEND_QUICKSTART.md      # Backend setup guide with Gmail config
-├── DEPLOYMENT_GUIDE.md        # Deployment instructions
-└── PROJECT_CHECKLIST.md       # Task completion tracking
+└── docs/                       # Project documentation
+    ├── backend-quickstart.md
+    ├── deployment.md
+    ├── implementation-summary.md
+    └── project-checklist.md
 ```
 
 ## Frontend Features
@@ -132,7 +132,7 @@ This starts a local static server and opens the site at `http://localhost:3000/`
 ```bash
 cd backend
 npm install
-# Create .env file with Gmail credentials (see BACKEND_QUICKSTART.md)
+# Create .env file with Gmail credentials (see docs/backend-quickstart.md)
 npm run dev
 # Runs on http://localhost:5000
 ```
@@ -151,17 +151,17 @@ cd frontend
 
 ## Documentation
 
-- [**IMPLEMENTATION_SUMMARY.md**](IMPLEMENTATION_SUMMARY.md) - Complete architecture, codebase overview, and integration details
-- [**BACKEND_QUICKSTART.md**](BACKEND_QUICKSTART.md) - Backend setup with step-by-step Gmail app-password configuration
-- [**DEPLOYMENT_GUIDE.md**](DEPLOYMENT_GUIDE.md) - Production deployment options (Vercel, Heroku, Railway, AWS, DigitalOcean)
-- [**PROJECT_CHECKLIST.md**](PROJECT_CHECKLIST.md) - Feature completion tracking
+- [**Implementation summary**](docs/implementation-summary.md) - Complete architecture, codebase overview, and integration details
+- [**Backend quick start**](docs/backend-quickstart.md) - Backend setup with step-by-step Gmail app-password configuration
+- [**Deployment guide**](docs/deployment.md) - Production deployment options (Vercel, Heroku, Railway, AWS, DigitalOcean)
+- [**Project checklist**](docs/project-checklist.md) - Feature completion tracking
 - [**frontend/README.md**](frontend/README.md) - Frontend-specific documentation
 
 ## Next Steps
 
 1. **Email Configuration**: Add Gmail app-specific password to `/backend/.env`
 2. **Test Backend Connection**: Run backend and test forms
-3. **Deployment**: Follow DEPLOYMENT_GUIDE.md for production setup
+3. **Deployment**: Follow `docs/deployment.md` for production setup
 4. **Database**: Phase 2 - Add database for inquiry history (MongoDB or PostgreSQL)
 5. **Payment**: Phase 3 - Integrate payment processing (Stripe/PayPal)
 
