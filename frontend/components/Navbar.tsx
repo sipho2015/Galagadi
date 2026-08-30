@@ -5,8 +5,8 @@ import { usePathname } from "next/navigation";
 import { useState } from "react";
 
 const links = [
-  ["Home", "/"], ["About", "/about"], ["Safaris", "/safaris"], ["Destinations", "/destinations"],
-  ["Activities", "/activities"], ["Gallery", "/gallery"], ["Contact", "/contact"]
+  ["Home", "/"], ["Packages", "/safaris"], ["Activities", "/activities"], ["Destinations", "/destinations"],
+  ["Gallery", "/gallery"], ["About", "/about"], ["Contact", "/contact"]
 ] as const;
 
 export function Navbar() {
