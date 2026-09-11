@@ -1,12 +1,12 @@
-import type { ContentItem } from "@/types";
+import type { SafariPackage } from "@/types";
 
-export const safaris: ContentItem[] = [
+export const safaris: SafariPackage[] = [
   {
     slug: "victoria-falls-escape",
     title: "Victoria Falls Escape",
     summary: "A relaxed introduction to the Smoke That Thunders and the Zambezi.",
     description: "Four unhurried days around Victoria Falls, with guided exploration, a sunset cruise and time to make the journey your own.",
-    image: "https://images.unsplash.com/photo-1523805009345-7448845a9e53?auto=format&fit=crop&w=1400&q=85",
+    image: "images/destinations/The_Victoria_Falls.jpeg",
     location: "Victoria Falls, Zimbabwe",
     duration: "4 days / 3 nights",
     price: "From $1,505.70",
@@ -17,7 +17,7 @@ export const safaris: ContentItem[] = [
     title: "Chobe Day Safari",
     summary: "A full day of river and land wildlife viewing in Chobe National Park.",
     description: "Cross from Victoria Falls into Botswana for an immersive Chobe day: a river safari, a lodge lunch and a game drive beneath big African skies.",
-    image: "https://images.unsplash.com/photo-1547471080-7cc2caa01a7e?auto=format&fit=crop&w=1400&q=85",
+    image: "/images/safaris/Pm_Game-Drive.jpeg",
     location: "Chobe National Park, Botswana",
     duration: "Full day",
     price: "From $285",
@@ -28,7 +28,7 @@ export const safaris: ContentItem[] = [
     title: "Victoria Falls & Chobe Safari",
     summary: "A considered, cross-border journey through Zimbabwe and Botswana.",
     description: "Spend a week combining Falls experiences, easy Zambezi evenings and exceptional wildlife encounters in Chobe National Park.",
-    image: "https://images.unsplash.com/photo-1516426122078-c23e76319801?auto=format&fit=crop&w=1400&q=85",
+    image: "/images/safaris/Pm_Gme-Drive.jpeg",
     location: "Zimbabwe & Botswana",
     duration: "7 days / 6 nights",
     price: "From $5,650",
