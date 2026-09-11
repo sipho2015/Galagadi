@@ -4,6 +4,8 @@ import Image from "next/image";
 import { useEffect, useState } from "react";
 import { Button } from "@/components/ui/button";
 
+const slideDuration = 6000;
+
 const slides = [
   { image: "/images/hero/About_Us.jpeg", alt: "View across the Victoria Falls landscape", eyebrow: "Galagadi Tours & Safari", title: "Africa, revealed with heart.", description: "Personal journeys through Victoria Falls, Hwange and Chobe, shaped around you." },
   { image: "/images/destinations/The_Victoria_Falls.jpeg", alt: "Water flowing over Victoria Falls", eyebrow: "Victoria Falls", title: "Start with a journey worth remembering.", description: "Choose a considered safari package, then add the experiences that suit your free time." },
@@ -17,7 +19,7 @@ export function HeroCarousel() {
   const [isPausedByInteraction, setIsPausedByInteraction] = useState(false);
   useEffect(() => {
     if (!isPlaying || isPausedByInteraction || window.matchMedia("(prefers-reduced-motion: reduce)").matches) return;
-    const timer = window.setInterval(() => setActive(current => (current + 1) % slides.length), 6000);
+    const timer = window.setInterval(() => setActive(current => (current + 1) % slides.length), slideDuration);
     return () => window.clearInterval(timer);
   }, [isPlaying, isPausedByInteraction]);
   const select = (index: number) => setActive((index + slides.length) % slides.length);
