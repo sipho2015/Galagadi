@@ -22,7 +22,7 @@ export function Navbar() {
     </button>
     <nav id="primary-nav" className={open ? "primary-nav open" : "primary-nav"} aria-label="Primary navigation">
       {links.map(([label, href]) => <Link key={href} href={href} className={pathname === href ? "active" : ""} onClick={() => setOpen(false)}>{label}</Link>)}
-      <Link href="/contact" className="nav-cta" onClick={() => setOpen(false)}>Plan your trip</Link>
+      <Link href="/contact" className="nav-cta" onClick={() => setOpen(false)}>Plan your journey</Link>
     </nav>
   </header>;
 }

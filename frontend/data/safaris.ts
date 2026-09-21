@@ -6,7 +6,7 @@ export const safaris: SafariPackage[] = [
     title: "Victoria Falls Escape",
     summary: "A relaxed introduction to the Smoke That Thunders and the Zambezi.",
     description: "Four unhurried days around Victoria Falls, with guided exploration, a sunset cruise and time to make the journey your own.",
-    image: "images/destinations/The_Victoria_Falls.jpeg",
+    image: "/images/destinations/The_Victoria_Falls.jpeg",
     location: "Victoria Falls, Zimbabwe",
     duration: "4 days / 3 nights",
     price: "From $1,505.70",

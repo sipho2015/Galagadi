@@ -10,14 +10,14 @@ type GalleryImage = {
 };
 
 const images: GalleryImage[] = [
-  { category: "Wildlife", title: "Elephant country", detail: "A quiet moment with Chobe's gentle giants in their natural habitat.", image: "https://images.unsplash.com/photo-1547970810-dc1eac37d174?auto=format&fit=crop&w=1600&q=90" },
-  { category: "Falls", title: "Victoria Falls", detail: "The immense curtain of water that gives this iconic destination its local name, Mosi-oa-Tunya.", image: "https://images.unsplash.com/photo-1534177616072-ef7dc120449d?auto=format&fit=crop&w=1600&q=90" },
-  { category: "Safari", title: "Into the wild", detail: "A game drive brings you close to the rhythm of the African bush.", image: "https://images.unsplash.com/photo-1523805009345-7448845a9e53?auto=format&fit=crop&w=1600&q=90" },
+  { category: "Wildlife", title: "Elephant country", detail: "A quiet moment with Chobe's gentle giants in their natural habitat.", image: "images/gallery/Elephant_Along_Zambezi.jpg" },
+  { category: "Falls", title: "Victoria Falls", detail: "The immense curtain of water that gives this iconic destination its local name, Mosi-oa-Tunya.", image: "images/gallery/Zambezi_Curtain.jpg" },
+  { category: "Safari", title: "Into the wild", detail: "A game drive brings you close to the rhythm of the African bush.", image: "images/gallery/Inside_the_safari.jpg" },
   { category: "River", title: "Along the Zambezi", detail: "The Zambezi River invites slower moments and wide-open views.", image: "https://images.unsplash.com/photo-1504432842672-1a79f78e4084?auto=format&fit=crop&w=1600&q=90" },
-  { category: "Wildlife", title: "Quiet encounters", detail: "Wildlife sightings are often at their most memorable when the landscape is still.", image: "https://images.unsplash.com/photo-1516426122078-c23e76319801?auto=format&fit=crop&w=1600&q=90" },
-  { category: "Safari", title: "Golden-hour drive", detail: "Evening light turns every drive into a story worth remembering.", image: "https://images.unsplash.com/photo-1547471080-7cc2caa01a7e?auto=format&fit=crop&w=1600&q=90" },
-  { category: "River", title: "Still water", detail: "A calm river scene reflects the peaceful side of a safari journey.", image: "https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?auto=format&fit=crop&w=1600&q=90" },
-  { category: "Falls", title: "Mist and rainforest", detail: "The rainforest around Victoria Falls is nourished by the spray year-round.", image: "https://images.unsplash.com/photo-1534177616072-ef7dc120449d?auto=format&fit=crop&w=1600&q=90&sat=-25" }
+  { category: "Wildlife", title: "Quiet encounters", detail: "Wildlife sightings are often at their most memorable when the landscape is still.", image: "images/gallery/Rhino_Hwange.jpeg" },
+  { category: "Safari", title: "Golden-hour drive", detail: "Evening light turns every drive into a story worth remembering.", image:"images/gallery/Night_Game.jpg" },
+  { category: "River", title: "Still water", detail: "A calm river scene reflects the peaceful side of a safari journey.", image: "images/gallery/Zambezi_River.jpg" },
+  { category: "Falls", title: "Mist and rainforest", detail: "The rainforest around Victoria Falls is nourished by the spray year-round.", image: "images/gallery/Rain_forest.jpg" }
 ];
 
 const choices = ["All", "Wildlife", "Falls", "Safari", "River"] as const;
