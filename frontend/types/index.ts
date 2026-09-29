@@ -12,6 +12,7 @@ export type ContentItem = {
 };
 
 export type Activity = ContentItem & {
+  category: "Safari & Wildlife" | "Victoria Falls" | "Water Adventures" | "Cultural Experiences" | "Dining & Cruises";
   gallery?: string[];
   included?: string[];
   excluded?: string[];
@@ -30,6 +31,7 @@ export type ItineraryDay = {
 };
 
 export type SafariPackage = ContentItem & {
+  gallery?: string[];
   itinerary?: ItineraryDay[];
   accommodation?: string[];
   meals?: string[];
@@ -38,6 +40,16 @@ export type SafariPackage = ContentItem & {
   exclusions?: string[];
   importantInformation?: string[];
   optionalExperiences?: string[];
+};
+
+export type Accommodation = {
+  slug: string;
+  name: string;
+  location: string;
+  type: string;
+  description: string;
+  image: string;
+  sample: true;
 };
 
 export type FAQItem = {

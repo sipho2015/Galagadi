@@ -1,20 +1,68 @@
+import Image from "next/image";
 import Link from "next/link";
 import { HeroCarousel } from "@/components/HeroCarousel";
 import { Button } from "@/components/ui/button";
 import { activities } from "@/data/activities";
 import { safaris } from "@/data/safaris";
+import { pageMetadata } from "@/lib/seo";
+
+export const metadata = pageMetadata("Victoria Falls & Chobe Safari Journeys", "Personalized Victoria Falls, Hwange and Chobe safari journeys, shaped with local insight.", "/");
 
 const values = [
   ["01", "Local knowledge", "Journeys shaped by people who know Victoria Falls, Zimbabwe and the surrounding region."],
   ["02", "Personal service", "Thoughtful support from your first enquiry through to the details of your journey."],
   ["03", "Flexible journeys", "A considered trip that can be shaped around your pace, interests and time."],
   ["04", "More than the highlights", "Connect with the culture, wildlife and stories that make this part of Africa distinctive."]
-];
+] as const;
 
 const regionPanels = [
-  ["Victoria Falls", "The Smoke That Thunders", "Explore the rainforest paths, river views and remarkable scale of this natural wonder.", "/images/destinations/The_Victoria_Falls.jpeg"],
-  ["Safari", "Wild places, close encounters", "Slow down and take in the wildlife, wide horizons and changing bush light.", "/images/destinations/Rhino_Hwange.jpeg"],
-  ["Zambezi", "Life on the river", "Make space for river moments, golden light and the calm rhythm of the water.", "/images/hero/About_Us.jpeg"]
-];
+  { label: "Waterfalls & wonder", title: "Victoria Falls", description: "Feel the spray, wander rainforest paths and discover the wonder of the Zambezi.", image: "/images/destinations/The_Victoria_Falls.jpeg", href: "/destinations/victoria-falls" },
+  { label: "Wildlife & wilderness", title: "Hwange", description: "Head into the bush for close encounters and unhurried days on safari.", image: "/images/destinations/Rhino_Hwange.jpeg", href: "/destinations/hwange" },
+  { label: "River & safari", title: "Chobe", description: "Follow the river through elephant country and savour the golden evening light.", image: "/images/destinations/Chobezi.jpeg", href: "/destinations/chobe" }
+] as const;
 
-export default function HomePage() { return <div className="home-page"><HeroCarousel /><section className="home-why"><div className="container"><div className="home-section-intro"><p className="home-label">Why Galagadi?</p><h2>A more personal way to explore.</h2><p>We bring together local insight, thoughtful planning and the freedom to travel at your own pace.</p></div><div className="home-values-grid">{values.map(([number, title, description]) => <article key={title}><span>{number}</span><h3>{title}</h3><p>{description}</p></article>)}</div></div></section><section className="home-region"><div className="home-section-intro home-section-intro-light"><p className="home-label">Experience the region</p><h2>Three worlds. One unforgettable journey.</h2></div><div className="home-region-panels">{regionPanels.map(([label, title, description, image]) => <article key={label} style={{ backgroundImage: `url(${image})` }}><div><p className="home-label">{label}</p><h3>{title}</h3><p>{description}</p><Link href="/destinations">Explore the region <span aria-hidden="true">→</span></Link></div></article>)}</div></section><section className="home-escapes"><div className="container"><div className="home-section-intro"><p className="home-label">Quick escapes</p><h2>Experiences for your free time.</h2><p>Choose your package first, then add the moments that make the journey your own.</p></div><div className="home-escape-grid">{activities.slice(0, 4).map(activity => <article key={activity.slug}><img src={activity.image} alt={activity.title} /><div><p className="home-label">{activity.location ?? "Experience"}</p><h3>{activity.title}</h3><div className="home-card-meta"><span>{activity.duration}</span><strong>{activity.price ?? "Price on request"}</strong></div><Link href={`/activities/${activity.slug}`}>Discover experience <span aria-hidden="true">→</span></Link></div></article>)}</div><div className="home-link-row"><Button href="/activities">Browse all activities</Button></div></div></section><section className="home-packages"><div className="container"><div className="home-section-intro home-section-intro-light"><p className="home-label">Featured packages</p><h2>Let the journey come together.</h2><p>Begin with a considered safari package, then shape the details around you.</p></div><div className="home-package-grid">{safaris.map(safari => <article key={safari.slug}><img src={safari.image} alt={safari.title} /><div><p className="home-label">{safari.duration}</p><h3>{safari.title}</h3><p>{safari.summary}</p><div className="home-card-meta"><strong>{safari.price}</strong><Link href={`/safaris/${safari.slug}`}>View package <span aria-hidden="true">→</span></Link></div></div></article>)}</div><div className="home-link-row"><Button href="/safaris" variant="secondary">Explore our packages</Button></div></div></section><section className="home-accommodation"><div className="container home-accommodation-grid"><div className="home-accommodation-image"><img src="/images/destinations/desti_desti.jpeg" alt="African fish eagle flying above a river" /></div><div><p className="home-label">Accommodation</p><h2>Rest well. Wake up close to wonder.</h2><p className="home-accommodation-lead">The right stay gives every part of your journey room to breathe.</p><p>We can help you consider accommodation that suits your route, travel style and budget as part of your wider safari plan.</p><Button href="/accommodation">Explore accommodation</Button></div></div></section><section className="home-final-cta"><div className="container"><p className="home-label">Your African story starts here</p><h2>Travel with the rhythm of the region.</h2><p>Choose a package and let us help shape a journey that feels entirely your own.</p><div className="hero-actions"><Button href="/safaris">Explore our packages</Button><Button href="/contact" variant="secondary">Plan your journey</Button></div></div></section></div>; }
+export default function HomePage() {
+  return <div className="home-page">
+    <HeroCarousel />
+    <section className="home-trust-bar" aria-label="How we help">
+      <div className="container home-trust-grid">
+        <p><strong>Victoria Falls based</strong><span>Local knowledge from the start</span></p>
+        <p><strong>Made around you</strong><span>Packages shaped to your pace</span></p>
+        <p><strong>Easy to begin</strong><span>Enquire by form, email or WhatsApp</span></p>
+      </div>
+    </section>
+    <section className="home-why">
+      <div className="container">
+        <div className="home-section-intro"><p className="home-label">Why Galagadi?</p><h2>A more personal way to explore.</h2><p>We bring together local insight, thoughtful planning and the freedom to travel at your own pace.</p></div>
+        <div className="home-values-grid">{values.map(([number, title, description]) => <article key={title}><span>{number}</span><h3>{title}</h3><p>{description}</p></article>)}</div>
+      </div>
+    </section>
+    <section className="home-region">
+      <div className="home-section-intro home-section-intro-light"><p className="home-label">Experience the region</p><h2>Three worlds. One unforgettable journey.</h2></div>
+      <div className="container home-region-panels">{regionPanels.map(panel => <Link className="home-region-card" key={panel.title} href={panel.href} aria-label={`Explore ${panel.title}`}><Image src={panel.image} alt="" fill quality={90} sizes="(max-width: 760px) calc(100vw - 40px), (max-width: 1160px) calc((100vw - 88px) / 3), 357px" /><div className="home-region-copy"><p className="home-label">{panel.label}</p><h3>{panel.title}</h3><p className="home-region-description">{panel.description}</p><span className="home-region-link">Explore {panel.title} <span aria-hidden="true">&rarr;</span></span></div></Link>)}</div>
+    </section>
+    <section className="home-escapes">
+      <div className="container">
+        <div className="home-section-intro"><p className="home-label">Optional experiences</p><h2>Make time for the moments that matter.</h2><p>Start with a package, then add the experiences that feel right for your free time.</p></div>
+        <div className="home-escape-grid">{activities.slice(0, 4).map(activity => <article key={activity.slug}><Image src={activity.image} alt={activity.title + " in the Victoria Falls region"} width={640} height={460} sizes="(max-width: 580px) calc(100vw - 28px), (max-width: 880px) calc(50vw - 30px), 280px" /><div><p className="home-label">{activity.location ?? "Experience"}</p><h3>{activity.title}</h3><div className="home-card-meta"><span>{activity.duration}</span><strong>{activity.price ?? "Price on request"}</strong></div><Link href={"/activities/" + activity.slug}>Discover experience <span aria-hidden="true">→</span></Link></div></article>)}</div>
+        <div className="home-link-row"><Button href="/experiences#activities">Browse all activities</Button></div>
+      </div>
+    </section>
+    <section className="home-packages">
+      <div className="container">
+        <div className="home-section-intro home-section-intro-light"><p className="home-label">Featured packages</p><h2>Let the journey come together.</h2><p>Begin with a considered safari package, then shape the details around you.</p></div>
+        <div className="home-package-grid">{safaris.map(safari => <article key={safari.slug}><Image src={safari.image} alt={safari.title + " safari"} width={800} height={560} sizes="(max-width: 880px) min(100vw - 40px, 620px), 360px" /><div><p className="home-label">{safari.duration}</p><h3>{safari.title}</h3><p>{safari.summary}</p><div className="home-card-meta"><strong>{safari.price}</strong><Link href={"/safaris/" + safari.slug}>View package <span aria-hidden="true">→</span></Link></div></div></article>)}</div>
+        <div className="home-link-row"><Button href="/experiences#packages" variant="secondary">Explore our packages</Button></div>
+      </div>
+    </section>
+    <section className="home-accommodation">
+      <div className="container home-accommodation-grid">
+        <div className="home-accommodation-image"><Image src="/images/destinations/desti_desti.jpeg" alt="African fish eagle flying above a river" fill sizes="(max-width: 880px) min(100vw - 40px, 620px), 55vw" /></div>
+        <div><p className="home-label">Accommodation</p><h2>Rest well. Wake up close to wonder.</h2><p className="home-accommodation-lead">The right stay gives every part of your journey room to breathe.</p><p>We can help you consider accommodation that suits your route, travel style and budget as part of your wider safari plan.</p><Button href="/discover#accommodation">Explore accommodation</Button></div>
+      </div>
+    </section>
+    <section className="home-final-cta">
+      <div className="container"><p className="home-label">Your African story starts here</p><h2>Travel with the rhythm of the region.</h2><p>Tell us when you would like to travel and what matters to you. We will help turn it into a considered journey.</p><div className="hero-actions"><Button href="/contact">Plan your journey</Button><Button href="/experiences#packages" variant="secondary">Explore our packages</Button></div></div>
+    </section>
+  </div>;
+}
