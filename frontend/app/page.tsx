@@ -1,5 +1,6 @@
 import Image from "next/image";
 import Link from "next/link";
+import { PriceBadge } from "@/components/PriceBadge";
 import { HeroCarousel } from "@/components/HeroCarousel";
 import { Button } from "@/components/ui/button";
 import { activities } from "@/data/activities";
@@ -51,13 +52,13 @@ export default function HomePage() {
     <section className="home-packages">
       <div className="container">
         <div className="home-section-intro home-section-intro-light"><p className="home-label">Featured packages</p><h2>Let the journey come together.</h2><p>Begin with a considered safari package, then shape the details around you.</p></div>
-        <div className="home-package-grid">{safaris.map(safari => <article key={safari.slug}><Image src={safari.image} alt={safari.title + " safari"} width={800} height={560} sizes="(max-width: 880px) min(100vw - 40px, 620px), 360px" /><div><p className="home-label">{safari.duration}</p><h3>{safari.title}</h3><p>{safari.summary}</p><div className="home-card-meta"><strong>{safari.price}</strong><Link href={"/safaris/" + safari.slug}>View package <span aria-hidden="true">→</span></Link></div></div></article>)}</div>
+        <div className="home-package-grid">{safaris.map(safari => <Link className="home-package-card" key={safari.slug} href={"/safaris/" + safari.slug} aria-label={`View ${safari.title}, ${safari.price}`}><div className="home-package-image"><Image src={safari.image} alt={safari.title + " safari"} fill sizes="(max-width: 880px) min(100vw - 40px, 620px), 360px" /><PriceBadge price={safari.price} /></div><div className="home-package-copy"><p className="home-label">{safari.duration}</p><h3>{safari.title}</h3><p>{safari.summary}</p><span className="home-package-link">View package <span aria-hidden="true">&rarr;</span></span></div></Link>)}</div>
         <div className="home-link-row"><Button href="/experiences#packages" variant="secondary">Explore our packages</Button></div>
       </div>
     </section>
     <section className="home-accommodation">
       <div className="container home-accommodation-grid">
-        <div className="home-accommodation-image"><Image src="/images/destinations/desti_desti.jpeg" alt="African fish eagle flying above a river" fill sizes="(max-width: 880px) min(100vw - 40px, 620px), 55vw" /></div>
+        <div className="home-accommodation-image"><Image src="/images/accommodation/Lodge1.jpg" alt="Safari lodge terrace and swimming pool overlooking the bush" fill sizes="(max-width: 880px) min(100vw - 40px, 620px), 55vw" /></div>
         <div><p className="home-label">Accommodation</p><h2>Rest well. Wake up close to wonder.</h2><p className="home-accommodation-lead">The right stay gives every part of your journey room to breathe.</p><p>We can help you consider accommodation that suits your route, travel style and budget as part of your wider safari plan.</p><Button href="/discover#accommodation">Explore accommodation</Button></div>
       </div>
     </section>

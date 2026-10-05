@@ -45,7 +45,7 @@ export function Navbar() {
 
   return <header ref={header} className="site-header">
     <Link className="brand" href="/" onClick={() => setOpen(false)}>
-      <Image src="/logo/logo.jpeg" alt="Galagadi Tours & Safari" width={46} height={46} priority />
+      <Image src="/logo/logo.png" alt="Galagadi Tours & Safari" width={46} height={46} priority />
       <span>Galagadi Tours & Safari</span>
     </Link>
     <button ref={menuButton} className="menu-button" type="button" onClick={() => setOpen(current => !current)} aria-expanded={open} aria-controls="primary-nav" aria-label={open ? "Close navigation menu" : "Open navigation menu"}>
