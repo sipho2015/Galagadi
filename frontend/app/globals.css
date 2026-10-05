@@ -290,3 +290,10 @@ html { scroll-padding-top:94px; }
 .about-page .hero-copy { margin-left:auto; margin-bottom:0; max-width:500px; text-wrap:pretty; }
 .about-page .hero-media::after { background:linear-gradient(90deg,rgba(var(--espresso-rgb),.18),rgba(var(--espresso-rgb),.55) 45%,rgba(var(--espresso-rgb),.87)); }
 @media (max-width:580px) { .about-page .hero-content { margin-right:14px; width:calc(100% - 28px); } }
+
+/* Keep each new carousel subject in frame on narrow screens. */
+@media (max-width:580px) {
+  .home-page .hero-carousel { min-height:calc(100svh - 70px); padding-block:48px; }
+  .home-page .hero-carousel-image { object-position:var(--hero-mobile-position,center); transform:none; }
+  .home-page .hero-carousel-image.active { transform:none; }
+}
