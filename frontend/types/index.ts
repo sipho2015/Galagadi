@@ -12,6 +12,7 @@ export type ContentItem = {
 };
 
 export type Activity = ContentItem & {
+  pricingNotes?: string[];
   category: "Safari & Wildlife" | "Victoria Falls" | "Water Adventures" | "Cultural Experiences" | "Dining & Cruises";
   gallery?: string[];
   included?: string[];

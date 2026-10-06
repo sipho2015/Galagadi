@@ -1,4 +1,5 @@
 import type { Activity } from "@/types";
+import { activityRates } from "./activity-rates";
 import { sourcedActivities, sourcedActivityEnhancements } from "./sourced-activities";
 
 const existingActivities: Activity[] = [
@@ -25,4 +26,4 @@ export const activities: Activity[] = [
     ...sourcedActivityEnhancements[activity.slug]
   })),
   ...sourcedActivities
-];
+].map(activity => ({ ...activity, ...activityRates[activity.slug] }));

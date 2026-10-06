@@ -4,7 +4,7 @@ import Image from "next/image";
 import { useEffect, useState, type CSSProperties } from "react";
 import { Button } from "@/components/ui/button";
 
-const slideDuration = 6500;
+const slideDuration = 2000;
 const slides = [
   { image: "/images/hero/Golden Hour at Victoria Falls.png", mobilePosition: "65% center", alt: "Victoria Falls in golden sunset light", eyebrow: "Galagadi Tours & Safari", title: "Africa, revealed with heart.", description: "Personal journeys through Victoria Falls, Hwange and Chobe, shaped around you." },
   { image: "/images/hero/Golden Bungee Leap Over Misty Falls.png", mobilePosition: "40% center", alt: "Bungee jump above the misty Victoria Falls gorge", eyebrow: "Victoria Falls", title: "Start with a journey worth remembering.", description: "Choose a considered safari package, then add the experiences that suit your free time." },
