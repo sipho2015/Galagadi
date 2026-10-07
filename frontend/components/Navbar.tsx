@@ -7,10 +7,8 @@ import { useEffect, useRef, useState } from "react";
 
 const links = [
   { label: "Home", href: "/", paths: ["/"] },
-  { label: "Experiences", href: "/experiences", paths: ["/experiences", "/activities"] },
-  { label: "Packages", href: "/safaris", paths: ["/safaris"] },
+  { label: "Journeys", href: "/experiences", paths: ["/experiences", "/activities", "/safaris"] },
   { label: "Discover", href: "/discover", paths: ["/discover", "/destinations", "/accommodation"] },
-  { label: "Gallery", href: "/gallery", paths: ["/gallery"] },
   { label: "About", href: "/about", paths: ["/about"] },
   { label: "Contact", href: "/contact", paths: ["/contact"] }
 ] as const;

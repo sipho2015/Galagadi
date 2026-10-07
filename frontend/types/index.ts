@@ -26,12 +26,39 @@ export type ItineraryStep = {
 };
 
 export type ItineraryDay = {
+  location?: string;
+  schedule?: { time: string; title: string; description: string }[];
+  accommodation?: string[];
+  meals?: string[];
+  travelInformation?: string[];
+  glance?: string[];
+  heading?: string;
   day: string;
   title: string;
   description: string;
 };
 
 export type SafariPackage = ContentItem & {
+  isTailorMade?: boolean;
+  subtitle?: string;
+  cardSummary?: string;
+  cardCta?: string;
+  enquiryCta?: string;
+  startTime?: string;
+  finishTime?: string;
+  experienceType?: string;
+  showDayAtGlance?: boolean;
+  glanceTitle?: string;
+  startingPoint?: string;
+  endingPoint?: string;
+  route?: string;
+  cardSupportingLine?: string;
+  inclusionsBeforeItinerary?: boolean;
+  itineraryEyebrow?: string;
+  itineraryTitle?: string;
+  itineraryIntro?: string;
+  finalEnquiryEyebrow?: string;
+  finalEnquiryTitle?: string;
   gallery?: string[];
   itinerary?: ItineraryDay[];
   accommodation?: string[];
