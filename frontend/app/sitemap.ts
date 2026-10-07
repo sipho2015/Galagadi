@@ -1,9 +1,10 @@
+import { siteUrl } from "@/lib/site";
 import type { MetadataRoute } from "next";
 import { safaris } from "@/data/safaris";
 import { destinations } from "@/data/destinations";
 import { activities } from "@/data/activities";
 
-const baseUrl = "https://galagadisafari.com";
+const baseUrl = siteUrl;
 
 export default function sitemap(): MetadataRoute.Sitemap {
   const staticPaths = [

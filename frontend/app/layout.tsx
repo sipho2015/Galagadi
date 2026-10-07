@@ -1,3 +1,4 @@
+import { siteUrl } from "@/lib/site";
 import type { Metadata } from "next";
 import "./globals.css";
 import { Navbar } from "@/components/Navbar";
@@ -8,7 +9,7 @@ import { AnalyticsConsent } from "@/components/AnalyticsConsent";
 export const metadata: Metadata = {
   title: { default: "Galagadi Tours & Safari", template: "%s | Galagadi Tours & Safari" },
   description: "Personalized Victoria Falls and Chobe safari journeys, guided by local insight.",
-  metadataBase: new URL("https://galagadisafari.com"),
+  metadataBase: new URL(siteUrl),
   applicationName: "Galagadi Tours & Safari",
   robots: { index: true, follow: true }
 };
@@ -17,7 +18,7 @@ const structuredData = {
   "@context": "https://schema.org",
   "@type": "TravelAgency",
   name: "Galagadi Tours & Safari",
-  url: "https://galagadisafari.com",
+  url: siteUrl,
   description: "Personalized Victoria Falls and Chobe safari journeys, guided by local insight.",
   email: "booking@galagadisafari.com",
   telephone: "+263789652298",

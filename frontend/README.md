@@ -1,6 +1,6 @@
-# Galagadi Tours & Safari
+# Galagadi frontend
 
-Frontend-only Next.js website for Galagadi Tours & Safari. Content is stored in local TypeScript data files; no API routes, database, or server-side booking system are included.
+This folder contains the Next.js website. See [the project README](../README.md) and [deployment notes](../docs/deployment.md) for features, enquiry delivery and deployment guidance.
 
 ## Run locally
 
@@ -11,11 +11,13 @@ npm run dev
 
 Open `http://localhost:3000`.
 
-## Structure
+## File layout
 
-- `app/` — App Router pages, dynamic safari/destination/activity details, global styling and sitemap
-- `components/` — reusable navigation, cards, gallery, FAQ and client-side inquiry form
-- `data/` — typed, editable website content
-- `public/` — logo plus folders ready for local image assets
+- `app/` — pages, layouts, styles and SEO routes.
+- `components/` — shared interface and enquiry components.
+- `data/` — editable packages, activities, destinations, accommodation and gallery content.
+- `lib/` — shared contact, SEO and lookup helpers.
+- `public/` — images and the logo.
+- `types/` — shared content types.
 
-The inquiry form deliberately has no backend submission. It displays an acknowledgement and offers WhatsApp as the direct follow-up route.
+Open `../Galagadi.code-workspace` for an Explorer view that hides installed dependencies, generated build output and TypeScript caches. These files remain available locally.

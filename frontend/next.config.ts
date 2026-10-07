@@ -1,4 +1,5 @@
 import type { NextConfig } from "next";
+import { siteUrl } from "./lib/site";
 
 const securityHeaders = [
   { key: "X-Content-Type-Options", value: "nosniff" },
@@ -14,6 +15,12 @@ const nextConfig: NextConfig = {
   },
   async redirects() {
     return [
+      ...["www.galagadisafari.co.zw"].map(host => ({
+        source: "/:path*",
+        has: [{ type: "host" as const, value: host.replaceAll(".", "\\.") }],
+        destination: `${siteUrl}/:path*`,
+        permanent: true
+      })),
     {
         "source": "/safaris/4-day-victoria-falls-chobe-hwange",
         "destination": "/safaris/victoria-falls-chobe-safari",

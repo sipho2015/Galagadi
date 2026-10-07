@@ -7,7 +7,7 @@ import { activities } from "@/data/activities";
 import { safaris } from "@/data/safaris";
 import { pageMetadata } from "@/lib/seo";
 
-export const metadata = pageMetadata("Victoria Falls & Chobe Safari Journeys", "Personalized Victoria Falls, Hwange and Chobe safari journeys, shaped with local insight.", "/");
+export const metadata = pageMetadata("Victoria Falls & Chobe Safari Journeys", "Plan your Victoria Falls holiday and Zimbabwe or Botswana safari with Galagadi. Explore Chobe, Hwange, activities and tailor-made journeys with local support.", "/");
 
 const values = [
   ["01", "Local knowledge", "Journeys shaped by people who know Victoria Falls, Zimbabwe and the surrounding region."],

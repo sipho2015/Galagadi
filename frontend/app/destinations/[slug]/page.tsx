@@ -22,7 +22,7 @@ export function generateStaticParams() {
 export async function generateMetadata({ params }: { params: Promise<{ slug: string }> }): Promise<Metadata> {
   const destination = findBySlug(destinations, (await params).slug);
   if (!destination) return {};
-  return { title: destination.title, description: destination.summary, alternates: { canonical: `/destinations/${destination.slug}` }, openGraph: { title: destination.title, description: destination.summary, images: [{ url: destination.image, alt: destination.title }] } };
+  return { title: destination.title, description: destination.description, alternates: { canonical: `/destinations/${destination.slug}` }, openGraph: { title: destination.title, description: destination.description, images: [{ url: destination.image, alt: destination.title }] } };
 }
 
 export default async function DestinationDetail({ params }: { params: Promise<{ slug: string }> }) {

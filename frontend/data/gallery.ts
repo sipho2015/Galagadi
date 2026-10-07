@@ -39,7 +39,7 @@ export const galleryImages: GalleryImage[] = [
   {"category":"Falls","title":"The Victoria Falls","detail":"Explore the views around Victoria Falls.","image":"/images/destinations/Victoria_Falls.jpg"},
   {"category":"Wildlife","title":"Lions in Chobe","detail":"A group of lions resting together in Chobe wildlife country.","image":"/images/destinations/Chobe.jpg"},
   {"category":"Wildlife","title":"Elephants in Hwange","detail":"An adult elephant and a young elephant in warm evening light.","image":"/images/destinations/Hwange.jpg"},
-  {"category":"Wildlife","title":"Birdlife in colour","detail":"Wildlife and birdlife from our safari photo collection.","image":"/images/hero/About_Us.jpeg"},
+  {"category":"Wildlife","title":"Hwange wildlife","detail":"Elephants in Hwange National Park.","image":"/images/destinations/Hwange.jpg"},
   {"category":"Wildlife","title":"Monkey encounter","detail":"Wildlife and birdlife from our safari photo collection.","image":"/images/gallery/Monkey.jpeg"},
   {"category":"Wildlife","title":"Wildebeest on safari","detail":"Wildlife and birdlife from our safari photo collection.","image":"/images/safaris/Pm_Gme-Drive.jpeg"},
   {"category":"Wildlife","title":"Buffalo on safari","detail":"Wildlife and birdlife from our safari photo collection.","image":"/images/safaris/Pm_Game-Drive.jpeg"},

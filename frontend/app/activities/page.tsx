@@ -4,7 +4,7 @@ import { Button } from "@/components/ui/button";
 import { activities } from "@/data/activities";
 import { pageMetadata } from "@/lib/seo";
 
-export const metadata = pageMetadata("Activities", "Safari, river and Victoria Falls experiences.", "/activities");
+export const metadata = pageMetadata("Victoria Falls Activities & Day Trips", "Explore Victoria Falls activities, from guided Falls tours and helicopter flights to Zambezi cruises, game drives and cultural experiences with Galagadi.", "/activities");
 
 const planningPaths = [
   { timeframe: "I have one day", title: "Build My Day", description: "Tell us what calls to you and we will help shape a day of experiences that fits your time in Victoria Falls.", href: "/contact", action: "Build my day" },
