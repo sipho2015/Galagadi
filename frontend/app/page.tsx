@@ -17,9 +17,9 @@ const values = [
 ] as const;
 
 const regionPanels = [
-  { label: "Waterfalls & wonder", title: "Victoria Falls", description: "Feel the spray, wander rainforest paths and discover the wonder of the Zambezi.", image: "/images/destinations/The_Victoria_Falls.jpeg", href: "/destinations/victoria-falls" },
-  { label: "Wildlife & wilderness", title: "Hwange", description: "Head into the bush for close encounters and unhurried days on safari.", image: "/images/destinations/Rhino_Hwange.jpeg", href: "/destinations/hwange" },
-  { label: "River & safari", title: "Chobe", description: "Follow the river through elephant country and savour the golden evening light.", image: "/images/destinations/Chobezi.jpeg", href: "/destinations/chobe" }
+  { label: "Waterfalls & wonder", title: "Victoria Falls", description: "Feel the spray, wander rainforest paths and discover the wonder of the Zambezi.", image: "/images/destinations/Victoria_Falls.jpg", href: "/destinations/victoria-falls" },
+  { label: "Wildlife & wilderness", title: "Hwange", description: "Head into the bush for close encounters and unhurried days on safari.", image: "/images/destinations/Hwange.jpg", href: "/destinations/hwange" },
+  { label: "River & safari", title: "Chobe", description: "Follow the river through elephant country and savour the golden evening light.", image: "/images/destinations/Chobe.jpg", href: "/destinations/chobe" }
 ] as const;
 
 export default function HomePage() {
@@ -52,7 +52,7 @@ export default function HomePage() {
     <section className="home-packages">
       <div className="container">
         <div className="home-section-intro home-section-intro-light"><p className="home-label">Featured packages</p><h2>Let the journey come together.</h2><p>Begin with a considered safari package, then shape the details around you.</p></div>
-        <div className="home-package-grid">{safaris.map(safari => <Link className="home-package-card" key={safari.slug} href={safari.isTailorMade ? "/contact?interest=Tailor-made%20journey&package=" + encodeURIComponent(safari.title) : "/safaris/" + safari.slug} aria-label={`View ${safari.title}, ${safari.price}`}><div className="home-package-image"><Image src={safari.image} alt={safari.title + " safari"} fill sizes="(max-width: 880px) min(100vw - 40px, 620px), 360px" /><PriceBadge price={safari.price} /></div><div className="home-package-copy"><p className="home-label">{safari.isTailorMade ? "Custom Days \u2022 Custom Destinations \u2022 Custom Experiences" : safari.duration}</p><h3>{safari.title}</h3><p>{safari.cardSummary ?? safari.summary}</p>{safari.cardSupportingLine && <p className="tag">{safari.cardSupportingLine}</p>}<span className="home-package-link">{safari.isTailorMade ? "Build My Journey" : safari.cardCta ?? "View package"} <span aria-hidden="true">&rarr;</span></span></div></Link>)}</div>
+        <div className="home-package-grid">{safaris.map(safari => <Link className="home-package-card" key={safari.slug} href={safari.isTailorMade ? "/contact?interest=Tailor-made%20journey&package=" + encodeURIComponent(safari.title) : "/safaris/" + safari.slug} aria-label={`View ${safari.title}, ${safari.price}`}><div className="home-package-image"><Image quality={95} src={safari.image} alt={safari.title + " safari"} fill sizes="(max-width: 880px) min(100vw - 40px, 620px), 360px" /><PriceBadge price={safari.price} /></div><div className="home-package-copy"><p className="home-label">{safari.isTailorMade ? "Custom Days \u2022 Custom Destinations \u2022 Custom Experiences" : safari.duration}</p><h3>{safari.title}</h3><p>{safari.cardSummary ?? safari.summary}</p>{safari.cardSupportingLine && <p className="tag">{safari.cardSupportingLine}</p>}<span className="home-package-link">{safari.isTailorMade ? "Build My Journey" : safari.cardCta ?? "View package"} <span aria-hidden="true">&rarr;</span></span></div></Link>)}</div>
         <div className="home-link-row"><Button href="/experiences#packages" variant="secondary">Explore our packages</Button></div>
       </div>
     </section>

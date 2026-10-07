@@ -6,7 +6,7 @@ export type ActivityEnhancement = Pick<
 >;
 
 const victoriaFallsGallery = [
-  "/images/destinations/The_Victoria_Falls.jpeg",
+  "/images/destinations/Victoria_Falls.jpg",
   "/images/gallery/Zambezi_Curtain.jpg",
   "/images/activities/under the bridge.jpg"
 ];
@@ -48,7 +48,7 @@ export const sourcedActivityEnhancements: Record<string, ActivityEnhancement> = 
     duration: "Evening",
     price: "Enquire for Price",
     highlights: ["Traditional Boma-style dinner setting", "Local flavours", "Evening entertainment"],
-    gallery: ["/images/activities/Boma Dinner.jpg", "/images/destinations/The_Victoria_Falls.jpeg"],
+    gallery: ["/images/activities/Boma Dinner.jpg", "/images/destinations/Victoria_Falls.jpg"],
     included: ["Dinner and scheduled entertainment as confirmed for the selected seating", "Transfers where confirmed at booking"],
     excluded: ["Drinks or menu items not listed in the confirmed booking", "Personal purchases and gratuities", "Travel insurance"],
     itinerary: [

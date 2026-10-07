@@ -6,7 +6,7 @@ export const safaris: SafariPackage[] = [
     "title": "Victoria Falls Full-Day Experience",
     "summary": "Experience the best of Victoria Falls in one unforgettable day, combining wildlife, the Falls, adventure, local culture and a luxury evening on the Zambezi River.",
     "description": "Begin with Breakfast with Elephants, explore the rainforest viewpoints of Victoria Falls and see the landscape from above on a 20-minute long helicopter flight. A relaxed town visit connects you with local culture before a luxury Zambezi dinner cruise brings the day to an elegant close. The lunch break is yours to enjoy at a hotel or restaurant of your choice; Galagadi can recommend or help arrange a suitable venue.",
-    "image": "/images/destinations/The_Victoria_Falls.jpeg",
+    "image": "/images/packages/Victoria Falls Full Day.jpg",
     "location": "Victoria Falls, Zimbabwe",
     "duration": "1 Day",
     "highlights": [
@@ -23,7 +23,7 @@ export const safaris: SafariPackage[] = [
     "price": "Enquire for Price",
     "gallery": [
       "/images/activities/Elephant_Interaction.jpg",
-      "/images/destinations/The_Victoria_Falls.jpeg",
+      "/images/destinations/Victoria_Falls.jpg",
       "/images/activities/helicopter ride.jpg",
       "/images/activities/SunsetCruise.jpg",
       "/images/gallery/Zambezi_River.jpg"
@@ -91,7 +91,7 @@ export const safaris: SafariPackage[] = [
     "title": "Chobe National Park Full-Day Safari",
     "summary": "Journey from Victoria Falls into Botswana for a full day exploring Chobe National Park by river and open 4x4, with a relaxed buffet lunch between safari experiences.",
     "description": "Journey from Victoria Falls into Botswana for one of the region's most rewarding full-day wildlife experiences in Chobe National Park. Cross the Kazungula border and discover Chobe from two completely different perspectives.\n\nBegin on the water with a Chobe River boat safari, cruising in search of elephants gathering at the water's edge, hippos, crocodiles, buffalo and abundant birdlife.\n\nAfter a relaxing buffet lunch, exchange the river for the African bush aboard an open 4x4 safari vehicle. Explore the park's wildlife-rich landscapes in search of elephants, buffalo, giraffes, antelope and, with some luck, Chobe's predators.\n\nProfessional safari guides, return transfers from Victoria Falls and both river and land experiences make this a memorable introduction to one of Botswana's most celebrated safari destinations. Wildlife sightings depend on natural movement and cannot be guaranteed.",
-    "image": "/images/gallery/Elephant_along_zambezi.jpg",
+    "image": "/images/packages/Chobe Full Day.jpg",
     "location": "Chobe National Park, Botswana",
     "duration": "1 Day",
     "price": "From $285",
@@ -144,7 +144,7 @@ export const safaris: SafariPackage[] = [
     ],
     "gallery": [
       "/images/gallery/Elephant_along_zambezi.jpg",
-      "/images/destinations/Chobezi.jpeg",
+      "/images/destinations/Chobe.jpg",
       "/images/gallery/Zambezi_River.jpg"
     ],
     "itinerary": [
@@ -250,7 +250,7 @@ export const safaris: SafariPackage[] = [
     "title": "Hwange Full-Day Safari",
     "summary": "An early start for a rewarding day in Zimbabwe's wildlife country.",
     "description": "Travel from Victoria Falls to Hwange for professionally guided game viewing, a proper lunch break and an afternoon exploring its varied habitats before returning to your hotel.",
-    "image": "/images/gallery/Rhino_Hwange.jpeg",
+    "image": "/images/packages/Hwange Full Day.jpg",
     "location": "Hwange National Park, Zimbabwe",
     "duration": "1 Day",
     "highlights": [
@@ -317,7 +317,7 @@ export const safaris: SafariPackage[] = [
     "title": "Victoria Falls Escape",
     "summary": "A relaxed introduction to the Smoke That Thunders and the Zambezi.",
     "description": "Four unhurried days around Victoria Falls, with guided exploration, a sunset cruise and time to make the journey your own.",
-    "image": "/images/activities/under the bridge.jpg",
+    "image": "/images/packages/Victoria_Falls Escape.jpg",
     "location": "Victoria Falls, Zimbabwe",
     "duration": "4 Days / 3 Nights",
     "price": "From $1,505.70",
@@ -328,7 +328,7 @@ export const safaris: SafariPackage[] = [
     ],
     "gallery": [
       "/images/activities/under the bridge.jpg",
-      "/images/destinations/The_Victoria_Falls.jpeg",
+      "/images/destinations/Victoria_Falls.jpg",
       "/images/gallery/Zambezi_River.jpg"
     ],
     "destinationSlugs": [
@@ -387,7 +387,7 @@ export const safaris: SafariPackage[] = [
     "title": "Victoria Falls + Chobe Explorer",
     "summary": "A considered, cross-border journey through Zimbabwe and Botswana.",
     "description": "Spend a week combining Falls experiences, easy Zambezi evenings and exceptional wildlife encounters in Chobe National Park.",
-    "image": "/images/safaris/Pm_Gme-Drive.jpeg",
+    "image": "/images/packages/Victoria falls chobe explorer.jpg",
     "location": "Victoria Falls, Zimbabwe + Chobe, Botswana",
     "duration": "7 Days / 6 Nights",
     "price": "From $5,650",
@@ -477,7 +477,7 @@ export const safaris: SafariPackage[] = [
     "title": "Zimbabwe Highlights Journey",
     "summary": "From Great Zimbabwe's stone heritage to Matobo, Hwange and Victoria Falls.",
     "description": "A Zimbabwe-focused cultural and wildlife journey, travelling west from Great Zimbabwe to Matobo, then north through Hwange to Victoria Falls. Nine days give heritage visits, safari drives and travel days their own space.",
-    "image": "/images/gallery/Zambezi_Curtain.jpg",
+    "image": "/images/packages/Zimbabwe Highlights Journeys.jpg",
     "location": "Great Zimbabwe -> Matobo -> Hwange -> Victoria Falls, Zimbabwe",
     "duration": "9 Days / 8 Nights",
     "highlights": [
@@ -573,7 +573,7 @@ export const safaris: SafariPackage[] = [
     "title": "Southern Africa Signature Safari",
     "summary": "A premium journey through Hwange, Victoria Falls, Chobe and the Okavango Delta.",
     "description": "Twelve well-paced days connect Zimbabwe's wildlife country and the Falls with Botswana's river safaris and Delta channels. Dedicated transfer days and quiet lodge time balance guided experiences; accommodation and flight arrangements are tailored in your quotation.",
-    "image": "/images/gallery/Rhino_Hwange.jpeg",
+    "image": "/images/packages/southern africa signature safari.jpg",
     "location": "Hwange -> Victoria Falls -> Chobe -> Okavango Delta",
     "duration": "12 Days / 11 Nights",
     "highlights": [
@@ -702,7 +702,7 @@ export const safaris: SafariPackage[] = [
     "route": "Victoria Falls → Chobe/Kasane → Planet Baobab → Makgadikgadi/Ntwetwe Salt Pans → Maun → Okavango Delta",
     "experienceType": "Multi-Day Safari • Wildlife • River Experiences • Salt Pans • Okavango Delta",
     "price": "Enquire for Price",
-    "image": "/images/gallery/Inside_the_safari.jpg",
+    "image": "/images/packages/7Day okavago.jpg",
     "destinationSlugs": [
       "victoria-falls",
       "chobe"
@@ -1083,9 +1083,9 @@ export const safaris: SafariPackage[] = [
       "Road transfers and activity durations are approximate. Helicopter and water-based activities are subject to operating conditions."
     ],
     "gallery": [
-      "/images/destinations/The_Victoria_Falls.jpeg",
+      "/images/destinations/Victoria_Falls.jpg",
       "/images/activities/SunsetCruise.jpg",
-      "/images/destinations/Chobezi.jpeg",
+      "/images/destinations/Chobe.jpg",
       "/images/gallery/Inside_the_safari.jpg",
       "/images/gallery/Zambezi_River.jpg"
     ]
@@ -1095,7 +1095,7 @@ export const safaris: SafariPackage[] = [
     "title": "Tailor-Made Safari",
     "summary": "Your journey, built around you.",
     "description": "Design a safari around your own dates, destinations, interests, activities and accommodation preferences. Galagadi will help shape the route, pace and practical arrangements around your choices.",
-    "image": "/images/gallery/Inside_the_safari.jpg",
+    "image": "/images/packages/taylor made.jpg",
     "location": "Custom Destinations",
     "duration": "Custom Days",
     "highlights": [
