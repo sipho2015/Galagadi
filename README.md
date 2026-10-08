@@ -30,6 +30,7 @@ The project is intentionally frontend-only: it has no database, payments, authen
 | `/accommodation/[slug]` | Non-indexed sample property-detail layouts; not real listings or booking pages |
 | `/about` | Galagadi story and service values |
 | `/gallery` | Filterable visual gallery |
+| `/blog`, `/blog/[slug]` | The Galagadi Journal, with category filters and static travel guides |
 | `/contact` | Enquiry form, email and WhatsApp contact |
 | `/thank-you` | Post-enquiry confirmation and next steps (not indexed) |
 | `/faq` | Common travel-planning questions |
@@ -104,6 +105,20 @@ Edit content in `frontend/data/`:
 - `destinations.ts` - destination copy and highlights.
 - `accommodations.ts` - temporary sample-card data only.
 - `faqs.ts` - FAQ entries.
+- `blog.ts` - journal articles, category tags, local photography, FAQs and recommended experiences.
+
+### Adding journal articles
+
+Add a `BlogPost` entry to `frontend/data/blog.ts`; its shape is defined in
+`frontend/types/blog.ts`. Use a unique slug, meaningful photo alt text, a real
+editorial publication date, unique section IDs and three valid related article
+slugs. Category tags control the Travel Blog filters. Reading time is calculated
+from the article text. Store photographs in `frontend/public/images/blog/`.
+
+Article routes, metadata, BlogPosting structured data and sitemap entries use
+this collection automatically. Recommended experience links must point to
+existing routes. Add an `updated` date when revising published content, and check
+official sources before changing seasonal advice or travel requirements.
 
 Place owned or licensed images under `frontend/public/images/` and reference them with root-relative paths, for example:
 

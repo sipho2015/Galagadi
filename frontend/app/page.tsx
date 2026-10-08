@@ -6,6 +6,11 @@ import { Button } from "@/components/ui/button";
 import { activities } from "@/data/activities";
 import { safaris } from "@/data/safaris";
 import { pageMetadata } from "@/lib/seo";
+import { BlogCard } from "@/components/blog/BlogCard";
+import { blogPosts } from "@/data/blog";
+import { readingMinutes } from "@/lib/blog";
+import "./blog/journal.css";
+import journalStyles from "./home-journal.module.css";
 
 export const metadata = pageMetadata("Victoria Falls & Chobe Safari Journeys", "Plan your Victoria Falls holiday and Zimbabwe or Botswana safari with Galagadi. Explore Chobe, Hwange, activities and tailor-made journeys with local support.", "/");
 
@@ -23,6 +28,10 @@ const regionPanels = [
 ] as const;
 
 export default function HomePage() {
+  const latestPosts = [...blogPosts]
+    .sort((a, b) => b.published.localeCompare(a.published))
+    .slice(0, 3);
+
   return <div className="home-page">
     <HeroCarousel />
     <section className="home-trust-bar" aria-label="How we help">
@@ -60,6 +69,21 @@ export default function HomePage() {
       <div className="container home-accommodation-grid">
         <div className="home-accommodation-image"><Image src="/images/accommodation/Lodge1.jpg" alt="Safari lodge terrace and swimming pool overlooking the bush" fill sizes="(max-width: 880px) min(100vw - 40px, 620px), 55vw" /></div>
         <div><p className="home-label">Accommodation</p><h2>Rest well. Wake up close to wonder.</h2><p className="home-accommodation-lead">The right stay gives every part of your journey room to breathe.</p><p>We can help you consider accommodation that suits your route, travel style and budget as part of your wider safari plan.</p><Button href="/discover#accommodation">Explore accommodation</Button></div>
+      </div>
+    </section>
+    <section className={journalStyles.section} aria-labelledby="home-journal-title">
+      <div className="container">
+        <div className={journalStyles.header}>
+          <div className={journalStyles.intro}>
+            <p className="journal-label">The Galagadi Journal</p>
+            <h2 id="home-journal-title">Travel Tips &amp; Inspiration</h2>
+            <p>Discover practical travel advice, destination guides and safari inspiration to help you plan an unforgettable journey through Victoria Falls and Southern Africa.</p>
+          </div>
+          <Link className={journalStyles.allStories} href="/blog">View All Stories <span aria-hidden="true">→</span></Link>
+        </div>
+        <div className="journal-grid">
+          {latestPosts.map(post => <BlogCard key={post.slug} post={{ ...post, minutes: readingMinutes(post) }} />)}
+        </div>
       </div>
     </section>
     <section className="home-final-cta">
