@@ -1,5 +1,6 @@
 import type { Activity } from "@/types";
 import { activityRates } from "./activity-rates";
+import { activityDetails } from "./activity-details";
 import { sourcedActivities, sourcedActivityEnhancements } from "./sourced-activities";
 
 const existingActivities: Activity[] = [
@@ -34,6 +35,7 @@ const activityGalleries: Partial<Record<string, string[]>> = {
 export const activities: Activity[] = [
   ...existingActivities.map(activity => ({
     ...activity,
+    ...activityDetails[activity.slug],
     ...sourcedActivityEnhancements[activity.slug]
   })),
   ...sourcedActivities

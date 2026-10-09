@@ -61,27 +61,6 @@ export const sourcedActivityEnhancements: Record<string, ActivityEnhancement> = 
 
 export const sourcedActivities: Activity[] = [
   {
-    slug: "hwange-day-safari",
-    category: "Safari & Wildlife",
-    title: "Hwange Day Safari",
-    summary: "A full day in Zimbabwe's largest national park with a guide focused on the signs, habitats and wildlife around you.",
-    description: "Travel from the Victoria Falls area to Hwange National Park for a dedicated day of safari time. The exact game-drive rhythm is shaped around the season, road conditions and wildlife activity, with ample time to look for elephants, big cats, plains game and birdlife.",
-    image: "/images/gallery/Rhino_Hwange.jpeg",
-    location: "Hwange National Park, Zimbabwe",
-    duration: "Full day",
-    price: "Enquire for Price",
-    destinationSlugs: ["hwange", "victoria-falls"],
-    highlights: ["Guided 4x4 game viewing", "Hwange's elephant and big-game habitat", "Return transfer from the Victoria Falls area"],
-    gallery: ["/images/gallery/Rhino_Hwange.jpeg", "/images/gallery/Inside_the_safari.jpg", "/images/activities/pm_drive.jpg"],
-    included: ["Professional safari guide", "4x4 safari vehicle", "Park entry fees where included in the confirmed booking", "Road transfers and drinking water as confirmed"],
-    excluded: ["Meals not listed in the confirmed booking", "Personal purchases and gratuities", "Travel insurance"],
-    itinerary: [
-      { title: "Early Victoria Falls departure", description: "Meet for the confirmed pickup and begin the road transfer towards Hwange." },
-      { title: "Guided Hwange game drive", description: "Spend the day in the park with your guide, following wildlife movement and the best available viewing areas." },
-      { title: "Return transfer", description: "Leave the park after the planned safari time and return to the Victoria Falls area." }
-    ]
-  },
-  {
     slug: "victoria-falls-zimbabwe-zambia-guided-tour",
     category: "Victoria Falls",
     title: "Victoria Falls: Zimbabwe & Zambia Guided Tour",

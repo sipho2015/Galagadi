@@ -15,6 +15,11 @@ const nextConfig: NextConfig = {
   },
   async redirects() {
     return [
+      {
+        source: "/activities/hwange-day-safari",
+        destination: "/safaris/hwange-full-day-safari",
+        permanent: true
+      },
       ...["www.galagadisafari.co.zw"].map(host => ({
         source: "/:path*",
         has: [{ type: "host" as const, value: host.replaceAll(".", "\\.") }],
