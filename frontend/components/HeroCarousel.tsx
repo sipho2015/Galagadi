@@ -23,7 +23,9 @@ export function HeroCarousel() {
 
   const slide = slides[active];
   return <section className="hero-carousel" aria-label="Galagadi safari highlights">
+    <div className="hero-carousel-media">
     {slides.map((item, index) => <Image key={item.image} className={`hero-carousel-image ${index === active ? "active" : ""}`} style={{ "--hero-mobile-position": item.mobilePosition } as CSSProperties} src={item.image} alt={index === active ? item.alt : ""} fill priority={index === 0} sizes="100vw" />)}
+    </div>
     <div className="hero-carousel-overlay" />
     <div className="container hero-carousel-content"><p className="eyebrow">{slide.eyebrow}</p><h1>{slide.title}</h1><p className="hero-copy">{slide.description}</p><div className="hero-actions"><Button href="/experiences#activities">Explore experiences</Button><Button href="/experiences#packages" variant="secondary">View packages</Button></div></div>
   </section>;

@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import Image from "next/image";
 import { notFound } from "next/navigation";
 import { ActivityCard } from "@/components/ActivityCard";
 import { ActivityGallery } from "@/components/ActivityGallery";
@@ -37,26 +38,29 @@ export default async function ActivityDetail({ params }: { params: Promise<{ slu
   const hasInclusionDetails = Boolean(activity.included?.length || activity.excluded?.length);
 
   return <article className="activity-editorial">
-    <section className="activity-editorial-hero" style={{ backgroundImage: `url(${activity.image})` }}>
+    <section className="activity-editorial-hero">
+      <Image className="activity-editorial-hero-image" src={activity.image} alt={activity.title} fill priority sizes="100vw" />
       <div className="activity-editorial-overlay" />
       <div className="container activity-editorial-hero-content">
         <p className="home-label">{activity.category}</p>
         <h1>{activity.title}</h1>
         <p>{activity.summary}</p>
+        <div className="activity-editorial-details">
         <PriceBadge price={activity.price} className="price-badge-hero" />
         <dl className="activity-editorial-hero-facts">{heroFacts.map(([label, value]) => <div key={label}><dt>{label}</dt><dd>{value}</dd></div>)}</dl>
-        <Button href={`/contact?activity=${encodeURIComponent(activity.title)}`}>Enquire about this experience</Button>
+        </div>
+        <Button className="activity-enquiry-button" href={`/contact?activity=${encodeURIComponent(activity.title)}`}>Enquire about this experience <span aria-hidden="true">&rarr;</span></Button>
       </div>
     </section>
     <section className="activity-glance"><div className="container"><p className="home-label">Experience at a glance</p><dl>{glanceFacts.map(([label, value]) => <div key={label}><dt>{label}</dt><dd>{value ?? "On request"}</dd></div>)}</dl></div></section>
     <section className="activity-editorial-overview"><div className="container activity-editorial-copy"><p className="home-label">Overview</p><h2>Discover {activity.title}.</h2><p className="activity-editorial-lead">{activity.summary}</p><p>{activity.description}</p></div></section>
-    {activity.pricingNotes?.length ? <section className="section"><div className="container narrow"><p className="eyebrow">2026 rates</p><h2>Prices and additional fees</h2><ul>{activity.pricingNotes.map(note => <li key={note}>{note}</li>)}</ul><p>Rates are in US dollars, from the Shearwater 2026 price list. Confirm availability, rate eligibility and the total for your group when enquiring.</p></div></section> : null}
+    {activity.pricingNotes?.length ? <section className="section"><div className="container narrow"><p className="eyebrow">Pricing</p><h2>Prices and additional fees</h2><ul>{activity.pricingNotes.map(note => <li key={note}>{note}</li>)}</ul><p>Rates are in US dollars.</p></div></section> : null}
     <section className="activity-editorial-highlights"><div className="container"><div className="activity-editorial-heading"><p className="home-label">The experience</p><h2>Highlights</h2></div><div className="activity-editorial-highlight-grid">{activity.highlights.map(highlight => <article key={highlight}><HighlightIcon /><h3>{highlight}</h3></article>)}</div><Button href={`/contact?activity=${encodeURIComponent(activity.title)}`} className="activity-discover-link">Plan this experience <span aria-hidden="true">&rarr;</span></Button></div></section>
     {hasInclusionDetails ? <section className="activity-editorial-inclusions"><div className="container"><div className="activity-editorial-inclusion-grid">{activity.included?.length ? <section><p className="home-label">Your experience</p><h2>What&apos;s included</h2><ul>{activity.included.map(item => <li key={item}><span aria-hidden="true">&check;</span>{item}</li>)}</ul></section> : null}{activity.excluded?.length ? <section><p className="home-label">Please note</p><h2>What&apos;s not included</h2><ul>{activity.excluded.map(item => <li key={item}><span aria-hidden="true">&times;</span>{item}</li>)}</ul></section> : null}</div></div></section> : null}
     {activity.itinerary?.length ? <section className="activity-editorial-itinerary"><div className="container activity-editorial-copy"><p className="home-label">Your experience</p><h2>Itinerary</h2><ol>{activity.itinerary.map((step, index) => <li key={step.title}><span>0{index + 1}</span><div><h3>{step.title}</h3><p>{step.description}</p></div></li>)}</ol></div></section> : null}
     {activity.gallery?.length ? <section className="activity-editorial-gallery"><div className="container"><div className="activity-editorial-heading"><p className="home-label">In pictures</p><h2>Experience gallery</h2></div><ActivityGallery images={activity.gallery} title={activity.title} /></div></section> : null}
     <section className="section activity-planning-notes"><div className="container narrow"><p className="eyebrow">Before you go</p><h2>Details are confirmed around your dates.</h2><p>Duration, price, pickup arrangements, availability and any activity-specific requirements are confirmed as part of your enquiry. Tell us what matters to you, and we will help you plan the practical details.</p></div></section>
     <RelatedActivities activity={activity} />
-    <section className="activity-editorial-cta"><div className="container"><p className="home-label">Galagadi Tours &amp; Safari</p><h2>Ready for the experience?</h2><p>Let us help make {activity.title} part of a journey that feels personal to you.</p><Button href={`/contact?activity=${encodeURIComponent(activity.title)}`}>Make an enquiry</Button></div></section>
+    <section className="activity-editorial-cta"><div className="container"><p className="home-label">Galagadi Tours &amp; Safari</p><h2>Ready for the experience?</h2><p>Let us help make {activity.title} part of a journey that feels personal to you.</p><Button className="activity-enquiry-button" href={`/contact?activity=${encodeURIComponent(activity.title)}`}>Enquire about this experience <span aria-hidden="true">&rarr;</span></Button></div></section>
   </article>;
 }

@@ -303,3 +303,49 @@ html { scroll-padding-top:calc(var(--site-header-height) + 16px); }
 .about-testimonial-card figcaption strong { color:var(--brown); }
 .about-testimonial-card figcaption span,.about-testimonials-note { color:var(--muted); font-size:.85rem; }
 @media (max-width:580px) { .about-testimonial-card { padding:22px; } }
+
+/* Activity cards: one keyboard-accessible link across the whole card. */
+.activity-card-link { display:flex; flex-direction:column; height:100%; border-radius:inherit; }
+.activity-card-copy { flex:1; padding:25px; }
+.activity-card-link:focus-visible { outline:3px solid var(--brown); outline-offset:4px; }
+.home-escape-grid .home-activity-link { color:inherit; display:block; height:100%; font-size:inherit; font-weight:inherit; letter-spacing:normal; text-transform:none; }
+.home-activity-link>div { padding:21px; }
+.home-activity-read { color:var(--brown); font-size:.77rem; font-weight:700; letter-spacing:.08em; text-transform:uppercase; }
+.home-activity-link img { transition:transform .3s ease; }
+@media (hover:hover) { .home-activity-link:hover img { transform:scale(1.035); } }
+
+/* A balanced activity introduction with a compact enquiry action. */
+.activity-editorial-hero-image { object-fit:cover; }
+.activity-editorial-hero-content { align-items:flex-start; justify-content:center; padding-block:80px; }
+.activity-editorial-hero-content h1 { font-size:clamp(2.75rem,5vw,4.8rem); line-height:1.08; margin-bottom:24px; text-wrap:balance; }
+.activity-editorial-hero-content>p:not(.home-label) { line-height:1.7; margin-bottom:0; max-width:680px; }
+.activity-editorial-details { align-items:stretch; display:flex; flex-wrap:wrap; gap:14px; margin-top:30px; max-width:100%; }
+.activity-editorial-details .price-badge-hero { align-self:stretch; background:rgba(var(--espresso-rgb),.6); border:1px solid rgba(255,255,255,.25); border-radius:8px; box-shadow:none; justify-content:center; margin:0; max-width:100%; padding:15px 18px; }
+.activity-editorial-details .price-badge strong { font-size:clamp(1.1rem,2vw,1.45rem); line-height:1.3; }
+.activity-editorial-hero-facts { gap:14px; margin:0; }
+.activity-editorial-hero-facts div { background:rgba(var(--espresso-rgb),.6); border-radius:8px; padding:15px 18px; }
+.activity-editorial .activity-enquiry-button { align-items:center; align-self:flex-start; display:inline-flex; flex:0 0 auto; gap:14px; justify-content:center; line-height:1.5; max-width:100%; padding:14px 24px; text-align:center; width:auto; }
+.activity-editorial-hero .activity-enquiry-button { margin-top:28px; }
+.activity-editorial-cta .activity-enquiry-button { margin-top:8px; }
+.hero-carousel-media { inset:0; position:absolute; }
+@media (max-width:580px) {
+  .activity-card-copy { padding:22px; }
+  .activity-editorial-hero-content { padding-block:60px; }
+  .activity-editorial-details { flex-direction:column; width:100%; }
+  .activity-editorial-details .price-badge-hero { align-self:flex-start; }
+  .activity-editorial-hero-facts { width:100%; grid-template-columns:repeat(2,minmax(0,1fr)); }
+  .activity-editorial-hero-facts div { min-width:0; padding:13px; }
+  .activity-editorial-hero-facts dd { font-size:.95rem; overflow-wrap:anywhere; }
+  .activity-editorial .activity-enquiry-button { font-size:.72rem; padding:13px 18px; }
+}
+/* On small screens, show the entire wide photograph above the carousel copy. */
+@media (max-width:760px) {
+  .home-page .hero-carousel { background:var(--ink); display:flex; flex-direction:column; align-items:stretch; min-height:0; padding:0; }
+  .hero-carousel-media { aspect-ratio:1983 / 793; flex:none; inset:auto; position:relative; width:100%; }
+  .hero-carousel-media .hero-carousel-image { object-fit:contain; object-position:center; transform:none; }
+  .home-page .hero-carousel-overlay { display:none; }
+  .hero-carousel-content { padding-block:32px 40px; }
+  .hero-carousel-content h1 { font-size:clamp(2rem,7vw,3rem); margin-bottom:18px; }
+  .hero-carousel-content .hero-copy { font-size:1rem; }
+}
+@media (prefers-reduced-motion:reduce) { .home-activity-link img { transition:none; } .home-activity-link:hover img { transform:none; } }
