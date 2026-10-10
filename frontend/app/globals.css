@@ -349,3 +349,13 @@ html { scroll-padding-top:calc(var(--site-header-height) + 16px); }
   .hero-carousel-content .hero-copy { font-size:1rem; }
 }
 @media (prefers-reduced-motion:reduce) { .home-activity-link img { transition:none; } .home-activity-link:hover img { transform:none; } }
+
+.booking-form .form-help { display:block; color:var(--ink); font-size:.85rem; font-weight:400; line-height:1.5; margin-top:7px; }
+.booking-form .field-error { display:block; color:var(--brown); font-size:.88rem; font-weight:700; margin-top:7px; }
+.booking-form [aria-invalid="true"] { border:2px solid var(--brown); }
+.booking-form .form-assistance { background:var(--sand); color:var(--ink); padding:14px; }
+.form-assistance a { text-decoration:underline; font-weight:700; }
+.booking-form .form-consent { display:flex; align-items:start; gap:10px; margin-bottom:0; }
+.booking-form .form-consent input { flex:0 0 20px; width:20px; height:20px; margin-top:3px; accent-color:var(--brown); }
+.booking-form .form-consent ~ .form-help { margin-bottom:18px; }
+.booking-form input,.booking-form select,.booking-form textarea { min-width:0; font-size:1rem; }

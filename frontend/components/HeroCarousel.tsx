@@ -6,11 +6,12 @@ import { Button } from "@/components/ui/button";
 
 const slideDuration = 2000;
 const slides = [
-  { image: "/images/hero/Golden Hour at Victoria Falls.png", mobilePosition: "65% center", alt: "Victoria Falls in golden sunset light", eyebrow: "Galagadi Tours & Safari", title: "Africa, revealed with heart.", description: "Personal journeys through Victoria Falls, Hwange and Chobe, shaped around you." },
-  { image: "/images/hero/Golden Bungee Leap Over Misty Falls.png", mobilePosition: "40% center", alt: "Bungee jump above the misty Victoria Falls gorge", eyebrow: "Victoria Falls", title: "Start with a journey worth remembering.", description: "Choose a considered safari package, then add the experiences that suit your free time." },
-  { image: "/images/hero/Golden Sunset Safari Cruise.png", mobilePosition: "78% center", alt: "Safari cruise boat on a river at sunset", eyebrow: "Chobe, Botswana", title: "Wildlife, water and wide-open skies.", description: "Discover a journey that connects the region's remarkable places at your own pace." },
-  { image: "/images/hero/Golden Sunset Elephant Herd.png", mobilePosition: "25% center", alt: "Elephant herd beside the water at sunset", eyebrow: "Hwange, Zimbabwe", title: "A local way to experience the wild.", description: "Thoughtful planning, local knowledge and time to take it all in." },
-  { image: "/images/hero/Helicopter Sunset Over Victoria Falls.png", mobilePosition: "25% center", alt: "Helicopter above Victoria Falls at sunset", eyebrow: "Galagadi Tours & Safari", title: "Africa, revealed with heart.", description: "Personal journeys through Victoria Falls, Hwange and Chobe, shaped around you." }
+  { image: "/images/hero/Rain_forest.jpg", mobilePosition: "45% center", alt: "Victoria Falls and a rainbow seen from the rainforest", eyebrow: "Galagadi Tours & Safari", title: "Africa, revealed with heart.", description: "Personal journeys through Victoria Falls, Hwange and Chobe, shaped around you." },
+  { image: "/images/hero/under the bridge.jpg", mobilePosition: "50% center", alt: "Victoria Falls Bridge above the Zambezi River gorge", eyebrow: "Victoria Falls", title: "Start with a journey worth remembering.", description: "Choose a considered safari package, then add the experiences that suit your free time." },
+  { image: "/images/hero/SunsetCruise.jpg", mobilePosition: "55% center", alt: "River cruise boat silhouetted against an orange sunset", eyebrow: "Chobe, Botswana", title: "Wildlife, water and wide-open skies.", description: "Discover a journey that connects the region's remarkable places at your own pace." },
+  { image: "/images/hero/Elephant_along_zambezi.jpg", mobilePosition: "35% center", alt: "Elephant silhouetted beside the river at sunset", eyebrow: "Hwange, Zimbabwe", title: "A local way to experience the wild.", description: "Thoughtful planning, local knowledge and time to take it all in." },
+  { image: "/images/hero/helicopter.jpg", mobilePosition: "50% center", alt: "Passengers enjoying the view from inside a helicopter", eyebrow: "Galagadi Tours & Safari", title: "Africa, revealed with heart.", description: "Personal journeys through Victoria Falls, Hwange and Chobe, shaped around you." },
+  { image: "/images/hero/JetBoat2.jpeg", mobilePosition: "50% center", alt: "View of Victoria Falls from a boat in the gorge", eyebrow: "Victoria Falls", title: "Start with a journey worth remembering.", description: "Choose a considered safari package, then add the experiences that suit your free time." }
 ];
 
 export function HeroCarousel() {
