@@ -338,15 +338,17 @@ html { scroll-padding-top:calc(var(--site-header-height) + 16px); }
   .activity-editorial-hero-facts dd { font-size:.95rem; overflow-wrap:anywhere; }
   .activity-editorial .activity-enquiry-button { font-size:.72rem; padding:13px 18px; }
 }
-/* On small screens, show the entire wide photograph above the carousel copy. */
+/* Overlay mobile captions on full-height photos with readable contrast. */
 @media (max-width:760px) {
-  .home-page .hero-carousel { background:var(--ink); display:flex; flex-direction:column; align-items:stretch; min-height:0; padding:0; }
-  .hero-carousel-media { aspect-ratio:1983 / 793; flex:none; inset:auto; position:relative; width:100%; }
-  .hero-carousel-media .hero-carousel-image { object-fit:contain; object-position:center; transform:none; }
-  .home-page .hero-carousel-overlay { display:none; }
-  .hero-carousel-content { padding-block:32px 40px; }
-  .hero-carousel-content h1 { font-size:clamp(2rem,7vw,3rem); margin-bottom:18px; }
-  .hero-carousel-content .hero-copy { font-size:1rem; }
+  .home-page .hero-carousel { background:var(--ink); align-items:flex-end; min-height:max(560px,calc(100svh - var(--site-header-height))); padding:0; }
+  .home-page .hero-carousel-media { inset:0; overflow:hidden; position:absolute; width:100%; }
+  .home-page .hero-carousel-media .hero-carousel-image { object-fit:cover; object-position:var(--hero-mobile-position,center); transform:none; }
+  .home-page .hero-carousel-overlay { display:block; background:linear-gradient(180deg,rgba(var(--espresso-rgb),.15) 0%,rgba(var(--espresso-rgb),.5) 35%,rgba(var(--espresso-rgb),.92) 100%); }
+  .home-page .hero-carousel-content { min-width:0; padding-block:64px 40px; }
+  .home-page .hero-carousel-content h1 { font-size:clamp(2rem,7vw,3rem); margin-bottom:18px; }
+  .home-page .hero-carousel-content .hero-copy { font-size:1rem; }
+  .home-page .hero-carousel-content .hero-actions { align-items:stretch; flex-direction:column; }
+  .home-page .hero-carousel-content .button { text-align:center; width:100%; }
 }
 @media (prefers-reduced-motion:reduce) { .home-activity-link img { transition:none; } .home-activity-link:hover img { transform:none; } }
 
