@@ -361,3 +361,37 @@ html { scroll-padding-top:calc(var(--site-header-height) + 16px); }
 .booking-form .form-consent input { flex:0 0 20px; width:20px; height:20px; margin-top:3px; accent-color:var(--brown); }
 .booking-form .form-consent ~ .form-help { margin-bottom:18px; }
 .booking-form input,.booking-form select,.booking-form textarea { min-width:0; font-size:1rem; }
+
+/* Package quotations and accommodation references use the existing palette. */
+.safari-card { display:flex; flex-direction:column; }
+.safari-card-main { display:block; flex:1; }
+.safari-card-copy { padding:25px; }
+.safari-card-actions { align-items:flex-start; border-top:1px solid var(--line); display:flex; flex-direction:column; gap:14px; padding:20px 25px; }
+.safari-card-actions>span { color:var(--muted); font-size:.85rem; }
+.home-package-main { display:flex; flex:1; flex-direction:column; }
+.home-package-enquire { align-items:center; display:flex; flex-wrap:wrap; gap:12px; padding:0 28px 28px; }
+.home-package-enquire>span { color:var(--sand); font-size:.8rem; }
+.package-price-panel .form-grid { margin-block:24px; }
+.package-price-panel label { display:flex; flex-direction:column; font-size:.9rem; font-weight:600; gap:8px; }
+.package-price-panel input,.package-price-panel select { background:var(--white); border:1px solid var(--line); border-radius:6px; color:var(--ink); font:inherit; font-size:1rem; min-width:0; padding:12px; width:100%; }
+.package-price-panel h3 { margin-top:28px; }
+.accommodation-subtotal { background:var(--sand); border:1px solid var(--line); border-radius:8px; margin-block:24px; padding:20px; overflow-wrap:anywhere; }
+.accommodation-subtotal p { margin:10px 0; }
+.accommodation-subtotal ul { margin-bottom:0; padding-left:20px; }
+.accommodation-rates { min-width:0; }
+.accommodation-rates>section { border-top:1px solid var(--line); margin-top:28px; padding-top:24px; }
+.rate-table-scroll { max-width:100%; overflow-x:auto; }
+.rate-table { border-collapse:collapse; font-size:.85rem; min-width:500px; width:100%; }
+.rate-table th,.rate-table td { border-bottom:1px solid var(--line); padding:12px; text-align:left; vertical-align:top; }
+.rate-table th { background:var(--sand); color:var(--ink); }
+.rate-table a { color:var(--brown); text-decoration:underline; }
+.supplier-conditions { background:var(--sand); border-radius:8px; margin-top:28px; padding:20px; }
+.supplier-conditions summary { cursor:pointer; }
+.itinerary-day-details { padding:0 18px 18px; }
+.itinerary-schedule { list-style:none; margin:0; padding:0; }
+.itinerary-list .itinerary-schedule li { background:transparent; border:0; padding:14px 0; }
+.itinerary-schedule p { margin:8px 0 0; }
+.booking-form fieldset { min-width:0; }
+.booking-form details { margin-top:20px; }
+.booking-form summary { cursor:pointer; }
+@media (max-width:580px) { .safari-card-copy,.safari-card-actions { padding:22px; } .home-package-enquire { padding:0 24px 24px; } .package-price-panel .form-grid { grid-template-columns:minmax(0,1fr); } .itinerary-day-details { padding-inline:0; } }

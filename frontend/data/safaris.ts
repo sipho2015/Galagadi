@@ -4,23 +4,19 @@ export const safaris: SafariPackage[] = [
   {
     "slug": "victoria-falls-full-day-experience",
     "title": "Victoria Falls Full-Day Experience",
-    "summary": "Experience the best of Victoria Falls in one unforgettable day, combining wildlife, the Falls, adventure, local culture and a luxury evening on the Zambezi River.",
-    "description": "Begin with Breakfast with Elephants, explore the rainforest viewpoints of Victoria Falls and see the landscape from above on a 20-minute long helicopter flight. A relaxed town visit connects you with local culture before a luxury Zambezi dinner cruise brings the day to an elegant close. The lunch break is yours to enjoy at a hotel or restaurant of your choice; Galagadi can recommend or help arrange a suitable venue.",
+    "summary": "A carefully paced Victoria Falls day brings together an elephant breakfast, guided Falls visit, scenic flight and dinner aboard the Zambezi. The requested products and schedule remain provisional.",
+    "description": "A carefully paced Victoria Falls day brings together an elephant breakfast, guided Falls visit, scenic flight and dinner aboard the Zambezi. The requested products and schedule remain provisional.",
     "image": "/images/packages/Victoria Falls Full Day.jpg",
     "location": "Victoria Falls, Zimbabwe",
     "duration": "1 Day",
     "highlights": [
-      "Breakfast with Elephants",
-      "Guided Tour of Victoria Falls",
-      "Victoria Falls rainforest and viewpoints",
-      "Flexible Lunch & Leisure period",
-      "20-minute long helicopter flight",
-      "Victoria Falls town and cultural experience",
-      "Luxury Zambezi dinner cruise",
-      "Professional local experience",
-      "A full day combining wildlife, nature, adventure, culture and relaxation"
+      "Requested elephant breakfast, pending confirmation",
+      "Guided Falls tour",
+      "Requested 20-minute flight, pending confirmation",
+      "Town visit",
+      "Dinner aboard, dated quote required"
     ],
-    "price": "Enquire for Price",
+    "price": "Request a quotation",
     "gallery": [
       "/images/activities/Elephant_Interaction.jpg",
       "/images/destinations/Victoria_Falls.jpg",
@@ -29,62 +25,115 @@ export const safaris: SafariPackage[] = [
       "/images/gallery/Zambezi_River.jpg"
     ],
     "exclusions": [
-      "Lunch is at the guest's own expense unless otherwise stated in the final package inclusions.",
-      "Other package exclusions will be confirmed in your written quotation before booking."
+      "National park and monument entrance fees, listed separately in your quotation.",
+      "International flights, visas, insurance and personal expenses.",
+      "Meals, drinks and optional activities not expressly included in your written quotation."
     ],
     "importantInformation": [
-      "The planned programme runs from 06:00 to approximately 20:00. Exact activity and transfer timings are confirmed before departure and may change with operating conditions.",
-      "The helicopter experience is the 20-minute long flight. Flights and river activities are subject to weather and availability.",
-      "Lunch is flexible: choose your own hotel or restaurant, or ask Galagadi for recommendations and assistance. Lunch is at your own expense unless your final quotation states otherwise.",
-      "The itinerary describes the planned experiences; it does not confirm which fees or services are included in the package price. Your written quotation will specify these before booking.",
-      "Bring comfortable walking shoes, sun protection and a rain layer for the Falls."
+      "This is a planning itinerary, subject to dated supplier quotations and availability. An enquiry is not a confirmed booking.",
+      "USD prices depend on travel dates, room allocations, child ages and selected services. 2026 rates are not used for 2027 travel.",
+      "Private transfers do not make cruises, flights or game drives private. Exclusive-use safari activities need separate quotations.",
+      "B = breakfast, L = lunch, D = dinner. Meals shown as planned are confirmed only in your written quotation. Wildlife and water activities depend on conditions.",
+      "Pure Africa public dinner-aboard reference: USD 110 per person, 17:00-20:00, minimum 2, four-course dinner, beverages and Falls town hotel transfers. Park fee USD 12 extra; no fixed 2027 validity established.",
+      "Morning Elephant Experience public reference USD 148, minimum 2, hotel transfers included; child restrictions and duration need clarification.",
+      "22-minute alternative: public base USD 271 plus mandatory USD 50 government/fuel charge. Full charge must remain in costing pending a reliable breakdown; no fixed 2027 validity established."
     ],
     "itinerary": [
       {
-        "day": "06:00 – 08:00",
-        "title": "Breakfast with Elephants",
-        "description": "Begin with an extraordinary Breakfast with Elephants experience. Enjoy a memorable African morning in the presence of these magnificent animals, creating a peaceful and unique start to your Victoria Falls adventure. After the experience, continue to the next highlight of the day: the world-famous Victoria Falls."
-      },
-      {
-        "day": "09:30 – 12:30",
-        "title": "Guided Tour of Victoria Falls",
-        "description": "Explore magnificent Victoria Falls with a professional guide. Walk through the rainforest and visit the viewpoints overlooking the Falls while learning about the area's history, natural environment and significance. Experience the powerful sound, refreshing mist and breathtaking views that make this one of the world's most remarkable natural attractions."
-      },
-      {
-        "day": "12:35 – 14:10",
-        "title": "Lunch & Leisure",
-        "description": "Take time to relax, refresh and enjoy lunch after exploring the Falls. Galagadi can recommend or assist you in finding a suitable Victoria Falls hotel or restaurant, or you may choose your own preferred dining venue. Lunch is at your own expense unless otherwise stated in the final package inclusions. This flexible break gives you time to enjoy your meal and recharge before the afternoon activities."
-      },
-      {
-        "day": "14:30 – 14:50",
-        "title": "20-Minute Long Helicopter Flight",
-        "description": "Take your Victoria Falls experience to the skies on a 20-minute long helicopter flight. Enjoy spectacular aerial views of Victoria Falls, the Zambezi River and the surrounding landscape. This signature highlight offers an unforgettable perspective of the Falls and excellent photography opportunities."
-      },
-      {
-        "day": "15:00 – 16:00",
-        "title": "Victoria Falls Town Experience",
-        "description": "Discover another side of Victoria Falls at a relaxed pace. Explore the town's welcoming atmosphere, browse local craft markets and experience the culture, creativity and people of the destination. Keep this part of the afternoon unhurried as you prepare for the evening finale."
-      },
-      {
-        "day": "17:00 – 20:00",
-        "title": "Luxury Zambezi Dinner Cruise",
-        "description": "Finish the day in style with a luxury dinner cruise on the Zambezi River. Relax aboard as you enjoy the peaceful river surroundings, beautiful evening views and dinner while the African sun sets. From sunset into an elegant evening on the Zambezi, this is the perfect finale to your full-day experience. The cruise concludes at approximately 20:00."
+        "day": "Day 01",
+        "title": "Your requested Falls programme",
+        "description": "Begin with the requested elephant breakfast, explore rainforest viewpoints, take a free lunch break, fly over the Falls and enjoy town before dinner aboard the Zambezi. This sequence is provisional: published Shearwater pickups cannot confirm the 06:00 breakfast.",
+        "overnight": "No overnight included",
+        "meals": [
+          "B and D requested, pending supplier confirmation. L at your expense."
+        ],
+        "travelInformation": [
+          "Hotel pickup, inter-activity connections and hotel return must be costed; operator-included hotel transfers must not be charged again."
+        ],
+        "includedActivities": [
+          "Elephant breakfast",
+          "guided Falls tour",
+          "requested 20-minute flight",
+          "town visit",
+          "dinner aboard"
+        ],
+        "optionalActivities": [
+          "Clearly named alternative: Morning Elephant Experience (refreshments only), 22-minute flight, sunset cruise followed by riverside dinner on land."
+        ],
+        "accommodation": [],
+        "schedule": [
+          {
+            "time": "06:00-08:30",
+            "title": "Breakfast with Elephants",
+            "description": "Requested product and early departure pending confirmation; published Shearwater pickups are 08:00 or 10:30 and include refreshments, not breakfast."
+          },
+          {
+            "time": "09:00-12:00",
+            "title": "Guided Falls tour",
+            "description": "Rainforest paths and viewpoints; entry fee separate."
+          },
+          {
+            "time": "12:00-14:00",
+            "title": "Lunch and leisure",
+            "description": "Lunch at your expense."
+          },
+          {
+            "time": "14:10-14:35",
+            "title": "Helicopter slot",
+            "description": "Exact 20-minute flight pending; allow transfer, check-in and briefing outside flight time."
+          },
+          {
+            "time": "14:45-15:30",
+            "title": "Town experience",
+            "description": "Provisional slot subject to confirmed flight and transfer timing."
+          },
+          {
+            "time": "17:00-20:00",
+            "title": "Dinner aboard the Zambezi",
+            "description": "Pure Africa publishes a dinner-aboard experience; dated rates, availability and transfer coverage need confirmation."
+          }
+        ]
       }
     ],
     "inclusions": [
-      "Final package inclusions will be confirmed in your written quotation before booking. Activity fees, hotel pickup and drop-off, inter-activity transfers, park and entrance fees, breakfast, cruise dinner and drinks are awaiting confirmation as included services."
+      "Planned programme below; only itemised services in the written quotation are included.",
+      "All necessary airport and regional transfers must be costed in a complete package quotation."
     ],
     "optionalExperiences": [
-      "Livingstone/Zambia as an optional extension, with additional time and required passports and visas"
+      "Alternative programme: Morning Elephant Experience with tea/coffee, soft drinks/water and a muffin; 22-minute Explore the Zambezi flight; Zambezi Vista sunset cruise followed by riverside dinner on land. This is a different programme, not a silent substitution.",
+      "Zambezi Vista combination ordinary minimum 10, maximum 40; private-hire minimum 15, maximum 48. Minimums are not charter prices. October-December combination timing is 16:15-21:00."
     ],
     "subtitle": "From Wildlife at Sunrise to Luxury on the Zambezi",
-    "cardSummary": "Experience Victoria Falls from sunrise to evening with elephants, the Falls, a spectacular helicopter flight, local culture and a luxury Zambezi dinner cruise.",
-    "cardCta": "View Experience",
-    "enquiryCta": "Enquire Now",
-    "startTime": "06:00",
-    "finishTime": "Approximately 20:00",
-    "experienceType": "Private/Guided Full-Day Victoria Falls Experience",
-    "showDayAtGlance": true
+    "cardSummary": "A carefully paced Victoria Falls day brings together an elephant breakfast, guided Falls visit, scenic flight and dinner aboard the Zambezi. The requested products and schedule remain provisional.",
+    "cardCta": "View itinerary",
+    "enquiryCta": "Request a quotation",
+    "pricing": {
+      "status": "quote-required",
+      "amount": null,
+      "currency": "USD",
+      "note": "A complete price requires dated accommodation, activities, airport transfers and all regional connections.",
+      "missing": [
+        "Exact elephant breakfast and 20-minute flight",
+        "Dated dinner-aboard rate and availability",
+        "Town guide and uncovered inter-activity transfers"
+      ],
+      "extras": [
+        "Falls entry fee: additional amount to confirm by nationality and age.",
+        "Dinner cruise park reference: USD 12 per person; dated confirmation needed.",
+        "Alternative 22-minute flight: mandatory USD 50 government/fuel charge beyond USD 271 base; breakdown needed."
+      ]
+    },
+    "days": 1,
+    "nights": 0,
+    "fallsNights": 0,
+    "route": "Victoria Falls hotel -> elephant venue -> Falls -> town -> helipad -> Zambezi -> hotel",
+    "meals": [
+      "B = breakfast, L = lunch, D = dinner. See each day for the proposed meals and board conditions."
+    ],
+    "activitiesIncluded": [],
+    "accommodation": [
+      "No overnight accommodation included. Add accommodation and airports when requesting a complete holiday price."
+    ]
   },
   {
     "slug": "chobe-day-safari",
@@ -94,7 +143,7 @@ export const safaris: SafariPackage[] = [
     "image": "/images/packages/Chobe Full Day.jpg",
     "location": "Chobe National Park, Botswana",
     "duration": "1 Day",
-    "price": "From $285",
+    "price": "Request a quotation",
     "destinationSlugs": [
       "chobe",
       "victoria-falls"
@@ -122,25 +171,18 @@ export const safaris: SafariPackage[] = [
       "Wildlife interpretation"
     ],
     "inclusions": [
-      "Return transfers from Victoria Falls",
-      "Chobe River boat cruise",
-      "Chobe National Park game drive",
-      "Open 4x4 safari vehicle",
-      "Professional safari guide",
-      "Buffet lunch",
-      "Bottled water and selected refreshments"
+      "Return Falls hotel transfers, river safari, game drive and lunch, subject to written operator quotation."
     ],
     "exclusions": [
-      "Botswana visa fees where applicable",
-      "Zimbabwe re-entry visa or immigration fees where applicable",
-      "Premium alcoholic drinks",
-      "Personal expenses",
-      "Tips and gratuities"
+      "National park and monument entrance fees, listed separately in your quotation.",
+      "International flights, visas, insurance and personal expenses.",
+      "Meals, drinks and optional activities not expressly included in your written quotation."
     ],
     "importantInformation": [
-      "All times are approximate. Border processing, road conditions and safari operations may affect the schedule.",
-      "Carry valid passports, applicable visas and any other required travel documentation for travel from Zimbabwe into Botswana and re-entry into Zimbabwe.",
-      "Wildlife sightings depend on natural movement. Predator sightings are possible but cannot be guaranteed."
+      "This is a planning itinerary, subject to dated supplier quotations and availability. An enquiry is not a confirmed booking.",
+      "USD prices depend on travel dates, room allocations, child ages and selected services. 2026 rates are not used for 2027 travel.",
+      "Private transfers do not make cruises, flights or game drives private. Exclusive-use safari activities need separate quotations.",
+      "B = breakfast, L = lunch, D = dinner. Meals shown as planned are confirmed only in your written quotation. Wildlife and water activities depend on conditions."
     ],
     "gallery": [
       "/images/gallery/Elephant_along_zambezi.jpg",
@@ -149,82 +191,22 @@ export const safaris: SafariPackage[] = [
     ],
     "itinerary": [
       {
-        "day": "06:30",
-        "title": "Hotel Pick-Up",
-        "heading": "Your Chobe Adventure Begins",
-        "description": "Your day begins with an early morning pickup from your hotel or lodge in Victoria Falls. Meet your safari driver and settle in for the journey towards Botswana."
-      },
-      {
-        "day": "07:00",
-        "title": "Depart Victoria Falls",
-        "heading": "Journey Towards Botswana",
-        "description": "Leave Victoria Falls behind and travel towards the Kazungula border. Along the way, your guide will introduce the day's programme and explain the border-crossing process ahead."
-      },
-      {
-        "day": "08:00",
-        "title": "Kazungula Border Crossing",
-        "heading": "Zimbabwe to Botswana",
-        "description": "Arrive at the Kazungula border and complete the necessary Zimbabwean and Botswana immigration and customs formalities before crossing into Botswana. Travel with valid passports, applicable visas and any other required travel documentation."
-      },
-      {
-        "day": "08:30",
-        "title": "Arrive in Kasane",
-        "heading": "Meet Your Safari Team",
-        "description": "Arrive in Kasane, the gateway to Chobe National Park. Meet your Botswana safari team and prepare for your first wildlife experience of the day."
-      },
-      {
-        "day": "09:00",
-        "title": "Chobe River Boat Safari",
-        "heading": "Wildlife from the Water",
-        "description": "Board your safari boat for a memorable journey along the Chobe River. Look out for elephants approaching the river, hippos in the water, crocodiles along the banks, buffalo and abundant birdlife. The river offers a completely different perspective of Chobe's wildlife and landscapes."
-      },
-      {
-        "day": "11:45",
-        "title": "Return from River Safari",
-        "heading": "Transition to Lunch",
-        "description": "Conclude your morning river safari and make your way towards the lunch venue in the Kasane area."
-      },
-      {
-        "day": "12:30",
-        "title": "Buffet Lunch",
-        "heading": "Relax & Recharge",
-        "description": "Enjoy a relaxed buffet lunch and take time to recharge after the morning's river adventure. After lunch, prepare to experience the second side of Chobe, this time from the land."
-      },
-      {
-        "day": "13:30",
-        "title": "Chobe National Park Game Drive",
-        "heading": "Into the African Bush",
-        "description": "Board an open 4x4 safari vehicle and enter Chobe National Park with your experienced safari guide. Travel through the park's diverse, wildlife-rich landscapes as the afternoon game drive begins."
-      },
-      {
-        "day": "14:00",
-        "title": "Wildlife Viewing",
-        "heading": "Explore Chobe",
-        "description": "Continue deeper into the park in search of elephants, buffalo, giraffes, antelope and other wildlife. Your guide shares insights into Chobe's animals, habitats and ecology, adding a deeper understanding to the afternoon's encounters."
-      },
-      {
-        "day": "15:30",
-        "title": "Afternoon Safari",
-        "heading": "Follow the Wildlife",
-        "description": "Continue exploring as your guide follows wildlife activity and selects suitable locations for viewing and photography. Every safari is different: sightings depend on the natural movement of wildlife. Predator sightings are possible but cannot be guaranteed."
-      },
-      {
-        "day": "16:30",
-        "title": "Leave Chobe",
-        "heading": "Begin the Return Journey",
-        "description": "Complete your afternoon game drive and begin the journey back towards Kasane and the Kazungula border, bringing your safari experience in Chobe National Park to a close."
-      },
-      {
-        "day": "17:00",
-        "title": "Botswana/Zimbabwe Border Crossing",
-        "heading": "Return to Zimbabwe",
-        "description": "Complete the required Botswana and Zimbabwe border formalities before crossing back into Zimbabwe and continuing towards Victoria Falls."
-      },
-      {
-        "day": "18:30",
-        "title": "Return to Victoria Falls",
-        "heading": "End of Your Chobe Adventure",
-        "description": "Arrive back in Victoria Falls for drop-off at your hotel or lodge. Your journey concludes after a full day combining the wildlife of the Chobe River and Chobe National Park: two distinctive safari experiences across two countries."
+        "day": "Day 01",
+        "title": "Chobe by river and open vehicle",
+        "description": "Travel from your Falls hotel through the border to Kasane. Join the river safari, pause for lunch and explore by open vehicle before returning through immigration to Victoria Falls.",
+        "overnight": "No overnight included",
+        "meals": [
+          "L: buffet lunch planned. B and D at your expense."
+        ],
+        "travelInformation": [
+          "Return Falls hotel transfers and safari connections planned in the operator quotation; do not charge twice."
+        ],
+        "includedActivities": [
+          "River safari",
+          "Open-vehicle game drive",
+          "Buffet lunch"
+        ],
+        "optionalActivities": []
       }
     ],
     "startTime": "06:30",
@@ -237,29 +219,40 @@ export const safaris: SafariPackage[] = [
     "cardSupportingLine": "River Safari • 4x4 Game Drive • Buffet Lunch",
     "cardCta": "View Experience",
     "enquiryCta": "Enquire Now",
-    "showDayAtGlance": true,
     "inclusionsBeforeItinerary": true,
     "itineraryEyebrow": "Day 01",
     "itineraryTitle": "Your Journey",
-    "itineraryIntro": "Chobe National Park Full-Day Safari. Follow your day from the Victoria Falls pickup to river and land safaris in Botswana and your evening return.",
     "finalEnquiryEyebrow": "Your Chobe safari",
-    "finalEnquiryTitle": "Two perspectives on Chobe. One unforgettable day."
+    "finalEnquiryTitle": "Two perspectives on Chobe. One unforgettable day.",
+    "pricing": {
+      "status": "quote-required",
+      "amount": null,
+      "currency": "USD",
+      "note": "A complete price requires dated accommodation, activities, airport transfers and all regional connections.",
+      "missing": [
+        "Selected services and dated complete operator quotation"
+      ],
+      "extras": [
+        "Park fees are additional; current amount depends on the park, nationality, child ages and travel dates."
+      ]
+    },
+    "days": 1,
+    "nights": 0,
+    "fallsNights": 0
   },
   {
     "slug": "hwange-full-day-safari",
     "title": "Hwange Full-Day Safari",
-    "summary": "An early start for a rewarding day in Zimbabwe's wildlife country.",
-    "description": "Travel from Victoria Falls to Hwange for professionally guided game viewing, a proper lunch break and an afternoon exploring its varied habitats before returning to your hotel.",
+    "summary": "Leave Victoria Falls early for Hwange game drives, connected by a picnic lunch, before returning to your hotel.",
+    "description": "Leave Victoria Falls early for Hwange game drives, connected by a picnic lunch, before returning to your hotel.",
     "image": "/images/packages/Hwange Full Day.jpg",
     "location": "Hwange National Park, Zimbabwe",
     "duration": "1 Day",
     "highlights": [
-      "Guided 4x4 safari",
-      "Waterhole wildlife viewing",
-      "Lunch or picnic break",
-      "Return Victoria Falls transfers"
+      "Morning and afternoon game drives",
+      "picnic lunch"
     ],
-    "price": "Enquire for Price",
+    "price": "Request a quotation",
     "gallery": [
       "/images/gallery/Elephant_along_zambezi.jpg",
       "/images/gallery/Zambezi_River.jpg",
@@ -267,64 +260,88 @@ export const safaris: SafariPackage[] = [
       "/images/gallery/Inside_the_safari.jpg"
     ],
     "exclusions": [
-      "Visa fees and related border costs",
-      "International flights and arrival or departure taxes",
-      "Drinks, gratuities, laundry and other personal expenses",
-      "Meals not listed in the itinerary",
-      "Travel, medical and personal-accident insurance"
+      "National park and monument entrance fees, listed separately in your quotation.",
+      "International flights, visas, insurance and personal expenses.",
+      "Meals, drinks and optional activities not expressly included in your written quotation."
     ],
     "importantInformation": [
-      "This proposed itinerary is adapted to your dates. Accommodation, meals, fees, activity order and transfer timings are confirmed in your written quotation.",
-      "Wildlife sightings cannot be guaranteed. Activities depend on weather, water levels and local conditions.",
-      "Pack neutral layers, closed walking shoes, sun protection, insect repellent, binoculars and a rain layer for the Falls."
+      "This is a planning itinerary, subject to dated supplier quotations and availability. An enquiry is not a confirmed booking.",
+      "USD prices depend on travel dates, room allocations, child ages and selected services. 2026 rates are not used for 2027 travel.",
+      "Private transfers do not make cruises, flights or game drives private. Exclusive-use safari activities need separate quotations.",
+      "B = breakfast, L = lunch, D = dinner. Meals shown as planned are confirmed only in your written quotation. Wildlife and water activities depend on conditions.",
+      "Hwange Safaris public comparison: USD 290 per person, minimum 4 fully paying guests, return transport and lunch included. Validity and supply arrangement need confirmation; this is not a Galagadi package price."
     ],
     "itinerary": [
       {
-        "day": "Early morning",
-        "title": "Victoria Falls pickup and transfer",
-        "description": "Depart your hotel before dawn at the agreed time. Allow a substantial road transfer to the Hwange area, with a comfort stop as needed. Entry point and travel timings are confirmed in advance."
-      },
-      {
-        "day": "Morning",
-        "title": "Guided Hwange game drive",
-        "description": "Meet your safari guide and explore by 4x4, following wildlife activity and visiting suitable waterholes. Pause for photography and wildlife interpretation."
-      },
-      {
-        "day": "Midday",
-        "title": "Lunch or picnic break",
-        "description": "Stop at a designated picnic site or agreed lodge for lunch and rest. Packed-lunch arrangements and dietary needs are confirmed before departure. Follow your guide's advice around wildlife."
-      },
-      {
-        "day": "Afternoon",
-        "title": "Further wildlife viewing",
-        "description": "Continue through contrasting habitats at a measured pace. Leave enough time for the return journey rather than extending game viewing into a late departure."
-      },
-      {
-        "day": "Evening",
-        "title": "Return transfer and hotel drop-off",
-        "description": "Exit the park and travel back to Victoria Falls with a comfort stop if needed. Return to your hotel in the evening; expect a long day."
+        "day": "Day 01",
+        "title": "Wildlife from morning to afternoon",
+        "description": "Leave your Falls hotel early and travel by road to Hwange. Join a morning open-vehicle drive, pause for picnic lunch and explore further before returning to Victoria Falls. A Painted Dog Centre stop is subject to confirmation.",
+        "overnight": "No overnight included",
+        "meals": [
+          "L: picnic lunch planned. B and D at your expense."
+        ],
+        "travelInformation": [
+          "Return Victoria Falls transport is already included in the referenced day-trip service; do not add it again."
+        ],
+        "includedActivities": [
+          "Morning and afternoon game drives",
+          "picnic lunch"
+        ],
+        "optionalActivities": [
+          "Painted Dog Centre if confirmed"
+        ],
+        "accommodation": []
       }
     ],
     "inclusions": [
-      "Return road transfers from your Victoria Falls hotel",
-      "Guided 4x4 safari in Hwange",
-      "Lunch or picnic arrangements as specified",
-      "Drinking water and park entry fees as confirmed in the quotation"
-    ]
+      "Planned programme below; only itemised services in the written quotation are included.",
+      "All necessary airport and regional transfers must be costed in a complete package quotation."
+    ],
+    "pricing": {
+      "status": "quote-required",
+      "amount": null,
+      "currency": "USD",
+      "note": "A complete price requires dated accommodation, activities, airport transfers and all regional connections.",
+      "missing": [
+        "Dated full day-trip rate and departure availability",
+        "Private vehicle/game-drive quotation if requested"
+      ],
+      "extras": [
+        "Operator park reference USD 20 per person, excluded; date and eligibility to confirm."
+      ]
+    },
+    "days": 1,
+    "nights": 0,
+    "fallsNights": 0,
+    "route": "Victoria Falls -> Hwange -> Victoria Falls",
+    "cardSummary": "Leave Victoria Falls early for Hwange game drives, connected by a picnic lunch, before returning to your hotel.",
+    "cardCta": "View itinerary",
+    "enquiryCta": "Request a quotation",
+    "meals": [
+      "B = breakfast, L = lunch, D = dinner. See each day for the proposed meals and board conditions."
+    ],
+    "activitiesIncluded": [],
+    "optionalExperiences": [],
+    "accommodation": [
+      "No overnight accommodation included. Add accommodation and airports when requesting a complete holiday price."
+    ],
+    "minimumAdults": 4
   },
   {
     "slug": "victoria-falls-escape",
     "title": "Victoria Falls Escape",
-    "summary": "A relaxed introduction to the Smoke That Thunders and the Zambezi.",
-    "description": "Four unhurried days around Victoria Falls, with guided exploration, a sunset cruise and time to make the journey your own.",
+    "summary": "Spend three nights in Victoria Falls with rainforest viewpoints, a sunset cruise and a free day to choose your pace. Choose Explorers Village Standard rooms or request an Insika upgrade.",
+    "description": "Spend three nights in Victoria Falls with rainforest viewpoints, a sunset cruise and a free day to choose your pace. Choose Explorers Village Standard rooms or request an Insika upgrade.",
     "image": "/images/packages/Victoria_Falls Escape.jpg",
     "location": "Victoria Falls, Zimbabwe",
     "duration": "4 Days / 3 Nights",
-    "price": "From $1,505.70",
+    "price": "Request a quotation",
     "highlights": [
-      "Guided Victoria Falls tour",
-      "Zambezi sunset cruise",
-      "Local cultural experience"
+      "Arrival and leisure",
+      "Guided Falls tour",
+      "sunset cruise",
+      "Leisure",
+      "Departure transfer"
     ],
     "gallery": [
       "/images/activities/under the bridge.jpg",
@@ -336,66 +353,154 @@ export const safaris: SafariPackage[] = [
     ],
     "itinerary": [
       {
-        "day": "Day 1",
-        "title": "Arrive and settle in",
-        "description": "Meet the team for your Victoria Falls airport transfer and settle into your accommodation. Keep the rest of the day free after travel."
+        "day": "Day 01",
+        "title": "Welcome to the Falls",
+        "description": "Meet your airport transfer, check in and settle into Victoria Falls at your own pace.",
+        "overnight": "Victoria Falls",
+        "meals": [
+          "No meals on arrival with B&B. D only with DB&B."
+        ],
+        "travelInformation": [
+          "Airport-to-lodge transfer required."
+        ],
+        "includedActivities": [
+          "Arrival and leisure"
+        ],
+        "optionalActivities": [],
+        "accommodation": [
+          "Victoria Falls; property and rooms subject to quotation"
+        ]
       },
       {
-        "day": "Day 2",
-        "title": "The Smoke That Thunders",
-        "description": "Take a guided Victoria Falls tour through the rainforest viewpoints. Pause for lunch and a relaxed afternoon, then transfer to a Zambezi sunset cruise."
+        "day": "Day 02",
+        "title": "Rainforest and river",
+        "description": "After breakfast, walk the Falls viewpoints with a guide. Keep lunch flexible, then join a sunset cruise with drinks and canapes. Canapes are not dinner.",
+        "overnight": "Victoria Falls",
+        "meals": [
+          "B with B&B/DB&B rooms. L at your expense. D only with DB&B."
+        ],
+        "travelInformation": [
+          "Falls tour hotel return transfers; Zambezi Vista cruise return transfers within 5 km of town. Extra distance requires a quote."
+        ],
+        "includedActivities": [
+          "Guided Falls tour",
+          "sunset cruise"
+        ],
+        "optionalActivities": [],
+        "accommodation": [
+          "Victoria Falls; property and rooms subject to quotation"
+        ]
       },
       {
-        "day": "Day 3",
-        "title": "Culture and time for yourself",
-        "description": "Enjoy a local cultural experience arranged with your consultant. Leave the afternoon open for markets, rest or an optional activity; lunch and dinner arrangements are confirmed at booking."
+        "day": "Day 03",
+        "title": "Time to make it yours",
+        "description": "Enjoy breakfast and an open day for town, your lodge or a separately priced experience. Boma dinner remains optional until dinner and transport are explicitly costed.",
+        "overnight": "Victoria Falls",
+        "meals": [
+          "B with B&B/DB&B rooms. L at your expense. D only with DB&B or a separately quoted dinner."
+        ],
+        "travelInformation": [
+          "No scheduled leisure transfer; optional activity pickups as quoted."
+        ],
+        "includedActivities": [
+          "Leisure"
+        ],
+        "optionalActivities": [
+          "Boma dinner and transport",
+          "helicopter",
+          "Morning Elephant Experience"
+        ],
+        "accommodation": [
+          "Victoria Falls; property and rooms subject to quotation"
+        ]
       },
       {
-        "day": "Day 4",
-        "title": "Farewell transfer",
-        "description": "Enjoy breakfast and free time if your flight permits, before your arranged airport transfer."
+        "day": "Day 04",
+        "title": "Farewell to Victoria Falls",
+        "description": "After breakfast, check out and transfer to the airport in time for your flight.",
+        "overnight": "No overnight included",
+        "meals": [
+          "B with B&B/DB&B rooms. Other meals at your expense."
+        ],
+        "travelInformation": [
+          "Lodge-to-airport transfer required in the full quotation."
+        ],
+        "includedActivities": [
+          "Departure transfer"
+        ],
+        "optionalActivities": [],
+        "accommodation": []
       }
     ],
     "accommodation": [
-      "3 nights at your confirmed accommodation level"
+      "Explorers Village Standard B&B rooms (lower-priced room option).",
+      "Explorers Village Deluxe B&B rooms.",
+      "Insika Luxury, Sabi Wing Luxury or Signature, B&B or DB&B; supported rates for 2027 only.",
+      "Explorers Village serviced tents are a separate camping category without breakfast, only on explicit request."
     ],
     "inclusions": [
-      "Arrival and departure airport transfers",
-      "3 nights' accommodation as specified",
-      "Guided Victoria Falls tour, Zambezi sunset cruise and local cultural experience",
-      "Meals and entry fees as stated in your confirmed booking"
+      "Planned programme below; only itemised services in the written quotation are included.",
+      "All necessary airport and regional transfers must be costed in a complete package quotation."
     ],
     "exclusions": [
-      "Visa fees and related border costs",
-      "International flights and arrival or departure taxes",
-      "Drinks, gratuities, laundry and other personal expenses",
-      "Meals not listed in the itinerary",
-      "Travel, medical and personal-accident insurance"
+      "National park and monument entrance fees, listed separately in your quotation.",
+      "International flights, visas, insurance and personal expenses.",
+      "Meals, drinks and optional activities not expressly included in your written quotation."
     ],
     "importantInformation": [
-      "This proposed itinerary is adapted to your dates. Accommodation, meals, fees, activity order and transfer timings are confirmed in your written quotation.",
-      "Wildlife sightings cannot be guaranteed. Activities depend on weather, water levels and local conditions.",
-      "Pack neutral layers, closed walking shoes, sun protection, insect repellent, binoculars and a rain layer for the Falls."
+      "This is a planning itinerary, subject to dated supplier quotations and availability. An enquiry is not a confirmed booking.",
+      "USD prices depend on travel dates, room allocations, child ages and selected services. 2026 rates are not used for 2027 travel.",
+      "Private transfers do not make cruises, flights or game drives private. Exclusive-use safari activities need separate quotations.",
+      "B = breakfast, L = lunch, D = dinner. Meals shown as planned are confirmed only in your written quotation. Wildlife and water activities depend on conditions."
     ],
     "optionalExperiences": [
-      "Helicopter flight over Victoria Falls",
-      "Livingstone/Zambia as an optional extension, with additional time and required passports and visas"
-    ]
+      "Boma dinner and transport, quotation required.",
+      "Flight of Angels (12-13 minutes) or Explore the Zambezi (22 minutes), including mandatory government/fuel charges.",
+      "Morning Elephant Experience, refreshments only."
+    ],
+    "pricing": {
+      "status": "quote-required",
+      "amount": null,
+      "currency": "USD",
+      "note": "A complete price requires dated accommodation, activities, airport transfers and all regional connections.",
+      "missing": [
+        "Dated airport arrival and departure transfers",
+        "Dated Falls tour and cruise, particularly 2027",
+        "Extra-distance transfers and family activity costs"
+      ],
+      "extras": [
+        "Park fees are additional; current amount depends on the park, nationality, child ages and travel dates.",
+        "Zambezi Vista cruise park fee: USD 12 per person in 2026; 2027 to confirm."
+      ]
+    },
+    "days": 4,
+    "nights": 3,
+    "fallsNights": 3,
+    "route": "Victoria Falls Airport -> Victoria Falls (3 nights) -> Victoria Falls Airport",
+    "cardSummary": "Spend three nights in Victoria Falls with rainforest viewpoints, a sunset cruise and a free day to choose your pace. Choose Explorers Village Standard rooms or request an Insika upgrade.",
+    "cardCta": "View itinerary",
+    "enquiryCta": "Request a quotation",
+    "meals": [
+      "B = breakfast, L = lunch, D = dinner. See each day for the proposed meals and board conditions."
+    ],
+    "activitiesIncluded": []
   },
   {
     "slug": "victoria-falls-chobe-safari",
     "title": "Victoria Falls + Chobe Explorer",
-    "summary": "A considered, cross-border journey through Zimbabwe and Botswana.",
-    "description": "Spend a week combining Falls experiences, easy Zambezi evenings and exceptional wildlife encounters in Chobe National Park.",
+    "summary": "Link three Victoria Falls nights with three Chobe nights. Move from rainforest and Zambezi to guided land and river safaris, with a free Falls day before crossing the border.",
+    "description": "Link three Victoria Falls nights with three Chobe nights. Move from rainforest and Zambezi to guided land and river safaris, with a free Falls day before crossing the border.",
     "image": "/images/packages/Victoria falls chobe explorer.jpg",
     "location": "Victoria Falls, Zimbabwe + Chobe, Botswana",
     "duration": "7 Days / 6 Nights",
-    "price": "From $5,650",
+    "price": "Request a quotation",
     "highlights": [
-      "Victoria Falls highlights",
-      "Chobe lodge stay",
-      "Private itinerary planning",
-      "Chobe River safari and game drive"
+      "Check-in",
+      "Guided Falls tour",
+      "sunset cruise",
+      "Leisure",
+      "Cross-border journey",
+      "Game drive"
     ],
     "destinationSlugs": [
       "victoria-falls",
@@ -409,84 +514,209 @@ export const safaris: SafariPackage[] = [
     ],
     "itinerary": [
       {
-        "day": "Day 1",
-        "title": "Welcome to Victoria Falls",
-        "description": "Arrive at Victoria Falls Airport, transfer to your accommodation and settle in. Keep the afternoon and evening free after your flight."
+        "day": "Day 01",
+        "title": "Victoria Falls welcome",
+        "description": "Transfer from the airport to your chosen Falls lodge for three nights.",
+        "overnight": "Victoria Falls",
+        "meals": [
+          "No meals on arrival with B&B. D only with DB&B."
+        ],
+        "travelInformation": [
+          "Airport arrival transfer required."
+        ],
+        "includedActivities": [
+          "Check-in"
+        ],
+        "optionalActivities": [],
+        "accommodation": [
+          "Victoria Falls; property and rooms subject to quotation"
+        ]
       },
       {
-        "day": "Day 2",
-        "title": "Victoria Falls and the Zambezi",
-        "description": "Explore the Falls with a guide in the morning. Pause for lunch and rest, then enjoy a Zambezi sunset cruise."
+        "day": "Day 02",
+        "title": "The Falls and the Zambezi",
+        "description": "Explore the rainforest with a guide, enjoy a free lunch break and finish with a sunset cruise.",
+        "overnight": "Victoria Falls",
+        "meals": [
+          "B with B&B/DB&B rooms. L at your expense. D only with DB&B; canapes are not dinner."
+        ],
+        "travelInformation": [
+          "Operator hotel pickups; any uncovered distance to quote."
+        ],
+        "includedActivities": [
+          "Guided Falls tour",
+          "sunset cruise"
+        ],
+        "optionalActivities": [],
+        "accommodation": [
+          "Victoria Falls; property and rooms subject to quotation"
+        ]
       },
       {
-        "day": "Day 3",
-        "title": "Victoria Falls at leisure",
-        "description": "Enjoy a free day for markets, relaxing or an optional cultural activity. A Livingstone/Zambia visit can be requested subject to border requirements and confirmed timing."
+        "day": "Day 03",
+        "title": "Victoria Falls at your pace",
+        "description": "Enjoy town or your lodge. Choose a separately quoted flight or elephant experience if you wish.",
+        "overnight": "Victoria Falls",
+        "meals": [
+          "B with B&B/DB&B rooms. L at your expense. D only with DB&B."
+        ],
+        "travelInformation": [
+          "Optional operator transfers as included in the selected activity."
+        ],
+        "includedActivities": [
+          "Leisure"
+        ],
+        "optionalActivities": [
+          "22-minute flight",
+          "Morning Elephant Experience"
+        ],
+        "accommodation": [
+          "Victoria Falls; property and rooms subject to quotation"
+        ]
       },
       {
-        "day": "Day 4",
-        "title": "Transfer to Chobe",
-        "description": "After breakfast, transfer by road to Botswana with time for border formalities. Check into your Chobe accommodation and enjoy a relaxed afternoon."
+        "day": "Day 04",
+        "title": "Across the border to Chobe",
+        "description": "Take the confirmed cross-border transfer to Kasane, complete immigration and check into your selected lodge for three nights.",
+        "overnight": "Chobe",
+        "meals": [
+          "B at Falls with B&B/DB&B rooms. L and D follow the quoted Chobe board plan."
+        ],
+        "travelInformation": [
+          "Falls-to-named-Chobe-lodge transfer and border support require a dated quote."
+        ],
+        "includedActivities": [
+          "Cross-border journey"
+        ],
+        "optionalActivities": [],
+        "accommodation": [
+          "Chobe; property and rooms subject to quotation"
+        ]
       },
       {
-        "day": "Day 5",
-        "title": "Chobe River safari",
-        "description": "Enjoy a morning at leisure before your scheduled river safari. Look for elephants and birdlife along the banks, then relax back at your lodge."
+        "day": "Day 05",
+        "title": "Chobe from land and water",
+        "description": "Join a game drive and river safari, paced around the selected lodge programme and operating conditions.",
+        "overnight": "Chobe",
+        "meals": [
+          "B, L and D planned only with a quoted full-board option; otherwise according to selected board."
+        ],
+        "travelInformation": [
+          "Lodge activity transport only as expressly included."
+        ],
+        "includedActivities": [
+          "Game drive",
+          "river safari"
+        ],
+        "optionalActivities": [],
+        "accommodation": [
+          "Chobe; property and rooms subject to quotation"
+        ]
       },
       {
-        "day": "Day 6",
-        "title": "Chobe National Park game drive",
-        "description": "Set out on a guided 4x4 game drive, with a lunch break and afternoon rest. Further game viewing can be requested separately."
+        "day": "Day 06",
+        "title": "Another day in the bush",
+        "description": "Follow the chosen lodge safari programme, with rest between outings. Activity numbers and exclusive-use options must be confirmed.",
+        "overnight": "Chobe",
+        "meals": [
+          "B, L and D planned only with quoted full board."
+        ],
+        "travelInformation": [
+          "Lodge activity transfers as quoted; exclusive vehicles cost separately."
+        ],
+        "includedActivities": [
+          "Lodge safari programme, activities to confirm"
+        ],
+        "optionalActivities": [],
+        "accommodation": [
+          "Chobe; property and rooms subject to quotation"
+        ]
       },
       {
-        "day": "Day 7",
+        "day": "Day 07",
         "title": "Departure from Kasane",
-        "description": "Enjoy breakfast before your transfer to Kasane Airport. A return transfer to Victoria Falls can be requested when planning onward flights."
+        "description": "Check out and transfer to Kasane Airport. Return to Victoria Falls Airport is an alternative needing a separately priced cross-border leg.",
+        "overnight": "No overnight included",
+        "meals": [
+          "B if included in lodge board. Other meals at your expense."
+        ],
+        "travelInformation": [
+          "Kasane Airport departure transfer required; Falls Airport alternative separately costed."
+        ],
+        "includedActivities": [
+          "Departure transfer"
+        ],
+        "optionalActivities": [],
+        "accommodation": []
       }
     ],
     "accommodation": [
-      "3 nights in Victoria Falls and 3 nights in Chobe, at your selected package level"
+      "Explorers Village Standard B&B rooms (lower-priced room option).",
+      "Explorers Village Deluxe B&B rooms.",
+      "Insika Luxury, Sabi Wing Luxury or Signature, B&B or DB&B; supported rates for 2027 only.",
+      "Explorers Village serviced tents are a separate camping category without breakfast, only on explicit request.",
+      "Chobe Safari Lodge Safari or River rooms: researched candidates; dated board, activity rate and availability to confirm. No lodge is guaranteed."
     ],
     "inclusions": [
-      "Scheduled airport and inter-destination transfers",
-      "Border-crossing assistance",
-      "6 nights' accommodation and listed meals",
-      "Guided Victoria Falls tour and Zambezi sunset cruise",
-      "Chobe River safari and guided game drive",
-      "Park fees and drinking water as confirmed"
+      "Planned programme below; only itemised services in the written quotation are included.",
+      "All necessary airport and regional transfers must be costed in a complete package quotation."
     ],
     "exclusions": [
-      "Visa fees and related border costs",
-      "International flights and arrival or departure taxes",
-      "Drinks, gratuities, laundry and other personal expenses",
-      "Meals not listed in the itinerary",
-      "Travel, medical and personal-accident insurance"
+      "National park and monument entrance fees, listed separately in your quotation.",
+      "International flights, visas, insurance and personal expenses.",
+      "Meals, drinks and optional activities not expressly included in your written quotation."
     ],
     "importantInformation": [
-      "Confirm passport validity and visa requirements for your nationality before this cross-border journey.",
-      "This proposed itinerary is adapted to your dates. Accommodation, meals, fees, activity order and transfer timings are confirmed in your written quotation.",
-      "Wildlife sightings cannot be guaranteed. Activities depend on weather, water levels and local conditions.",
-      "Pack neutral layers, closed walking shoes, sun protection, insect repellent, binoculars and a rain layer for the Falls."
+      "This is a planning itinerary, subject to dated supplier quotations and availability. An enquiry is not a confirmed booking.",
+      "USD prices depend on travel dates, room allocations, child ages and selected services. 2026 rates are not used for 2027 travel.",
+      "Private transfers do not make cruises, flights or game drives private. Exclusive-use safari activities need separate quotations.",
+      "B = breakfast, L = lunch, D = dinner. Meals shown as planned are confirmed only in your written quotation. Wildlife and water activities depend on conditions."
     ],
-    "optionalExperiences": [
-      "Livingstone/Zambia as an optional extension, with additional time and required passports and visas"
-    ]
+    "optionalExperiences": [],
+    "pricing": {
+      "status": "quote-required",
+      "amount": null,
+      "currency": "USD",
+      "note": "A complete price requires dated accommodation, activities, airport transfers and all regional connections.",
+      "missing": [
+        "Three Chobe nights with board and safari activity breakdown",
+        "Dated cross-border and Kasane airport transfers",
+        "2027 Falls activities",
+        "Private or exclusive-use services if requested"
+      ],
+      "extras": [
+        "Park fees are additional; current amount depends on the park, nationality, child ages and travel dates.",
+        "Zambezi Vista cruise park fee: USD 12 per person in 2026; 2027 to confirm."
+      ]
+    },
+    "days": 7,
+    "nights": 6,
+    "fallsNights": 3,
+    "route": "Victoria Falls (3 nights) -> Chobe (3 nights) -> Kasane Airport",
+    "cardSummary": "Link three Victoria Falls nights with three Chobe nights. Move from rainforest and Zambezi to guided land and river safaris, with a free Falls day before crossing the border.",
+    "cardCta": "View itinerary",
+    "enquiryCta": "Request a quotation",
+    "meals": [
+      "B = breakfast, L = lunch, D = dinner. See each day for the proposed meals and board conditions."
+    ],
+    "activitiesIncluded": []
   },
   {
     "slug": "zimbabwe-highlights-journey",
     "title": "Zimbabwe Highlights Journey",
-    "summary": "From Great Zimbabwe's stone heritage to Matobo, Hwange and Victoria Falls.",
-    "description": "A Zimbabwe-focused cultural and wildlife journey, travelling west from Great Zimbabwe to Matobo, then north through Hwange to Victoria Falls. Nine days give heritage visits, safari drives and travel days their own space.",
+    "summary": "Travel from Harare through Great Zimbabwe and Matobo to Hwange and Victoria Falls. Eight nights connect heritage, landscapes and wildlife with a continuous road journey.",
+    "description": "Travel from Harare through Great Zimbabwe and Matobo to Hwange and Victoria Falls. Eight nights connect heritage, landscapes and wildlife with a continuous road journey.",
     "image": "/images/packages/Zimbabwe Highlights Journeys.jpg",
     "location": "Great Zimbabwe -> Matobo -> Hwange -> Victoria Falls, Zimbabwe",
     "duration": "9 Days / 8 Nights",
     "highlights": [
-      "Great Zimbabwe heritage exploration",
-      "Matobo granite landscapes and cultural history",
-      "Hwange safari days",
-      "Victoria Falls and the Zambezi"
+      "Harare start and airport briefing",
+      "Great Zimbabwe guided heritage visit",
+      "2 Matobo nights",
+      "2 Hwange nights and a full-day game drive",
+      "2 Victoria Falls nights"
     ],
-    "price": "Enquire for Price",
+    "price": "Request a quotation",
     "gallery": [
       "/images/gallery/Elephant_along_zambezi.jpg",
       "/images/gallery/Zambezi_River.jpg",
@@ -494,62 +724,194 @@ export const safaris: SafariPackage[] = [
       "/images/gallery/Inside_the_safari.jpg"
     ],
     "exclusions": [
-      "Visa fees and related border costs",
-      "International flights and arrival or departure taxes",
-      "Drinks, gratuities, laundry and other personal expenses",
-      "Meals not listed in the itinerary",
-      "Travel, medical and personal-accident insurance"
+      "National park and monument entrance fees, listed separately in your quotation.",
+      "International flights, visas, insurance and personal expenses.",
+      "Meals, drinks and optional activities not expressly included in your written quotation."
     ],
     "importantInformation": [
-      "This proposed itinerary is adapted to your dates. Accommodation, meals, fees, activity order and transfer timings are confirmed in your written quotation.",
-      "Wildlife sightings cannot be guaranteed. Activities depend on weather, water levels and local conditions.",
-      "Pack neutral layers, closed walking shoes, sun protection, insect repellent, binoculars and a rain layer for the Falls."
+      "This is a planning itinerary, subject to dated supplier quotations and availability. An enquiry is not a confirmed booking.",
+      "USD prices depend on travel dates, room allocations, child ages and selected services. 2026 rates are not used for 2027 travel.",
+      "Private transfers do not make cruises, flights or game drives private. Exclusive-use safari activities need separate quotations.",
+      "B = breakfast, L = lunch, D = dinner. Meals shown as planned are confirmed only in your written quotation. Wildlife and water activities depend on conditions."
     ],
     "itinerary": [
       {
-        "day": "Day 1",
-        "title": "Arrival and transfer to Great Zimbabwe",
-        "description": "Arrive in Harare early enough for your arranged road transfer south to the Great Zimbabwe area, with lunch and comfort stops. Rest on arrival. A late flight requires a Harare overnight and an additional day."
+        "day": "Day 01",
+        "title": "Harare welcome",
+        "description": "Meet your airport transfer, settle into a Harare hotel and discuss the route with your guide.",
+        "overnight": "Harare",
+        "meals": [
+          "No meals confirmed; hotel board to quote."
+        ],
+        "travelInformation": [
+          "Harare airport-to-hotel transfer and briefing required."
+        ],
+        "includedActivities": [
+          "Guide briefing"
+        ],
+        "optionalActivities": [],
+        "accommodation": [
+          "Harare; property and rooms subject to quotation"
+        ]
       },
       {
-        "day": "Day 2",
-        "title": "Great Zimbabwe heritage",
-        "description": "Explore the stone architecture and history of Great Zimbabwe with a guide. Break for lunch and leave the afternoon for rest or a locally arranged cultural visit."
+        "day": "Day 02",
+        "title": "Road to Masvingo",
+        "description": "Travel to Masvingo with suitable stops. Harare sightseeing is included only if timing permits and it is quoted.",
+        "overnight": "Masvingo",
+        "meals": [
+          "B planned with quoted B&B. L and D at your expense unless costed."
+        ],
+        "travelInformation": [
+          "Continuous route vehicle, driver, fuel and driver accommodation need a full-route quote."
+        ],
+        "includedActivities": [
+          "Road journey"
+        ],
+        "optionalActivities": [
+          "Harare sightseeing if time permits"
+        ],
+        "accommodation": [
+          "Masvingo; property and rooms subject to quotation"
+        ]
       },
       {
-        "day": "Day 3",
+        "day": "Day 03",
         "title": "Great Zimbabwe to Matobo",
-        "description": "Travel west towards Bulawayo and Matobo. Treat this as a travel day with planned breaks; settle in without a full afternoon activity schedule."
+        "description": "Explore the stone enclosures with a guide before continuing to the Matobo area.",
+        "overnight": "Matobo",
+        "meals": [
+          "B planned with quoted hotel board. L and D follow the quoted lodge plan."
+        ],
+        "travelInformation": [
+          "Monument guide and Masvingo-to-Matobo transfer required."
+        ],
+        "includedActivities": [
+          "Guided Great Zimbabwe visit"
+        ],
+        "optionalActivities": [],
+        "accommodation": [
+          "Matobo; property and rooms subject to quotation"
+        ]
       },
       {
-        "day": "Day 4",
-        "title": "Matobo National Park",
-        "description": "Explore granite kopjes and heritage landscapes with a guide, with lunch and rest time. Rock-art visits or guided rhino tracking can be arranged where available and permitted."
+        "day": "Day 04",
+        "title": "Granite hills and stories",
+        "description": "Explore Matobo landscapes, rock art and historical viewpoints. Rhino tracking requires confirmed guiding arrangements and separate costing where not included.",
+        "overnight": "Matobo",
+        "meals": [
+          "B, L and D planned only with quoted full-board lodge."
+        ],
+        "travelInformation": [
+          "Local guided transport required; access follows guide advice."
+        ],
+        "includedActivities": [
+          "Matobo landscapes",
+          "rock art",
+          "viewpoints"
+        ],
+        "optionalActivities": [
+          "Rhino tracking, confirmed arrangements and cost needed"
+        ],
+        "accommodation": [
+          "Matobo; property and rooms subject to quotation"
+        ]
       },
       {
-        "day": "Day 5",
-        "title": "Matobo to Hwange",
-        "description": "Transfer north through Bulawayo to the Hwange area with breaks along the way. Settle into your safari base and rest before the following day's game viewing."
+        "day": "Day 05",
+        "title": "Towards Hwange",
+        "description": "Travel north to Hwange and settle into your chosen lodge.",
+        "overnight": "Hwange",
+        "meals": [
+          "B planned; L and D according to quoted board."
+        ],
+        "travelInformation": [
+          "Matobo-to-Hwange transfer and lodge access required."
+        ],
+        "includedActivities": [
+          "Road journey"
+        ],
+        "optionalActivities": [],
+        "accommodation": [
+          "Hwange; property and rooms subject to quotation"
+        ]
       },
       {
-        "day": "Day 6",
-        "title": "Hwange safari",
-        "description": "Spend the day on guided game drives, with picnic or lodge lunch and a break during the warmest part of the day. Follow your guide's advice at waterholes."
+        "day": "Day 06",
+        "title": "Hwange wildlife day",
+        "description": "Enjoy a full day of game viewing, with a picnic lunch and time at waterholes.",
+        "overnight": "Hwange",
+        "meals": [
+          "B and D planned with quoted lodge board. L: picnic lunch to cost explicitly."
+        ],
+        "travelInformation": [
+          "Open safari vehicle and guide; cost separately unless lodge package includes them."
+        ],
+        "includedActivities": [
+          "Full-day game drive",
+          "picnic lunch"
+        ],
+        "optionalActivities": [],
+        "accommodation": [
+          "Hwange; property and rooms subject to quotation"
+        ]
       },
       {
-        "day": "Day 7",
-        "title": "Hwange to Victoria Falls",
-        "description": "Enjoy breakfast and a short morning drive if timing allows, then transfer to Victoria Falls. Check in and keep the evening relaxed."
+        "day": "Day 07",
+        "title": "From the bush to the river",
+        "description": "Transfer to Victoria Falls and join a sunset cruise if confirmed arrival timing permits.",
+        "overnight": "Victoria Falls",
+        "meals": [
+          "B according to Hwange board. L at your expense. D only with DB&B; canapes are not dinner."
+        ],
+        "travelInformation": [
+          "Hwange-to-Falls transfer and cruise pickup; avoid duplicating operator-included transfers."
+        ],
+        "includedActivities": [
+          "Sunset cruise, timing permitting"
+        ],
+        "optionalActivities": [],
+        "accommodation": [
+          "Victoria Falls; property and rooms subject to quotation"
+        ]
       },
       {
-        "day": "Day 8",
-        "title": "Victoria Falls and the Zambezi",
-        "description": "Visit the Falls with a guide, pause for lunch and free time, then enjoy a Zambezi sunset cruise."
+        "day": "Day 08",
+        "title": "Victoria Falls on foot",
+        "description": "Visit the Falls with a guide and enjoy a free afternoon in town. Boma dinner is optional until explicitly costed.",
+        "overnight": "Victoria Falls",
+        "meals": [
+          "B with B&B/DB&B rooms. L at your expense. D only with DB&B or a separately quoted dinner."
+        ],
+        "travelInformation": [
+          "Falls tour return hotel transfers included by referenced operator."
+        ],
+        "includedActivities": [
+          "Guided Falls tour"
+        ],
+        "optionalActivities": [
+          "Boma dinner and transport"
+        ],
+        "accommodation": [
+          "Victoria Falls; property and rooms subject to quotation"
+        ]
       },
       {
-        "day": "Day 9",
-        "title": "Victoria Falls departure",
-        "description": "After breakfast, transfer to Victoria Falls Airport in time for your onward flight."
+        "day": "Day 09",
+        "title": "Airport farewell",
+        "description": "Enjoy breakfast, check out and transfer to Victoria Falls Airport.",
+        "overnight": "No overnight included",
+        "meals": [
+          "B with B&B/DB&B rooms. Other meals at your expense."
+        ],
+        "travelInformation": [
+          "Falls airport departure transfer required."
+        ],
+        "includedActivities": [
+          "Departure transfer"
+        ],
+        "optionalActivities": [],
+        "accommodation": []
       }
     ],
     "destinationSlugs": [
@@ -557,139 +919,362 @@ export const safaris: SafariPackage[] = [
       "victoria-falls"
     ],
     "accommodation": [
-      "8 nights in selected lodges and hotels as confirmed"
+      "Harare: Monomotapa Hotel, researched candidate; current operation and dated rates to confirm.",
+      "Masvingo: Great Zimbabwe Hotel, researched candidate; room and board quote required.",
+      "Matobo: Amalinda Lodge, researched candidate; board and guiding to quote.",
+      "Hwange: Ivory Lodge or Khulu Bush Camp, researched candidates; activities and access to quote.",
+      "Victoria Falls: two nights in Explorers Village rooms or Insika according to date validity."
     ],
     "inclusions": [
-      "Harare arrival and Victoria Falls departure transfers",
-      "Road transport along the Zimbabwe route",
-      "Professional heritage and safari guides",
-      "Great Zimbabwe, Matobo, Hwange and Victoria Falls experiences as listed",
-      "8 nights' accommodation, specified meals and scheduled site/park fees",
-      "Drinking water on applicable activities"
-    ]
+      "Planned programme below; only itemised services in the written quotation are included.",
+      "All necessary airport and regional transfers must be costed in a complete package quotation."
+    ],
+    "pricing": {
+      "status": "quote-required",
+      "amount": null,
+      "currency": "USD",
+      "note": "A complete price requires dated accommodation, activities, airport transfers and all regional connections.",
+      "missing": [
+        "Harare and Masvingo hotel rates",
+        "Matobo/Hwange board, guides and game drives",
+        "Continuous Harare-to-Falls vehicle, driver, fuel and lodge access",
+        "Heritage guiding and 2027 Falls/cruise rates"
+      ],
+      "extras": [
+        "Park fees are additional; current amount depends on the park, nationality, child ages and travel dates.",
+        "Zambezi Vista cruise park fee: USD 12 per person in 2026; 2027 to confirm."
+      ]
+    },
+    "days": 9,
+    "nights": 8,
+    "fallsNights": 2,
+    "route": "Harare (1) -> Masvingo (1) -> Matobo (2) -> Hwange (2) -> Victoria Falls (2)",
+    "cardSummary": "Travel from Harare through Great Zimbabwe and Matobo to Hwange and Victoria Falls. Eight nights connect heritage, landscapes and wildlife with a continuous road journey.",
+    "cardCta": "View itinerary",
+    "enquiryCta": "Request a quotation",
+    "meals": [
+      "B = breakfast, L = lunch, D = dinner. See each day for the proposed meals and board conditions."
+    ],
+    "activitiesIncluded": [],
+    "optionalExperiences": []
   },
   {
-    "slug": "12-day-hwange-victoria-falls-chobe-okavango",
+    "slug": "southern-africa-signature-safari",
     "title": "Southern Africa Signature Safari",
-    "summary": "A premium journey through Hwange, Victoria Falls, Chobe and the Okavango Delta.",
-    "description": "Twelve well-paced days connect Zimbabwe's wildlife country and the Falls with Botswana's river safaris and Delta channels. Dedicated transfer days and quiet lodge time balance guided experiences; accommodation and flight arrangements are tailored in your quotation.",
+    "summary": "Begin with three Falls nights, continue to three in Chobe and spend five Delta nights across two complementary camps. Activities follow each camp's location and conditions.",
+    "description": "Begin with three Falls nights, continue to three in Chobe and spend five Delta nights across two complementary camps. Activities follow each camp's location and conditions.",
     "image": "/images/packages/southern africa signature safari.jpg",
-    "location": "Hwange -> Victoria Falls -> Chobe -> Okavango Delta",
+    "location": "Victoria Falls, Chobe & Okavango Delta",
     "duration": "12 Days / 11 Nights",
     "highlights": [
-      "Hwange guided game drives",
-      "Victoria Falls and Zambezi sunset cruise",
+      "3 nights in Victoria Falls",
+      "3 nights in Chobe",
+      "5 Delta nights across two camps",
+      "Guided Falls visit and sunset cruise",
       "Chobe land and river safaris",
-      "Okavango mokoro and guided nature experiences"
+      "Camp-specific Delta activities"
     ],
-    "price": "Enquire for Price",
+    "price": "Request a quotation",
     "gallery": [
+      "/images/destinations/Victoria_Falls.jpg",
+      "/images/destinations/Chobe.jpg",
       "/images/gallery/Elephant_along_zambezi.jpg",
       "/images/gallery/Zambezi_River.jpg",
-      "/images/gallery/Rhino_Hwange.jpeg",
       "/images/gallery/Inside_the_safari.jpg"
     ],
     "exclusions": [
-      "Visa fees and related border costs",
-      "International flights and arrival or departure taxes",
-      "Drinks, gratuities, laundry and other personal expenses",
-      "Meals not listed in the itinerary",
-      "Travel, medical and personal-accident insurance"
+      "National park and monument entrance fees, listed separately in your quotation.",
+      "International flights, visas, insurance and personal expenses.",
+      "Meals, drinks and optional activities not expressly included in your written quotation."
     ],
     "importantInformation": [
-      "Confirm passport validity and visa requirements for your nationality before this cross-border journey.",
-      "This proposed itinerary is adapted to your dates. Accommodation, meals, fees, activity order and transfer timings are confirmed in your written quotation.",
-      "Wildlife sightings cannot be guaranteed. Activities depend on weather, water levels and local conditions.",
-      "Pack neutral layers, closed walking shoes, sun protection, insect repellent, binoculars and a rain layer for the Falls.",
-      "Delta access and activities depend on camp location, season and water levels. Flight routing, baggage limits and connection times must be confirmed before booking."
+      "This is a planning itinerary, subject to dated supplier quotations and availability. An enquiry is not a confirmed booking.",
+      "USD prices depend on travel dates, room allocations, child ages and selected services. 2026 rates are not used for 2027 travel.",
+      "Private transfers do not make cruises, flights or game drives private. Exclusive-use safari activities need separate quotations.",
+      "B = breakfast, L = lunch, D = dinner. Meals shown as planned are confirmed only in your written quotation. Wildlife and water activities depend on conditions.",
+      "Five Delta nights split three plus two, across two camps; no extra day is added.",
+      "Flight-specific baggage conditions must be confirmed. Wilderness Air seat-rate reference: maximum 20 kg including hand luggage and cameras; soft bag requirements depend on the carrier."
     ],
     "itinerary": [
       {
-        "day": "Day 1",
-        "title": "Arrive and transfer to Hwange",
-        "description": "Arrive at Victoria Falls Airport and transfer directly to your Hwange safari base. Allow time for the road journey and check-in; rest after travel."
+        "day": "Day 01",
+        "title": "Victoria Falls welcome",
+        "description": "Transfer from the airport to your chosen Falls lodge for three nights.",
+        "overnight": "Victoria Falls",
+        "meals": [
+          "No meals on arrival with B&B. D only with DB&B."
+        ],
+        "travelInformation": [
+          "Airport arrival transfer required."
+        ],
+        "includedActivities": [
+          "Check-in"
+        ],
+        "optionalActivities": [],
+        "accommodation": [
+          "Victoria Falls; property and rooms subject to quotation"
+        ]
       },
       {
-        "day": "Day 2",
-        "title": "Hwange wildlife country",
-        "description": "Enjoy guided morning and afternoon game drives, with lunch and rest between outings. Waterholes and varied habitats offer changing wildlife opportunities."
+        "day": "Day 02",
+        "title": "The Falls and the Zambezi",
+        "description": "Explore the rainforest with a guide, enjoy a free lunch break and finish with a sunset cruise.",
+        "overnight": "Victoria Falls",
+        "meals": [
+          "B with B&B/DB&B rooms. L at your expense. D only with DB&B; canapes are not dinner."
+        ],
+        "travelInformation": [
+          "Operator hotel pickups; any uncovered distance to quote."
+        ],
+        "includedActivities": [
+          "Guided Falls tour",
+          "sunset cruise"
+        ],
+        "optionalActivities": [],
+        "accommodation": [
+          "Victoria Falls; property and rooms subject to quotation"
+        ]
       },
       {
-        "day": "Day 3",
-        "title": "More Hwange wilderness",
-        "description": "Enjoy a full-day drive with picnic or split drives according to your confirmed programme. Leave time for a relaxed evening at your safari base."
+        "day": "Day 03",
+        "title": "Victoria Falls at your pace",
+        "description": "Enjoy town or your lodge. Choose a separately quoted flight or elephant experience if you wish.",
+        "overnight": "Victoria Falls",
+        "meals": [
+          "B with B&B/DB&B rooms. L at your expense. D only with DB&B."
+        ],
+        "travelInformation": [
+          "Optional operator transfers as included in the selected activity."
+        ],
+        "includedActivities": [
+          "Leisure"
+        ],
+        "optionalActivities": [
+          "22-minute flight",
+          "Morning Elephant Experience"
+        ],
+        "accommodation": [
+          "Victoria Falls; property and rooms subject to quotation"
+        ]
       },
       {
-        "day": "Day 4",
-        "title": "Hwange to Victoria Falls",
-        "description": "After breakfast, transfer to Victoria Falls and check in. Leave the afternoon free to relax or explore local markets."
+        "day": "Day 04",
+        "title": "Across the border to Chobe",
+        "description": "Take the confirmed cross-border transfer to Kasane, complete immigration and check into your selected lodge for three nights.",
+        "overnight": "Chobe",
+        "meals": [
+          "B at Falls with B&B/DB&B rooms. L and D follow the quoted Chobe board plan."
+        ],
+        "travelInformation": [
+          "Falls-to-named-Chobe-lodge transfer and border support require a dated quote."
+        ],
+        "includedActivities": [
+          "Cross-border journey"
+        ],
+        "optionalActivities": [],
+        "accommodation": [
+          "Chobe; property and rooms subject to quotation"
+        ]
       },
       {
-        "day": "Day 5",
-        "title": "Falls viewpoints and river evening",
-        "description": "Walk the rainforest viewpoints with a guide. Pause for lunch and rest before a Zambezi sunset cruise with return transfers."
+        "day": "Day 05",
+        "title": "Chobe from land and water",
+        "description": "Join a game drive and river safari, paced around the selected lodge programme and operating conditions.",
+        "overnight": "Chobe",
+        "meals": [
+          "B, L and D planned only with a quoted full-board option; otherwise according to selected board."
+        ],
+        "travelInformation": [
+          "Lodge activity transport only as expressly included."
+        ],
+        "includedActivities": [
+          "Game drive",
+          "river safari"
+        ],
+        "optionalActivities": [],
+        "accommodation": [
+          "Chobe; property and rooms subject to quotation"
+        ]
       },
       {
-        "day": "Day 6",
-        "title": "Victoria Falls to Chobe",
-        "description": "Transfer to Botswana after breakfast, allowing time for border procedures. Check in near Chobe and enjoy an easy afternoon."
+        "day": "Day 06",
+        "title": "Another day in the bush",
+        "description": "Follow the chosen lodge safari programme, with rest between outings. Activity numbers and exclusive-use options must be confirmed.",
+        "overnight": "Chobe",
+        "meals": [
+          "B, L and D planned only with quoted full board."
+        ],
+        "travelInformation": [
+          "Lodge activity transfers as quoted; exclusive vehicles cost separately."
+        ],
+        "includedActivities": [
+          "Lodge safari programme, activities to confirm"
+        ],
+        "optionalActivities": [],
+        "accommodation": [
+          "Chobe; property and rooms subject to quotation"
+        ]
       },
       {
-        "day": "Day 7",
-        "title": "Chobe land and river",
-        "description": "Take an early Chobe game drive, followed by lunch and rest. Join a river safari later in the day for a contrasting perspective on wildlife along the banks."
+        "day": "Day 07",
+        "title": "Connect to the Delta",
+        "description": "Transfer to the confirmed departure airport and take the costed flight or supplier-approved camp connection to the first camp. Remote island camps are not ordinary road destinations.",
+        "overnight": "Okavango camp one",
+        "meals": [
+          "B with quoted Chobe board. L and D planned with quoted camp full board."
+        ],
+        "travelInformation": [
+          "Departure airport access, flight, taxes and camp airstrip transfer must be costed."
+        ],
+        "includedActivities": [
+          "Camp arrival and orientation"
+        ],
+        "optionalActivities": [],
+        "accommodation": [
+          "Okavango camp one; property and rooms subject to quotation"
+        ]
       },
       {
-        "day": "Day 8",
-        "title": "Chobe at your own pace",
-        "description": "Enjoy another guided drive at the confirmed time, then relax at your accommodation. Additional activities can be requested; keep this day less crowded."
+        "day": "Day 08",
+        "title": "Waterways and wildlife",
+        "description": "Explore with the first camp's guides. Mokoro or boat activities are offered only where camp location and water conditions support them.",
+        "overnight": "Okavango camp one",
+        "meals": [
+          "B, L, D planned with quoted full-board camp."
+        ],
+        "travelInformation": [
+          "Camp activity transport as included in its quotation."
+        ],
+        "includedActivities": [
+          "First camp's supported safari activities"
+        ],
+        "optionalActivities": [],
+        "accommodation": [
+          "Okavango camp one; property and rooms subject to quotation"
+        ]
       },
       {
-        "day": "Day 9",
-        "title": "Transfer to the Okavango Delta",
-        "description": "Transfer to Kasane Airport for a prearranged flight connection towards the Delta, via Maun if required, followed by the camp transfer. Routing and light-aircraft baggage limits are confirmed before booking. Keep the remaining time for settling in."
+        "day": "Day 09",
+        "title": "A day to explore slowly",
+        "description": "Enjoy further guided activities and time in camp. Walking follows the camp's safety rules and guide availability.",
+        "overnight": "Okavango camp one",
+        "meals": [
+          "B, L, D planned with quoted full-board camp."
+        ],
+        "travelInformation": [
+          "Camp activity transport; no ordinary road access assumed."
+        ],
+        "includedActivities": [
+          "Camp safari programme"
+        ],
+        "optionalActivities": [
+          "Guided walking only if offered and eligible"
+        ],
+        "accommodation": [
+          "Okavango camp one; property and rooms subject to quotation"
+        ]
       },
       {
         "day": "Day 10",
-        "title": "Okavango channels and nature",
-        "description": "Explore by mokoro with a local poler where water levels and camp location permit, with a guided nature walk where available. Lunch and rest separate experiences; alternative activities are agreed if conditions change."
+        "title": "A complementary Delta camp",
+        "description": "Take the confirmed inter-camp flight or approved transfer to a second camp chosen for a complementary setting.",
+        "overnight": "Okavango camp two",
+        "meals": [
+          "B at first camp; L and D at second camp with quoted full board."
+        ],
+        "travelInformation": [
+          "Inter-camp flight/transfer, baggage limits and both access legs need confirmation."
+        ],
+        "includedActivities": [
+          "Second camp arrival"
+        ],
+        "optionalActivities": [],
+        "accommodation": [
+          "Okavango camp two; property and rooms subject to quotation"
+        ]
       },
       {
         "day": "Day 11",
-        "title": "A further day in the Delta",
-        "description": "Enjoy your camp's confirmed guided programme, which may include a boat safari or game drive depending on location and conditions. Rest and appreciate the Delta between outings."
+        "title": "The second camp's wilderness",
+        "description": "Follow this camp's guided programme, with rest between outings. Game drives depend on its location and conditions.",
+        "overnight": "Okavango camp two",
+        "meals": [
+          "B, L, D planned with quoted full-board camp."
+        ],
+        "travelInformation": [
+          "Second camp activity transfers as quoted."
+        ],
+        "includedActivities": [
+          "Second camp's supported safari programme"
+        ],
+        "optionalActivities": [],
+        "accommodation": [
+          "Okavango camp two; property and rooms subject to quotation"
+        ]
       },
       {
         "day": "Day 12",
-        "title": "Maun departure",
-        "description": "After breakfast, take your arranged camp and air transfer to Maun for onward travel. Flight connections and timing are agreed in advance."
+        "title": "Fly to Maun",
+        "description": "Leave camp by the confirmed transfer and flight to Maun, allowing enough connection time.",
+        "overnight": "No overnight included",
+        "meals": [
+          "B with quoted camp board. Other meals depend on departure and quotation."
+        ],
+        "travelInformation": [
+          "Camp-to-airstrip access and Maun flight with taxes required."
+        ],
+        "includedActivities": [
+          "Maun departure connection"
+        ],
+        "optionalActivities": [],
+        "accommodation": []
       }
     ],
     "destinationSlugs": [
-      "hwange",
       "victoria-falls",
       "chobe"
     ],
     "accommodation": [
-      "11 nights in selected safari lodges, hotels and Delta camps; properties confirmed in your quotation"
+      "Explorers Village Standard B&B rooms (lower-priced room option).",
+      "Explorers Village Deluxe B&B rooms.",
+      "Insika Luxury, Sabi Wing Luxury or Signature, B&B or DB&B; supported rates for 2027 only.",
+      "Explorers Village serviced tents are a separate camping category without breakfast, only on explicit request.",
+      "Chobe Safari Lodge rooms, subject to dated quotation.",
+      "Delta candidates: Moremi Crossing for a water-focused setting and Pom Pom for a complementary safari setting; exact pairing and access subject to confirmation."
     ],
     "meals": [
-      "Meals as specified, including picnic lunches on applicable game drives",
-      "Tea, coffee and snacks as scheduled"
+      "B = breakfast, L = lunch, D = dinner. See each day for the proposed meals and board conditions."
     ],
     "inclusions": [
-      "Airport, lodge and inter-destination transfers as quoted",
-      "Kasane-Delta flight connections and Delta-Maun departure transfer as confirmed",
-      "Professional safari guides and cross-border assistance",
-      "Hwange game drives, Victoria Falls visit and Zambezi sunset cruise",
-      "Chobe game drives and river safari",
-      "Delta activities appropriate to your selected camp and conditions",
-      "11 nights' accommodation, specified meals, park fees and drinking water"
+      "Planned programme below; only itemised services in the written quotation are included.",
+      "All necessary airport and regional transfers must be costed in a complete package quotation."
     ],
-    "optionalExperiences": [
-      "Helicopter flight over Victoria Falls",
-      "Livingstone/Zambia as an optional extension, with additional time and required passports and visas"
-    ]
+    "optionalExperiences": [],
+    "pricing": {
+      "status": "quote-required",
+      "amount": null,
+      "currency": "USD",
+      "note": "A complete price requires dated accommodation, activities, airport transfers and all regional connections.",
+      "missing": [
+        "Both Delta camps: three plus two nights, board and activity breakdown",
+        "Chobe lodge and safari services",
+        "First-camp, inter-camp and camp-to-Maun flights",
+        "Airstrip access, aviation taxes, fuel and baggage conditions",
+        "2027 road transfers and Falls activities"
+      ],
+      "extras": [
+        "Park fees are additional; current amount depends on the park, nationality, child ages and travel dates.",
+        "Zambezi Vista cruise park fee: USD 12 per person in 2026; 2027 to confirm."
+      ]
+    },
+    "days": 12,
+    "nights": 11,
+    "fallsNights": 3,
+    "route": "Victoria Falls (3) -> Chobe (3) -> Okavango camp one (3) -> Okavango camp two (2) -> Maun",
+    "cardSummary": "Begin with three Falls nights, continue to three in Chobe and spend five Delta nights across two complementary camps. Activities follow each camp's location and conditions.",
+    "cardCta": "View itinerary",
+    "enquiryCta": "Request a quotation",
+    "activitiesIncluded": []
   },
   {
     "slug": "7-day-victoria-falls-chobe-makgadikgadi-okavango",
@@ -699,388 +1284,193 @@ export const safaris: SafariPackage[] = [
     "location": "Zimbabwe & Botswana",
     "startingPoint": "Victoria Falls International Airport (VFA), Zimbabwe",
     "endingPoint": "Maun International Airport, Botswana",
-    "route": "Victoria Falls → Chobe/Kasane → Planet Baobab → Makgadikgadi/Ntwetwe Salt Pans → Maun → Okavango Delta",
-    "experienceType": "Multi-Day Safari • Wildlife • River Experiences • Salt Pans • Okavango Delta",
-    "price": "Enquire for Price",
+    "route": "Victoria Falls (2) -> Chobe (1) -> Gweta/Makgadikgadi (1) -> Maun (2) -> Maun Airport",
+    "price": "Request a quotation",
     "image": "/images/packages/7Day okavago.jpg",
     "destinationSlugs": [
       "victoria-falls",
       "chobe"
     ],
-    "summary": "Seven days connecting Victoria Falls and the Zambezi with Chobe wildlife country, the Makgadikgadi salt pans and the waterways of the Okavango Delta.",
-    "cardSummary": "Journey from Victoria Falls to Chobe, the vast Makgadikgadi salt pans and the waterways of the Okavango Delta on an unforgettable 7-day Southern African safari.",
-    "cardSupportingLine": "Victoria Falls • Chobe • Makgadikgadi • Okavango",
-    "cardCta": "Explore Journey",
-    "enquiryCta": "Enquire Now",
-    "showDayAtGlance": true,
-    "glanceTitle": "7 Days at a Glance",
-    "itineraryEyebrow": "Your 7-day journey",
-    "itineraryTitle": "Detailed Day-by-Day Itinerary",
-    "itineraryIntro": "Explore each day of your Zimbabwe and Botswana journey, with activities, accommodation, meals and transfer information together.",
-    "finalEnquiryEyebrow": "Your Southern African journey",
-    "finalEnquiryTitle": "From the Falls to the waterways of the Delta.",
-    "description": "Embark on an unforgettable seven-day journey connecting some of Southern Africa's most remarkable landscapes and wildlife destinations. Begin at majestic Victoria Falls, where your first evening concludes with an elegant dinner cruise on the Zambezi River.\n\nCross into Botswana and discover Chobe National Park from both land and water, with a river safari and an extensive game drive in search of its remarkable wildlife.\n\nTravel deeper into Botswana to Planet Baobab and the Makgadikgadi region. Observe habituated meerkats and explore the vast Ntwetwe Salt Pans before continuing to Maun.\n\nThe final chapter is the Okavango Delta: see its waterways, islands and wilderness from above on a scenic helicopter flight, then explore from water level in a traditional mokoro canoe and on a guided bush walk. This journey combines adventure, wildlife, culture and relaxation across Zimbabwe and Botswana.",
+    "summary": "Connect two Falls nights, one in Chobe, one in Gweta and two in Maun. This compact lodge journey visits the Falls and pan country, then explores the Delta on a day trip returning to Maun.",
+    "cardSummary": "Connect two Falls nights, one in Chobe, one in Gweta and two in Maun. This compact lodge journey visits the Falls and pan country, then explores the Delta on a day trip returning to Maun.",
+    "cardCta": "View itinerary",
+    "enquiryCta": "Request a quotation",
+    "description": "Connect two Falls nights, one in Chobe, one in Gweta and two in Maun. This compact lodge journey visits the Falls and pan country, then explores the Delta on a day trip returning to Maun.",
     "highlights": [
-      "Victoria Falls, Zimbabwe",
-      "Guided Tour of Victoria Falls",
-      "Zambezi River Dinner Cruise",
-      "Zimbabwe-Botswana overland journey",
-      "Chobe River boat safari",
-      "Chobe National Park full-day game drive",
-      "Opportunities to experience Chobe's remarkable wildlife",
-      "Planet Baobab and the Makgadikgadi region",
-      "Habituated meerkat encounter",
-      "Ntwetwe Salt Pans exploration",
-      "Scenic helicopter flight over the Okavango Delta",
-      "Traditional mokoro canoe experience",
-      "Guided 5 km bush walk",
-      "Scenic road transfers through Botswana",
-      "7 Days / 6 Nights across Zimbabwe and Botswana"
+      "2 Falls nights and guided Falls visit",
+      "1 Chobe night with land and river safaris",
+      "1 Gweta night and a confirmed pan excursion",
+      "2 Maun nights",
+      "Delta day excursion; no overnight Delta camp"
     ],
     "itinerary": [
       {
         "day": "Day 01",
-        "title": "Arrival in Victoria Falls & Zambezi Dinner Cruise",
-        "heading": "Welcome to Victoria Falls",
-        "location": "Victoria Falls, Zimbabwe",
-        "description": "Your African journey begins at Victoria Falls International Airport, with time to settle in before an elegant evening on the river.",
-        "schedule": [
-          {
-            "time": "Arrival",
-            "title": "Victoria Falls International Airport transfer",
-            "description": "Meet your driver at VFA for the approximately 20-minute transfer to your lodge. Collection follows your flight schedule; provide flight details in advance."
-          },
-          {
-            "time": "16:00",
-            "title": "Zambezi River Dinner Cruise",
-            "description": "Your driver-guide collects you for an approximately three-hour dinner cruise. Enjoy river scenery, the sights and sounds of the surrounding wilderness and opportunities to observe wildlife as afternoon becomes evening. A specially prepared menu of Zambezi-style cuisine, prepared by an executive chef, is complemented by professional service."
-          }
-        ],
-        "accommodation": [
-          "Shongwe Lookout Lodge OR Victoria Falls Pioneers Lodge"
-        ],
+        "title": "Arrive at the Falls",
+        "description": "Transfer to your Falls lodge. Add a sunset cruise only if arrival permits and it is priced separately.",
+        "overnight": "Victoria Falls",
         "meals": [
-          "Dinner"
+          "No meals on arrival with B&B. D only with DB&B."
         ],
         "travelInformation": [
-          "VFA to lodge: approximately 20 minutes",
-          "Dinner cruise: approximately 3 hours"
+          "Falls airport arrival transfer required."
         ],
-        "glance": [
-          "Victoria Falls arrival and airport transfer",
-          "Zambezi Dinner Cruise"
+        "includedActivities": [
+          "Check-in"
+        ],
+        "optionalActivities": [
+          "Sunset cruise if arrival permits"
+        ],
+        "accommodation": [
+          "Victoria Falls; property and rooms subject to quotation"
         ]
       },
       {
         "day": "Day 02",
-        "title": "Victoria Falls & Journey to Chobe",
-        "heading": "From the Falls to Botswana",
-        "location": "Victoria Falls → Chobe/Kasane",
-        "description": "Explore the Falls before crossing into Botswana and discovering Chobe from the water.",
-        "schedule": [
-          {
-            "time": "08:30",
-            "title": "Guided Tour of Victoria Falls",
-            "description": "Meet your knowledgeable driver-guide at hotel reception. Walk through sections of rainforest to viewpoints along the cliffs opposite the cascade. Take time for the extraordinary sight and sound of the Falls and photographs from different viewpoints."
-          },
-          {
-            "time": "After the Falls",
-            "title": "Overland journey to Botswana",
-            "description": "Travel towards Botswana, complete required border procedures and continue to Chobe/Kasane. Check in and prepare for your afternoon safari."
-          },
-          {
-            "time": "Late afternoon",
-            "title": "Chobe River Boat Cruise",
-            "description": "Enjoy an approximately three-hour boat safari, looking out for hippos, crocodiles and varied birdlife along the riverbanks. Relax as sunset approaches, combining wildlife viewing with the river's peaceful atmosphere."
-          }
-        ],
-        "accommodation": [
-          "Chobe Safari Lodge OR Cresta Mowana Safari Lodge"
-        ],
+        "title": "Guided Victoria Falls visit",
+        "description": "After breakfast, explore rainforest viewpoints with a guide, then leave time for town or your lodge.",
+        "overnight": "Victoria Falls",
         "meals": [
-          "Dinner"
+          "B with B&B/DB&B rooms. L at your expense. D only with DB&B."
         ],
         "travelInformation": [
-          "Zimbabwe-Botswana road transfer after the Falls tour",
-          "Chobe River boat cruise: approximately 3 hours"
+          "Falls tour return hotel transfers; extra distance to quote."
         ],
-        "glance": [
-          "Guided Victoria Falls tour",
-          "Transfer to Botswana",
-          "Chobe River boat cruise"
+        "includedActivities": [
+          "Guided Falls tour"
+        ],
+        "optionalActivities": [],
+        "accommodation": [
+          "Victoria Falls; property and rooms subject to quotation"
         ]
       },
       {
         "day": "Day 03",
-        "title": "Full-Day Chobe National Park Safari",
-        "heading": "Into the Land of Giants",
-        "location": "Chobe National Park, Botswana",
-        "description": "An extended safari explores Chobe's diverse habitats from early morning into the afternoon.",
-        "schedule": [
-          {
-            "time": "06:00",
-            "title": "Safari begins",
-            "description": "Rise early and enter the park with your professional safari guide as wildlife and birdlife become active."
-          },
-          {
-            "time": "Morning",
-            "title": "Explore Chobe",
-            "description": "Follow wildlife activity through varied landscapes. The extended drive allows exploration beyond the busiest areas and towards more remote sections where conditions permit. Look out for elephants, other large mammals, smaller animals and birdlife."
-          },
-          {
-            "time": "Midday",
-            "title": "Safari & lunch",
-            "description": "Enjoy lunch during the day while continuing to explore. Appreciate changing landscapes and wildlife activity as morning becomes afternoon."
-          },
-          {
-            "time": "Afternoon",
-            "title": "Deeper into the wilderness",
-            "description": "Your guide follows wildlife activity and selects suitable locations for viewing and photography. Sightings depend on natural movement and behaviour and cannot be guaranteed."
-          },
-          {
-            "time": "16:30",
-            "title": "Return from the safari",
-            "description": "Complete your full-day drive at approximately 16:30 and return to your accommodation after an extensive day in Chobe."
-          }
-        ],
-        "accommodation": [
-          "Chobe Safari Lodge OR Cresta Mowana Safari Resort"
-        ],
+        "title": "Across the border to Chobe",
+        "description": "Transfer early enough to check in and join a confirmed afternoon river safari.",
+        "overnight": "Chobe",
         "meals": [
-          "Breakfast",
-          "Lunch",
-          "Dinner"
+          "B at Falls with B&B/DB&B rooms. L and D according to quoted Chobe board."
         ],
         "travelInformation": [
-          "Safari duration: approximately 11 hours"
+          "Cross-border road transfer and river-safari transport required."
         ],
-        "glance": [
-          "Full-day Chobe National Park game drive"
+        "includedActivities": [
+          "Afternoon Chobe river safari"
+        ],
+        "optionalActivities": [],
+        "accommodation": [
+          "Chobe; property and rooms subject to quotation"
         ]
       },
       {
         "day": "Day 04",
-        "title": "Chobe to Planet Baobab",
-        "heading": "Journey into Botswana's Salt Pan Country",
-        "location": "Chobe/Kasane → Planet Baobab",
-        "description": "A scenic travel day leads into the Makgadikgadi region, with time to relax on arrival.",
-        "schedule": [
-          {
-            "time": "Morning",
-            "title": "Breakfast & departure",
-            "description": "Enjoy breakfast before leaving the Chobe region for the next chapter of your journey."
-          },
-          {
-            "time": "Road transfer",
-            "title": "Kasane to Planet Baobab",
-            "description": "Travel deeper into Botswana on an approximately four-hour road transfer, watching the changing landscapes towards the Makgadikgadi region."
-          },
-          {
-            "time": "Arrival",
-            "title": "Settle into Planet Baobab",
-            "description": "Check in and relax in the distinctive surroundings of Planet Baobab."
-          },
-          {
-            "time": "Optional",
-            "title": "Bush walk - additional cost",
-            "description": "Guests wishing to explore further may choose a bush walk to learn about the surrounding environment. This optional walk is available at an additional cost and is not included as standard."
-          }
-        ],
-        "accommodation": [
-          "Planet Baobab"
-        ],
+        "title": "Morning wildlife, then Gweta",
+        "description": "Take an early, shorter game drive before the long road journey towards Gweta. The operator must confirm safe departure, stops and arrival. This is not a full-day Chobe drive.",
+        "overnight": "Gweta/Makgadikgadi area",
         "meals": [
-          "Breakfast",
-          "Dinner"
+          "B and D planned with quoted board. L only if explicitly costed en route."
         ],
         "travelInformation": [
-          "Chobe/Kasane to Planet Baobab: approximately 4 hours"
+          "Chobe-to-Gweta vehicle and driver require a quote and realistic timing; do not promise a four-hour drive."
         ],
-        "glance": [
-          "Road transfer to Planet Baobab",
-          "Optional bush walk (additional cost)"
+        "includedActivities": [
+          "Early game drive",
+          "road journey"
+        ],
+        "optionalActivities": [],
+        "accommodation": [
+          "Gweta/Makgadikgadi area; property and rooms subject to quotation"
         ]
       },
       {
         "day": "Day 05",
-        "title": "Meerkats, Ntwetwe Salt Pans & Okavango from the Sky",
-        "heading": "From the Salt Pans to the Okavango Delta",
-        "location": "Planet Baobab → Makgadikgadi/Ntwetwe → Maun",
-        "description": "Observe meerkats and the salt-pan landscapes before a road transfer to Maun and an aerial view of the Delta.",
-        "schedule": [
-          {
-            "time": "Morning",
-            "title": "Meerkat experience",
-            "description": "Spend time observing a resident group of habituated meerkats, learning how these social, desert-adapted animals interact with each other and their environment. Wildlife encounters remain subject to natural movement."
-          },
-          {
-            "time": "Next",
-            "title": "Ntwetwe Salt Pans exploration",
-            "description": "Explore the vast, open Ntwetwe Salt Pans in the Makgadikgadi region. During the green season there may be opportunities to see migrating zebra and wildebeest. Wildlife and migration sightings are seasonal and cannot be guaranteed."
-          },
-          {
-            "time": "Transfer",
-            "title": "Planet Baobab to Maun",
-            "description": "After the morning experience, take the approximately two-hour transfer to Maun and continue to Cresta Maun Lodge or Sedia Hotel."
-          },
-          {
-            "time": "Afternoon",
-            "title": "Okavango Delta helicopter flight",
-            "description": "See the Delta's waterways, islands and vast wilderness from a scenic helicopter flight. Appreciate its scale and beauty and look out for wildlife in the landscape below."
-          }
-        ],
-        "accommodation": [
-          "Cresta Maun Lodge OR Sedia Hotel"
-        ],
+        "title": "Pan country to Maun",
+        "description": "A confirmed early pan excursion is followed by the road journey to Maun. If both do not fit, move the excursion to day four only with a confirmed arrival slot, or revise the activity scope within seven days before booking.",
+        "overnight": "Maun",
         "meals": [
-          "Breakfast"
+          "B with Planet Baobab DB&B if selected. L and D at your expense unless quoted."
         ],
         "travelInformation": [
-          "Meerkat and Ntwetwe Salt Pans experience: approximately 3 hours",
-          "Planet Baobab to Maun: approximately 2 hours"
+          "Pan excursion transport plus Gweta-to-Maun road transfer require exact quotes and timings."
         ],
-        "glance": [
-          "Meerkat experience and Ntwetwe Salt Pans",
-          "Transfer to Maun",
-          "Okavango Delta helicopter flight"
+        "includedActivities": [
+          "Pan excursion, timing to confirm"
+        ],
+        "optionalActivities": [
+          "Meerkat encounter if included in selected excursion"
+        ],
+        "accommodation": [
+          "Maun; property and rooms subject to quotation"
         ]
       },
       {
         "day": "Day 06",
-        "title": "Okavango Delta Mokoro Adventure",
-        "heading": "Into the Waterways of the Delta",
-        "location": "Okavango Delta, returning to Maun",
-        "description": "A full-day combination of quiet waterways and guided walking offers another perspective on the Delta.",
-        "schedule": [
-          {
-            "time": "Morning",
-            "title": "Okavango Delta experience",
-            "description": "Begin your full-day adventure aboard a traditional mokoro dugout canoe. Observe aquatic life, birdlife and the surrounding wilderness from water level."
-          },
-          {
-            "time": "Mokoro journey",
-            "title": "Glide through the waterways",
-            "description": "Your guide navigates quietly through the channels. The slower pace offers an intimate perspective of the ecosystem and a contrast to the earlier game drives."
-          },
-          {
-            "time": "After the mokoro",
-            "title": "Guided 5 km bush walk",
-            "description": "Explore on foot with your guide, learning about the environment and tracking signs of wildlife. The guided five-kilometre walk balances tranquillity and adventure."
-          },
-          {
-            "time": "Return",
-            "title": "Back to Maun",
-            "description": "After approximately eight hours exploring the Delta, return to your accommodation and relax after your final full safari day."
-          }
-        ],
-        "accommodation": [
-          "Cresta Maun OR Sedia Hotel"
-        ],
+        "title": "A Delta day from Maun",
+        "description": "Join a full-day mokoro and guided walking excursion, subject to conditions and child eligibility, then return to your Maun lodge.",
+        "overnight": "Maun",
         "meals": [
-          "Breakfast",
-          "Lunch"
+          "B with quoted B&B. L only if included in excursion quotation. D at your expense."
         ],
         "travelInformation": [
-          "Okavango Delta experience: approximately 8 hours"
+          "Return Maun-to-launch transfer, access and guide must be costed."
         ],
-        "glance": [
-          "Traditional mokoro canoe experience",
-          "Guided 5 km bush walk"
+        "includedActivities": [
+          "Mokoro/walking day excursion"
+        ],
+        "optionalActivities": [],
+        "accommodation": [
+          "Maun; property and rooms subject to quotation"
         ]
       },
       {
         "day": "Day 07",
-        "title": "Farewell Botswana & Maun Airport Transfer",
-        "heading": "Until the Next Adventure",
-        "location": "Maun, Botswana",
-        "description": "Enjoy your final breakfast before the transfer for your onward flight.",
-        "schedule": [
-          {
-            "time": "08:30",
-            "title": "Breakfast",
-            "description": "Enjoy breakfast and your last moments in Botswana."
-          },
-          {
-            "time": "10:00",
-            "title": "Check-out",
-            "description": "Prepare for check-out and the airport transfer. Transfer timing is ultimately coordinated with your confirmed flight departure."
-          },
-          {
-            "time": "Flight-coordinated transfer",
-            "title": "Maun International Airport",
-            "description": "Take the approximately 20-minute transfer to Maun International Airport for onward flights, such as to Johannesburg, Cape Town or Kasane, according to your arrangements. Your seven-day safari concludes here."
-          }
-        ],
-        "accommodation": [],
+        "title": "Maun departure",
+        "description": "Check out after breakfast if included and take the airport transfer for your onward flight.",
+        "overnight": "No overnight included",
         "meals": [
-          "Breakfast"
+          "B with quoted B&B. Other meals at your expense."
         ],
         "travelInformation": [
-          "Hotel to Maun International Airport: approximately 20 minutes",
-          "Provide departure flight details in advance"
+          "Maun lodge-to-airport transfer required."
         ],
-        "glance": [
-          "Breakfast and airport transfer",
-          "Safari ends in Maun"
-        ]
+        "includedActivities": [
+          "Departure transfer"
+        ],
+        "optionalActivities": [],
+        "accommodation": []
       }
     ],
     "accommodation": [
-      "6 nights in mid-range lodges/hotels across Victoria Falls, Chobe, Planet Baobab and Maun",
-      "Twin/double rooms with en-suite facilities",
-      "Night 1: Shongwe Lookout Lodge OR Victoria Falls Pioneers Lodge",
-      "Nights 2-3: Chobe Safari Lodge OR Cresta Mowana Safari Lodge/Resort, as specified for the stay",
-      "Night 4: Planet Baobab",
-      "Nights 5-6: Cresta Maun Lodge OR Sedia Hotel"
+      "Explorers Village Standard B&B rooms (lower-priced room option).",
+      "Explorers Village Deluxe B&B rooms.",
+      "Insika Luxury, Sabi Wing Luxury or Signature, B&B or DB&B; supported rates for 2027 only.",
+      "Explorers Village serviced tents are a separate camping category without breakfast, only on explicit request.",
+      "Chobe: one night, Chobe Safari Lodge candidate, not guaranteed.",
+      "Gweta: one night, Planet Baobab Bakalanga or Baobab hut DB&B, dated quote needed.",
+      "Maun: two nights, Sedia Hotel or Cresta Maun candidate, dated board and room quote needed."
     ],
     "meals": [
-      "Breakfast daily",
-      "Lunch and dinner as specified for each day",
-      "Full-board or half-board arrangements on applicable days, as detailed in the itinerary"
+      "B = breakfast, L = lunch, D = dinner. See each day for the proposed meals and board conditions."
     ],
-    "activitiesIncluded": [
-      "Guided Victoria Falls tour and Zambezi River Dinner Cruise",
-      "Chobe River boat safari and full-day Chobe game drive",
-      "Meerkat experience and Makgadikgadi/Ntwetwe Salt Pans exploration",
-      "Scenic Okavango Delta helicopter flight",
-      "Traditional mokoro canoe excursion and guided 5 km Delta bush walk"
-    ],
-    "optionalExperiences": [
-      "Day 4 Planet Baobab bush walk: optional and available at an additional cost. A scenic bush walk or cultural experience at Planet Baobab is included only when specifically stated in your confirmed booking."
-    ],
+    "activitiesIncluded": [],
+    "optionalExperiences": [],
     "inclusions": [
-      "6 nights' accommodation in the specified mid-range lodges/hotels, with en-suite twin/double rooms",
-      "Breakfast daily; lunches and dinners as specified in the itinerary",
-      "Arrival and departure airport transfers",
-      "Guided Tour of Victoria Falls and Zambezi River Dinner Cruise",
-      "Chobe River boat safari and full-day Chobe National Park game drive",
-      "Meerkat experience and Makgadikgadi/Ntwetwe Salt Pans exploration",
-      "Scenic helicopter flight over the Okavango Delta",
-      "Traditional mokoro canoe excursion and guided Delta bush walk",
-      "Scenic bush walk or cultural experience at Planet Baobab only where specified as included; the optional Day 4 bush walk is charged separately",
-      "Scenic road transfers between destinations in a comfortable safari vehicle",
-      "Professional driver/guide services throughout, with English-speaking safari guides",
-      "National park entry fees specified as included and applicable park fees for included experiences",
-      "Bottled water during transfers and game drives",
-      "Government taxes and levies as specified"
+      "Planned programme below; only itemised services in the written quotation are included.",
+      "All necessary airport and regional transfers must be costed in a complete package quotation."
     ],
     "exclusions": [
-      "Visas and related immigration costs",
-      "International flights",
-      "Arrival and departure taxes not included in the package",
-      "Meals not specified in the itinerary",
-      "Drinks not specified as included",
-      "Tips and gratuities",
-      "Laundry, telephone calls and personal expenses",
-      "Optional activities unless specifically stated as included",
-      "Travel insurance"
+      "National park and monument entrance fees, listed separately in your quotation.",
+      "International flights, visas, insurance and personal expenses.",
+      "Meals, drinks and optional activities not expressly included in your written quotation."
     ],
     "importantInformation": [
-      "This journey crosses from Zimbabwe into Botswana. Travel with valid passports, appropriate visas where required, immigration documentation and any other legally required travel documents. Requirements vary according to nationality.",
-      "Wildlife is free-roaming and sightings cannot be guaranteed. Migration viewing in the Makgadikgadi region is seasonal.",
-      "The optional Day 4 Planet Baobab bush walk carries an additional cost. It is separate from the included guided 5 km Okavango Delta bush walk on Day 6.",
-      "Arrival and departure transfers follow your confirmed flight schedules. Supply flight details in advance and allow sufficient time for the Day 1 cruise.",
-      "Road transfers and activity durations are approximate. Helicopter and water-based activities are subject to operating conditions."
+      "This is a planning itinerary, subject to dated supplier quotations and availability. An enquiry is not a confirmed booking.",
+      "USD prices depend on travel dates, room allocations, child ages and selected services. 2026 rates are not used for 2027 travel.",
+      "Private transfers do not make cruises, flights or game drives private. Exclusive-use safari activities need separate quotations.",
+      "B = breakfast, L = lunch, D = dinner. Meals shown as planned are confirmed only in your written quotation. Wildlife and water activities depend on conditions.",
+      "This draft needs operator confirmation of day-four driving and day-five activity/transfer timing. Adjust excursion scope or order within seven days if required; no eighth day is silently added.",
+      "This version has no overnight Delta camp and no included Delta helicopter flight."
     ],
     "gallery": [
       "/images/destinations/Victoria_Falls.jpg",
@@ -1088,7 +1478,27 @@ export const safaris: SafariPackage[] = [
       "/images/destinations/Chobe.jpg",
       "/images/gallery/Inside_the_safari.jpg",
       "/images/gallery/Zambezi_River.jpg"
-    ]
+    ],
+    "pricing": {
+      "status": "quote-required",
+      "amount": null,
+      "currency": "USD",
+      "note": "A complete price requires dated accommodation, activities, airport transfers and all regional connections.",
+      "missing": [
+        "One Chobe night and two safari activities",
+        "Planet Baobab room/board and pan excursion",
+        "Two Maun nights and Delta day excursion",
+        "All Falls-Chobe-Gweta-Maun road legs and airports",
+        "Day-four driving and day-five excursion/transfer feasibility"
+      ],
+      "extras": [
+        "Park fees are additional; current amount depends on the park, nationality, child ages and travel dates.",
+        "Zambezi Vista cruise park fee: USD 12 per person in 2026; 2027 to confirm."
+      ]
+    },
+    "days": 7,
+    "nights": 6,
+    "fallsNights": 2
   },
   {
     "slug": "tailor-made-safari",
@@ -1104,7 +1514,7 @@ export const safaris: SafariPackage[] = [
       "Accommodation to suit your preferences",
       "Personal itinerary planning"
     ],
-    "price": "Enquire for Price",
+    "price": "Request a quotation",
     "gallery": [
       "/images/gallery/Elephant_along_zambezi.jpg",
       "/images/gallery/Zambezi_River.jpg",
@@ -1112,17 +1522,15 @@ export const safaris: SafariPackage[] = [
       "/images/gallery/Inside_the_safari.jpg"
     ],
     "exclusions": [
-      "Services not listed in your final quotation",
-      "Visa fees and related border costs",
-      "International flights and arrival or departure taxes",
-      "Drinks, gratuities, laundry and other personal expenses",
-      "Meals not listed in the itinerary",
-      "Travel, medical and personal-accident insurance"
+      "National park and monument entrance fees, listed separately in your quotation.",
+      "International flights, visas, insurance and personal expenses.",
+      "Meals, drinks and optional activities not expressly included in your written quotation."
     ],
     "importantInformation": [
-      "This proposed itinerary is adapted to your dates. Accommodation, meals, fees, activity order and transfer timings are confirmed in your written quotation.",
-      "Wildlife sightings cannot be guaranteed. Activities depend on weather, water levels and local conditions.",
-      "Pack neutral layers, closed walking shoes, sun protection, insect repellent, binoculars and a rain layer for the Falls."
+      "This is a planning itinerary, subject to dated supplier quotations and availability. An enquiry is not a confirmed booking.",
+      "USD prices depend on travel dates, room allocations, child ages and selected services. 2026 rates are not used for 2027 travel.",
+      "Private transfers do not make cruises, flights or game drives private. Exclusive-use safari activities need separate quotations.",
+      "B = breakfast, L = lunch, D = dinner. Meals shown as planned are confirmed only in your written quotation. Wildlife and water activities depend on conditions."
     ],
     "isTailorMade": true,
     "inclusions": [
@@ -1134,6 +1542,18 @@ export const safaris: SafariPackage[] = [
       "Matobo and Great Zimbabwe heritage experiences",
       "Livingstone/Zambia as an optional extension, with additional time and required passports and visas",
       "Other destinations and experiences on request"
-    ]
+    ],
+    "pricing": {
+      "status": "quote-required",
+      "amount": null,
+      "currency": "USD",
+      "note": "A complete price requires dated accommodation, activities, airport transfers and all regional connections.",
+      "missing": [
+        "Selected services and dated complete operator quotation"
+      ],
+      "extras": [
+        "Park fees are additional; current amount depends on the park, nationality, child ages and travel dates."
+      ]
+    }
   }
 ];

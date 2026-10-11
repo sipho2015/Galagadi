@@ -15,6 +15,7 @@ const nextConfig: NextConfig = {
   },
   async redirects() {
     return [
+      { source: "/safaris/12-day-hwange-victoria-falls-chobe-okavango", destination: "/safaris/southern-africa-signature-safari", permanent: true },
       {
         source: "/activities/hwange-day-safari",
         destination: "/safaris/hwange-full-day-safari",
@@ -48,17 +49,17 @@ const nextConfig: NextConfig = {
     },
     {
         "source": "/safaris/8-day-victoria-falls-chobe-makgadikgadi-okavango",
-        "destination": "/safaris/12-day-hwange-victoria-falls-chobe-okavango",
+        "destination": "/safaris/southern-africa-signature-safari",
         "permanent": true
     },
     {
         "source": "/safaris/8-day-okavango-moremi-savuti-chobe-victoria-falls",
-        "destination": "/safaris/12-day-hwange-victoria-falls-chobe-okavango",
+        "destination": "/safaris/southern-africa-signature-safari",
         "permanent": true
     },
     {
         "source": "/safaris/8-day-chobe-elephant-sands-okavango-victoria-falls",
-        "destination": "/safaris/12-day-hwange-victoria-falls-chobe-okavango",
+        "destination": "/safaris/southern-africa-signature-safari",
         "permanent": true
     },
     {

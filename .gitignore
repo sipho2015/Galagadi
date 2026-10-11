@@ -34,3 +34,8 @@ coverage/
 *.pem
 *.key
 *.cert
+
+# Confidential supplier material belongs outside this repository.
+private-costing/
+supplier-rate-sheets/
+costing-worksheet*

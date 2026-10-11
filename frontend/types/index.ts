@@ -26,6 +26,9 @@ export type ItineraryStep = {
 };
 
 export type ItineraryDay = {
+  overnight?: string;
+  includedActivities?: string[];
+  optionalActivities?: string[];
   location?: string;
   schedule?: { time: string; title: string; description: string }[];
   accommodation?: string[];
@@ -39,6 +42,11 @@ export type ItineraryDay = {
 };
 
 export type SafariPackage = ContentItem & {
+  days?: number;
+  nights?: number;
+  fallsNights?: number;
+  minimumAdults?: number;
+  pricing?: { status: "calculated" | "estimate" | "quote-required"; amount: number | null; currency: "USD"; note: string; missing: string[]; extras: string[] };
   isTailorMade?: boolean;
   subtitle?: string;
   cardSummary?: string;
@@ -77,7 +85,10 @@ export type Accommodation = {
   type: string;
   description: string;
   image: string;
-  sample: true;
+  sample?: true;
+  source?: string;
+  options?: string[];
+  notes?: string[];
 };
 
 export type FAQItem = {

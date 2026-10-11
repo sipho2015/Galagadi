@@ -6,6 +6,9 @@ import { Button } from "@/components/ui/button";
 import { safaris } from "@/data/safaris";
 import { whatsappUrl } from "@/lib/contact";
 import { findBySlug } from "@/lib/utils";
+import { PackagePricePanel } from "@/components/PackagePricePanel";
+import { AccommodationRates } from "@/components/AccommodationRates";
+import { stayOptions } from "@/data/package-pricing";
 
 export function generateStaticParams() {
   return safaris.map(({ slug }) => ({ slug }));
@@ -37,7 +40,7 @@ export default async function SafariDetail({ params }: { params: Promise<{ slug:
   const facts = [
     safari.location && { label: "Location", value: safari.location },
     safari.duration && { label: "Duration", value: safari.duration },
-    safari.price && { label: "Starting price", value: safari.price },
+    safari.price && { label: "Package price (USD)", value: safari.price },
     safari.startTime && { label: "Start", value: safari.startTime },
     safari.finishTime && { label: "Finish", value: safari.finishTime },
     safari.experienceType && { label: "Experience type", value: safari.experienceType },
@@ -66,11 +69,13 @@ export default async function SafariDetail({ params }: { params: Promise<{ slug:
         <div className="package-detail-main">
           <section id="overview" className="package-overview" aria-labelledby="overview-title"><p className="eyebrow">Package overview</p><h2 id="overview-title">Your journey at a glance.</h2><p className="large-text">{safari.summary}</p>{safari.description.split("\n\n").map(paragraph => <p key={paragraph}>{paragraph}</p>)}{safari.route && !isStructuredJourney && <><h3>Your route</h3><p>{safari.route}</p></>}</section>
           <ListSection eyebrow="The journey" title={safari.showDayAtGlance ? "Experience Highlights" : "Highlights"} items={safari.highlights} />
-          {isStructuredJourney && <section id="journey-route" className="package-detail-block"><p className="eyebrow">Zimbabwe to Botswana</p><h2>Journey Route</h2><p>{safari.route}</p></section>}
+          <PackagePricePanel safari={safari} />
+          {!!safari.fallsNights && <section className="package-detail-block"><h2>Falls room and meal options</h2><AccommodationRates optionIds={stayOptions.map(option => option.id)} /></section>}
+          {isStructuredJourney && <section id="journey-route" className="package-detail-block"><p className="eyebrow">Your route</p><h2>Journey Route</h2><p>{safari.route}</p></section>}
           {safari.inclusionsBeforeItinerary && <div id="package-inclusions">{inclusionSections}</div>}
           {safari.showDayAtGlance && safari.itinerary?.length ? <section id="day-at-a-glance" className="package-detail-block" aria-labelledby="day-at-a-glance-title"><p className="eyebrow">{isStructuredJourney ? "Your week on safari" : "From sunrise to evening"}</p><h2 id="day-at-a-glance-title">{safari.glanceTitle ?? "Day at a Glance"}</h2><ol className="package-list">{safari.itinerary.map((item, index) => <li key={item.title}><a href={`#itinerary-step-${index}`}><strong>{item.day}</strong><br />{item.title}</a>{item.glance && <p>{item.glance.join(" \u00b7 ")}</p>}</li>)}</ol></section> : null}
           {safari.itinerary?.length ? <section id="itinerary" className="package-detail-block" aria-labelledby="itinerary-title"><p className="eyebrow">{safari.itineraryEyebrow ?? (safari.showDayAtGlance ? "Your full-day experience" : "Day by day")}</p><h2 id="itinerary-title">{safari.itineraryTitle ?? (safari.showDayAtGlance ? "Full Detailed Itinerary" : "Your itinerary")}</h2><p>{safari.itineraryIntro ?? (safari.showDayAtGlance ? "Explore each experience in your day, from the elephant breakfast to dinner on the Zambezi." : "Select a day to explore the plan.")}</p><ol className="itinerary-list">{safari.itinerary.map((item, index) => <li id={safari.showDayAtGlance ? `itinerary-step-${index}` : undefined} key={`${item.day}-${item.title}`}><details open={(!isStructuredJourney && safari.showDayAtGlance) || index === 0}><summary><span className="itinerary-day">{item.day}</span><span>{item.title}</span><span className="itinerary-toggle" aria-hidden="true">+</span></summary><p>{item.heading && <><strong className="tag">{item.heading}</strong><br /></>}{item.location && <><strong>{item.location}</strong><br /></>}{item.description}</p>
-                {item.schedule?.length ? <div className="package-overview"><ol className="itinerary-list">{item.schedule.map(stop => <li key={stop.time + stop.title}><details open><summary><span className="itinerary-day">{stop.time}</span><span>{stop.title}</span><span className="itinerary-toggle" aria-hidden="true">+</span></summary><p>{stop.description}</p></details></li>)}</ol><dl className="package-facts">{item.accommodation?.length ? <div><dt>Accommodation</dt><dd>{item.accommodation.join(" / ")}</dd></div> : null}{item.meals?.length ? <div><dt>Meals</dt><dd>{item.meals.join(", ")}</dd></div> : null}{item.travelInformation?.length ? <div><dt>Transfers & durations</dt><dd>{item.travelInformation.map(info => <p key={info}>{info}</p>)}</dd></div> : null}</dl></div> : null}
+                <div className="itinerary-day-details">{item.schedule?.length ? <ol className="itinerary-schedule">{item.schedule.map(stop => <li key={stop.time + stop.title}><strong>{stop.time}: {stop.title}</strong><p>{stop.description}</p></li>)}</ol> : null}<dl className="package-facts"><div><dt>Overnight</dt><dd>{item.overnight ?? item.accommodation?.join(" / ") ?? "To confirm"}</dd></div><div><dt>Meals (B: breakfast, L: lunch, D: dinner)</dt><dd>{item.meals?.join(", ") ?? "To confirm"}</dd></div><div><dt>Transport</dt><dd>{item.travelInformation?.join(" ") ?? "To confirm"}</dd></div><div><dt>Planned activities</dt><dd>{item.includedActivities?.join(" · ") ?? "See programme"}</dd></div><div><dt>Optional, separately quoted</dt><dd>{item.optionalActivities?.length ? item.optionalActivities.join(" · ") : "None scheduled"}</dd></div></dl></div>
               </details></li>)}</ol></section> : null}
           {!isStructuredJourney && <div id="package-details" className="package-detail-grid"><ListSection title="Accommodation" items={safari.accommodation} /><ListSection title="Meals" items={safari.meals} /><ListSection title="Activities included" items={safari.activitiesIncluded} /><ListSection title="Optional experiences" items={safari.optionalExperiences} /></div>}
           {!safari.inclusionsBeforeItinerary && <div id={isStructuredJourney ? "package-details" : undefined}>{inclusionSections}</div>}
@@ -81,7 +86,7 @@ export default async function SafariDetail({ params }: { params: Promise<{ slug:
         </div>
         <aside className="package-detail-aside">
           {facts.length > 0 && <dl className="package-facts">{facts.map(fact => <div key={fact.label}><dt>{fact.label}</dt><dd>{fact.value}</dd></div>)}</dl>}
-          <div id="package-enquiry" className="package-enquiry"><p className="eyebrow">Plan with Galagadi</p><h2>Make this journey yours.</h2><p>Tell us your dates and travel preferences. We'll help shape the details around you.</p><div className="package-enquiry-actions"><Button href={enquiryHref}>{enquiryLabel}</Button><a className="button button-secondary package-plan-button" href={whatsappUrl(`Hello Galagadi Tours & Safari, I would like to enquire about ${safari.title}.`)} target="_blank" rel="noreferrer">Chat on WhatsApp</a></div></div>
+          <div id="package-enquiry" className="package-enquiry"><p className="eyebrow">Plan with Galagadi</p><h2>Make this journey yours.</h2><p>Tell us your dates and travel preferences. We'll help shape the details around you.</p><div className="package-enquiry-actions"><Button href={enquiryHref}>{enquiryLabel}</Button><a className="button button-secondary package-plan-button" href={`mailto:booking@galagadisafari.com?subject=${encodeURIComponent(`Enquiry: ${safari.title}`)}&body=${encodeURIComponent(`I would like a quotation for ${safari.title}.\nPackage price: ${safari.price}.\nArrival/departure:\nAdults and room allocation:\nChildren and ages:\nAccommodation:\nShared/private preference:\nOptional activities:\nThis is an enquiry, not a confirmed booking.`)}`}>Enquire by email</a><a className="button button-secondary package-plan-button" href={whatsappUrl(`Hello Galagadi Tours & Safari, I would like to enquire about ${safari.title}. Package price: ${safari.price}. Please help confirm dates, rooms, traveller ages and shared/private services.`)} target="_blank" rel="noreferrer">Chat on WhatsApp</a></div></div>
         </aside>
       </div>
     </section>

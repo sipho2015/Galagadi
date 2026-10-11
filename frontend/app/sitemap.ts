@@ -4,6 +4,7 @@ import { safaris } from "@/data/safaris";
 import { destinations } from "@/data/destinations";
 import { activities } from "@/data/activities";
 import { blogPosts } from "@/data/blog";
+import { accommodations } from "@/data/accommodations";
 
 const baseUrl = siteUrl;
 
@@ -28,6 +29,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     ...blogPosts.map(post => ({ url: baseUrl + "/blog/" + post.slug, lastModified: new Date(post.updated ?? post.published), changeFrequency: "monthly" as const, priority: 0.7 })),
     ...staticPaths.map(([path, priority]) => ({ url: baseUrl + path, changeFrequency: "monthly" as const, priority })),
     ...safaris.map(item => ({ url: baseUrl + "/safaris/" + item.slug, changeFrequency: "monthly" as const, priority: 0.8 })),
+    ...accommodations.map(item => ({ url: baseUrl + "/accommodation/" + item.slug, changeFrequency: "monthly" as const, priority: 0.7 })),
     ...destinations.map(item => ({ url: baseUrl + "/destinations/" + item.slug, changeFrequency: "monthly" as const, priority: 0.7 })),
     ...activities.map(item => ({ url: baseUrl + "/activities/" + item.slug, changeFrequency: "monthly" as const, priority: 0.7 }))
   ];
