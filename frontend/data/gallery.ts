@@ -10,6 +10,11 @@ export type GalleryImage = {
 
 // Keep one entry per photo, even when the same file appears in multiple folders.
 export const galleryImages: GalleryImage[] = [
+  { category: "Activities", title: "White water rafting", detail: "Rafting on the Zambezi River.", image: "/images/activities/White water rafting.jpg" },
+  { category: "Activities", title: "Raft adventure", detail: "A Zambezi rafting experience.", image: "/images/activities/raft.jpg" },
+  { category: "Activities", title: "Zambezi rafting", detail: "White water adventures on the river.", image: "/images/activities/rafting.jpg" },
+  { category: "Activities", title: "Bungee jumping", detail: "A bungee adventure at Victoria Falls.", image: "/images/activities/bungee.jpg" },
+  { category: "Activities", title: "Victoria Falls town tour", detail: "Explore Victoria Falls town.", image: "/images/activities/Victoria Falls town tour.jpg" },
   // Replace this stock photo with an approved Galagadi fleet image when available.
   { category: "Transfers", title: "Transfer vehicle inspiration", detail: "Illustrative vehicle photo. Actual transfer vehicles are confirmed when booking.", image: "https://images.unsplash.com/photo-1535655685871-dc8158ff167e?auto=format&fit=crop&w=1400&q=82", credit: { name: "Fachy Marin / Unsplash", url: "https://unsplash.com/photos/p_ILi6tlMwM" } },
   {"category":"Wildlife","title":"Elephant country","detail":"Wildlife and birdlife from our safari photo collection.","image":"/images/gallery/Elephant_along_zambezi.jpg"},
@@ -21,14 +26,14 @@ export const galleryImages: GalleryImage[] = [
   {"category":"Activities","title":"Jet boat adventure","detail":"Discover the activities you can include in your trip.","image":"/images/activities/JetBoat2.jpeg"},
   {"category":"Wildlife","title":"Rhino encounter","detail":"Wildlife and birdlife from our safari photo collection.","image":"/images/gallery/Rhino_Hwange.jpeg"},
   {"category":"Activities","title":"Sunset cruise","detail":"Discover the activities you can include in your trip.","image":"/images/activities/SunsetCruise.jpg"},
-  {"category":"Accommodation","title":"Pusnak Lodge","detail":"A look at the accommodation in our photo collection.","image":"/images/accommodation/pusnak-lodge-.jpg"},
+  {"category":"Accommodation","title":"Insika Lodge","detail":"Insika Lodge in Victoria Falls.","image":"/images/accommodation/Insika.jpg"},
   {"category":"Safari","title":"Night game drive","detail":"A glimpse of the safari experiences featured on our site.","image":"/images/gallery/Night_Game.jpg"},
   {"category":"Falls","title":"Mist and rainforest","detail":"Explore the views around Victoria Falls.","image":"/images/gallery/Rain_forest.jpg"},
   {"category":"Activities","title":"Simunye theatre","detail":"Discover the activities you can include in your trip.","image":"/images/activities/SimunyeTheatre.jpeg"},
   {"category":"Activities","title":"Boma dinner","detail":"Discover the activities you can include in your trip.","image":"/images/activities/Boma Dinner.jpg"},
   {"category":"Activities","title":"Elephant interaction","detail":"Discover the activities you can include in your trip.","image":"/images/activities/Elephant_Interaction.jpg"},
   {"category":"Activities","title":"Walk with the lions","detail":"Discover the activities you can include in your trip.","image":"/images/activities/Walk_with lions.jpg"},
-  {"category":"Activities","title":"Helicopter flight","detail":"Discover the activities you can include in your trip.","image":"/images/activities/helicopter ride.jpg"},
+  {"category":"Activities","title":"Helicopter flight","detail":"Discover the activities you can include in your trip.","image":"/images/activities/helicopter.jpg"},
   {"category":"Activities","title":"Helicopter experience","detail":"Discover the activities you can include in your trip.","image":"/images/activities/Heli_Ride.jpg"},
   {"category":"Activities","title":"Ready for take-off","detail":"Discover the activities you can include in your trip.","image":"/images/activities/helicopter.jpg"},
   {"category":"Activities","title":"Jet boat on the river","detail":"Discover the activities you can include in your trip.","image":"/images/activities/Jetboat.jpg"},
@@ -43,5 +48,5 @@ export const galleryImages: GalleryImage[] = [
   {"category":"Wildlife","title":"Monkey encounter","detail":"Wildlife and birdlife from our safari photo collection.","image":"/images/gallery/Monkey.jpeg"},
   {"category":"Wildlife","title":"Wildebeest on safari","detail":"Wildlife and birdlife from our safari photo collection.","image":"/images/safaris/Pm_Gme-Drive.jpeg"},
   {"category":"Wildlife","title":"Buffalo on safari","detail":"Wildlife and birdlife from our safari photo collection.","image":"/images/safaris/Pm_Game-Drive.jpeg"},
-  {"category":"River","title":"Sunset views","detail":"River scenery and quieter moments along the journey.","image":"/images/accommodation/SunsetView.jpg"},
+  {"category":"Accommodation","title":"Shearwater Explorers Village","detail":"Shearwater Explorers Village in Victoria Falls.","image":"/images/accommodation/shearwater explorers village.jpg"},
 ];

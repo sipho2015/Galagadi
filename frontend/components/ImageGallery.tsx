@@ -27,7 +27,7 @@ export function ImageGallery() {
     </div>
     <p role="status" aria-live="polite">{visibleImages.length} photos{filter !== "All" ? ` in ${filter.toLowerCase()}` : " across all experiences"}</p>
     <div className="gallery-grid">
-      {visibleImages.map(item => <figure key={item.image}>
+      {visibleImages.map(item => <figure key={JSON.stringify([item.category, item.title, item.image])}>
         <button className="gallery-image-button" type="button" onClick={() => setSelectedImage(item)} aria-label={`View ${item.title} details`}>
           <Image src={item.image} alt={item.title} fill sizes="(max-width: 580px) calc(50vw - 22px), (max-width: 880px) calc(50vw - 30px), 560px" />
           <span className="gallery-view-label">View image</span>

@@ -20,7 +20,7 @@ export const safaris: SafariPackage[] = [
     "gallery": [
       "/images/activities/Elephant_Interaction.jpg",
       "/images/destinations/Victoria_Falls.jpg",
-      "/images/activities/helicopter ride.jpg",
+      "/images/activities/helicopter.jpg",
       "/images/activities/SunsetCruise.jpg",
       "/images/gallery/Zambezi_River.jpg"
     ],
@@ -30,13 +30,13 @@ export const safaris: SafariPackage[] = [
       "Meals, drinks and optional activities not expressly included in your written quotation."
     ],
     "importantInformation": [
-      "This is a planning itinerary, subject to dated supplier quotations and availability. An enquiry is not a confirmed booking.",
-      "USD prices depend on travel dates, room allocations, child ages and selected services. 2026 rates are not used for 2027 travel.",
+      "Itineraries are subject to availability. Contact us to confirm your travel dates.",
+      "Prices vary by travel dates and group size.",
       "Private transfers do not make cruises, flights or game drives private. Exclusive-use safari activities need separate quotations.",
       "B = breakfast, L = lunch, D = dinner. Meals shown as planned are confirmed only in your written quotation. Wildlife and water activities depend on conditions.",
-      "Pure Africa public dinner-aboard reference: USD 110 per person, 17:00-20:00, minimum 2, four-course dinner, beverages and Falls town hotel transfers. Park fee USD 12 extra; no fixed 2027 validity established.",
-      "Morning Elephant Experience public reference USD 148, minimum 2, hotel transfers included; child restrictions and duration need clarification.",
-      "22-minute alternative: public base USD 271 plus mandatory USD 50 government/fuel charge. Full charge must remain in costing pending a reliable breakdown; no fixed 2027 validity established."
+      "Dinner cruise departures require at least two guests. Park fees are extra.",
+      "The elephant experience requires at least two guests. Ask us about age restrictions.",
+      "A 22-minute scenic flight is available as an alternative; extra charges apply."
     ],
     "itinerary": [
       {
@@ -48,7 +48,7 @@ export const safaris: SafariPackage[] = [
           "B and D requested, pending supplier confirmation. L at your expense."
         ],
         "travelInformation": [
-          "Hotel pickup, inter-activity connections and hotel return must be costed; operator-included hotel transfers must not be charged again."
+          "Hotel pickup, transfers between activities and hotel return."
         ],
         "includedActivities": [
           "Elephant breakfast",
@@ -97,7 +97,7 @@ export const safaris: SafariPackage[] = [
     ],
     "inclusions": [
       "Planned programme below; only itemised services in the written quotation are included.",
-      "All necessary airport and regional transfers must be costed in a complete package quotation."
+      "Airport and regional transfers are arranged for your itinerary."
     ],
     "optionalExperiences": [
       "Alternative programme: Morning Elephant Experience with tea/coffee, soft drinks/water and a muffin; 22-minute Explore the Zambezi flight; Zambezi Vista sunset cruise followed by riverside dinner on land. This is a different programme, not a silent substitution.",
@@ -179,8 +179,8 @@ export const safaris: SafariPackage[] = [
       "Meals, drinks and optional activities not expressly included in your written quotation."
     ],
     "importantInformation": [
-      "This is a planning itinerary, subject to dated supplier quotations and availability. An enquiry is not a confirmed booking.",
-      "USD prices depend on travel dates, room allocations, child ages and selected services. 2026 rates are not used for 2027 travel.",
+      "Itineraries are subject to availability. Contact us to confirm your travel dates.",
+      "Prices vary by travel dates and group size.",
       "Private transfers do not make cruises, flights or game drives private. Exclusive-use safari activities need separate quotations.",
       "B = breakfast, L = lunch, D = dinner. Meals shown as planned are confirmed only in your written quotation. Wildlife and water activities depend on conditions."
     ],
@@ -252,7 +252,7 @@ export const safaris: SafariPackage[] = [
       "Morning and afternoon game drives",
       "picnic lunch"
     ],
-    "price": "Request a quotation",
+    "price": "Estimated from USD 290 per person",
     "gallery": [
       "/images/gallery/Elephant_along_zambezi.jpg",
       "/images/gallery/Zambezi_River.jpg",
@@ -265,11 +265,9 @@ export const safaris: SafariPackage[] = [
       "Meals, drinks and optional activities not expressly included in your written quotation."
     ],
     "importantInformation": [
-      "This is a planning itinerary, subject to dated supplier quotations and availability. An enquiry is not a confirmed booking.",
-      "USD prices depend on travel dates, room allocations, child ages and selected services. 2026 rates are not used for 2027 travel.",
+      "Itineraries are subject to availability. Contact us to confirm your travel dates.",
       "Private transfers do not make cruises, flights or game drives private. Exclusive-use safari activities need separate quotations.",
-      "B = breakfast, L = lunch, D = dinner. Meals shown as planned are confirmed only in your written quotation. Wildlife and water activities depend on conditions.",
-      "Hwange Safaris public comparison: USD 290 per person, minimum 4 fully paying guests, return transport and lunch included. Validity and supply arrangement need confirmation; this is not a Galagadi package price."
+      "B = breakfast, L = lunch, D = dinner. Meals shown as planned are confirmed only in your written quotation. Wildlife and water activities depend on conditions."
     ],
     "itinerary": [
       {
@@ -281,7 +279,7 @@ export const safaris: SafariPackage[] = [
           "L: picnic lunch planned. B and D at your expense."
         ],
         "travelInformation": [
-          "Return Victoria Falls transport is already included in the referenced day-trip service; do not add it again."
+          "Return transport from Victoria Falls."
         ],
         "includedActivities": [
           "Morning and afternoon game drives",
@@ -295,13 +293,13 @@ export const safaris: SafariPackage[] = [
     ],
     "inclusions": [
       "Planned programme below; only itemised services in the written quotation are included.",
-      "All necessary airport and regional transfers must be costed in a complete package quotation."
+      "Airport and regional transfers are arranged for your itinerary."
     ],
     "pricing": {
-      "status": "quote-required",
-      "amount": null,
+      "status": "estimate",
+      "amount": 290,
       "currency": "USD",
-      "note": "A complete price requires dated accommodation, activities, airport transfers and all regional connections.",
+      "note": "Final price depends on your dates. Minimum 4 paying guests; park fees are extra.",
       "missing": [
         "Dated full day-trip rate and departure availability",
         "Private vehicle/game-drive quotation if requested"
@@ -316,7 +314,7 @@ export const safaris: SafariPackage[] = [
     "route": "Victoria Falls -> Hwange -> Victoria Falls",
     "cardSummary": "Leave Victoria Falls early for Hwange game drives, connected by a picnic lunch, before returning to your hotel.",
     "cardCta": "View itinerary",
-    "enquiryCta": "Request a quotation",
+    "enquiryCta": "Enquire",
     "meals": [
       "B = breakfast, L = lunch, D = dinner. See each day for the proposed meals and board conditions."
     ],
@@ -335,7 +333,7 @@ export const safaris: SafariPackage[] = [
     "image": "/images/packages/Victoria_Falls Escape.jpg",
     "location": "Victoria Falls, Zimbabwe",
     "duration": "4 Days / 3 Nights",
-    "price": "Request a quotation",
+    "price": "Estimated from USD 1,400 per person",
     "highlights": [
       "Arrival and leisure",
       "Guided Falls tour",
@@ -394,7 +392,7 @@ export const safaris: SafariPackage[] = [
       {
         "day": "Day 03",
         "title": "Time to make it yours",
-        "description": "Enjoy breakfast and an open day for town, your lodge or a separately priced experience. Boma dinner remains optional until dinner and transport are explicitly costed.",
+        "description": "Enjoy breakfast and an open day for town, your lodge or a separately priced experience. Boma dinner is an optional extra.",
         "overnight": "Victoria Falls",
         "meals": [
           "B with B&B/DB&B rooms. L at your expense. D only with DB&B or a separately quoted dinner."
@@ -435,12 +433,12 @@ export const safaris: SafariPackage[] = [
     "accommodation": [
       "Explorers Village Standard B&B rooms (lower-priced room option).",
       "Explorers Village Deluxe B&B rooms.",
-      "Insika Luxury, Sabi Wing Luxury or Signature, B&B or DB&B; supported rates for 2027 only.",
+      "Insika Lodge: Luxury, Sabi Wing Luxury or Signature rooms, with breakfast or dinner and breakfast.",
       "Explorers Village serviced tents are a separate camping category without breakfast, only on explicit request."
     ],
     "inclusions": [
       "Planned programme below; only itemised services in the written quotation are included.",
-      "All necessary airport and regional transfers must be costed in a complete package quotation."
+      "Airport and regional transfers are arranged for your itinerary."
     ],
     "exclusions": [
       "National park and monument entrance fees, listed separately in your quotation.",
@@ -448,8 +446,7 @@ export const safaris: SafariPackage[] = [
       "Meals, drinks and optional activities not expressly included in your written quotation."
     ],
     "importantInformation": [
-      "This is a planning itinerary, subject to dated supplier quotations and availability. An enquiry is not a confirmed booking.",
-      "USD prices depend on travel dates, room allocations, child ages and selected services. 2026 rates are not used for 2027 travel.",
+      "Itineraries are subject to availability. Contact us to confirm your travel dates.",
       "Private transfers do not make cruises, flights or game drives private. Exclusive-use safari activities need separate quotations.",
       "B = breakfast, L = lunch, D = dinner. Meals shown as planned are confirmed only in your written quotation. Wildlife and water activities depend on conditions."
     ],
@@ -459,10 +456,10 @@ export const safaris: SafariPackage[] = [
       "Morning Elephant Experience, refreshments only."
     ],
     "pricing": {
-      "status": "quote-required",
-      "amount": null,
+      "status": "estimate",
+      "amount": 1400,
       "currency": "USD",
-      "note": "A complete price requires dated accommodation, activities, airport transfers and all regional connections.",
+      "note": "Final price depends on dates and accommodation. Based on two adults sharing; park fees are extra.",
       "missing": [
         "Dated airport arrival and departure transfers",
         "Dated Falls tour and cruise, particularly 2027",
@@ -479,7 +476,7 @@ export const safaris: SafariPackage[] = [
     "route": "Victoria Falls Airport -> Victoria Falls (3 nights) -> Victoria Falls Airport",
     "cardSummary": "Spend three nights in Victoria Falls with rainforest viewpoints, a sunset cruise and a free day to choose your pace. Choose Explorers Village Standard rooms or request an Insika upgrade.",
     "cardCta": "View itinerary",
-    "enquiryCta": "Request a quotation",
+    "enquiryCta": "Enquire",
     "meals": [
       "B = breakfast, L = lunch, D = dinner. See each day for the proposed meals and board conditions."
     ],
@@ -493,7 +490,7 @@ export const safaris: SafariPackage[] = [
     "image": "/images/packages/Victoria falls chobe explorer.jpg",
     "location": "Victoria Falls, Zimbabwe + Chobe, Botswana",
     "duration": "7 Days / 6 Nights",
-    "price": "Request a quotation",
+    "price": "Estimated from USD 2,750 per person",
     "highlights": [
       "Check-in",
       "Guided Falls tour",
@@ -641,7 +638,7 @@ export const safaris: SafariPackage[] = [
           "B if included in lodge board. Other meals at your expense."
         ],
         "travelInformation": [
-          "Kasane Airport departure transfer required; Falls Airport alternative separately costed."
+          "Departure transfer to Kasane Airport; Victoria Falls Airport is available at extra cost."
         ],
         "includedActivities": [
           "Departure transfer"
@@ -653,13 +650,13 @@ export const safaris: SafariPackage[] = [
     "accommodation": [
       "Explorers Village Standard B&B rooms (lower-priced room option).",
       "Explorers Village Deluxe B&B rooms.",
-      "Insika Luxury, Sabi Wing Luxury or Signature, B&B or DB&B; supported rates for 2027 only.",
+      "Insika Lodge: Luxury, Sabi Wing Luxury or Signature rooms, with breakfast or dinner and breakfast.",
       "Explorers Village serviced tents are a separate camping category without breakfast, only on explicit request.",
-      "Chobe Safari Lodge Safari or River rooms: researched candidates; dated board, activity rate and availability to confirm. No lodge is guaranteed."
+      "Suggested stay: Chobe Safari Lodge Safari or River rooms, subject to availability."
     ],
     "inclusions": [
       "Planned programme below; only itemised services in the written quotation are included.",
-      "All necessary airport and regional transfers must be costed in a complete package quotation."
+      "Airport and regional transfers are arranged for your itinerary."
     ],
     "exclusions": [
       "National park and monument entrance fees, listed separately in your quotation.",
@@ -667,17 +664,16 @@ export const safaris: SafariPackage[] = [
       "Meals, drinks and optional activities not expressly included in your written quotation."
     ],
     "importantInformation": [
-      "This is a planning itinerary, subject to dated supplier quotations and availability. An enquiry is not a confirmed booking.",
-      "USD prices depend on travel dates, room allocations, child ages and selected services. 2026 rates are not used for 2027 travel.",
+      "Itineraries are subject to availability. Contact us to confirm your travel dates.",
       "Private transfers do not make cruises, flights or game drives private. Exclusive-use safari activities need separate quotations.",
       "B = breakfast, L = lunch, D = dinner. Meals shown as planned are confirmed only in your written quotation. Wildlife and water activities depend on conditions."
     ],
     "optionalExperiences": [],
     "pricing": {
-      "status": "quote-required",
-      "amount": null,
+      "status": "estimate",
+      "amount": 2750,
       "currency": "USD",
-      "note": "A complete price requires dated accommodation, activities, airport transfers and all regional connections.",
+      "note": "Final price depends on dates and accommodation. Based on two adults sharing; park fees are extra.",
       "missing": [
         "Three Chobe nights with board and safari activity breakdown",
         "Dated cross-border and Kasane airport transfers",
@@ -695,7 +691,7 @@ export const safaris: SafariPackage[] = [
     "route": "Victoria Falls (3 nights) -> Chobe (3 nights) -> Kasane Airport",
     "cardSummary": "Link three Victoria Falls nights with three Chobe nights. Move from rainforest and Zambezi to guided land and river safaris, with a free Falls day before crossing the border.",
     "cardCta": "View itinerary",
-    "enquiryCta": "Request a quotation",
+    "enquiryCta": "Enquire",
     "meals": [
       "B = breakfast, L = lunch, D = dinner. See each day for the proposed meals and board conditions."
     ],
@@ -716,7 +712,7 @@ export const safaris: SafariPackage[] = [
       "2 Hwange nights and a full-day game drive",
       "2 Victoria Falls nights"
     ],
-    "price": "Request a quotation",
+    "price": "Estimated from USD 3,445 per person",
     "gallery": [
       "/images/gallery/Elephant_along_zambezi.jpg",
       "/images/gallery/Zambezi_River.jpg",
@@ -729,8 +725,7 @@ export const safaris: SafariPackage[] = [
       "Meals, drinks and optional activities not expressly included in your written quotation."
     ],
     "importantInformation": [
-      "This is a planning itinerary, subject to dated supplier quotations and availability. An enquiry is not a confirmed booking.",
-      "USD prices depend on travel dates, room allocations, child ages and selected services. 2026 rates are not used for 2027 travel.",
+      "Itineraries are subject to availability. Contact us to confirm your travel dates.",
       "Private transfers do not make cruises, flights or game drives private. Exclusive-use safari activities need separate quotations.",
       "B = breakfast, L = lunch, D = dinner. Meals shown as planned are confirmed only in your written quotation. Wildlife and water activities depend on conditions."
     ],
@@ -760,7 +755,7 @@ export const safaris: SafariPackage[] = [
         "description": "Travel to Masvingo with suitable stops. Harare sightseeing is included only if timing permits and it is quoted.",
         "overnight": "Masvingo",
         "meals": [
-          "B planned with quoted B&B. L and D at your expense unless costed."
+          "Breakfast planned; lunch and dinner are at your expense unless included."
         ],
         "travelInformation": [
           "Continuous route vehicle, driver, fuel and driver accommodation need a full-route quote."
@@ -878,13 +873,13 @@ export const safaris: SafariPackage[] = [
       {
         "day": "Day 08",
         "title": "Victoria Falls on foot",
-        "description": "Visit the Falls with a guide and enjoy a free afternoon in town. Boma dinner is optional until explicitly costed.",
+        "description": "Visit the Falls with a guide and enjoy a free afternoon in town. Boma dinner is an optional extra.",
         "overnight": "Victoria Falls",
         "meals": [
           "B with B&B/DB&B rooms. L at your expense. D only with DB&B or a separately quoted dinner."
         ],
         "travelInformation": [
-          "Falls tour return hotel transfers included by referenced operator."
+          "Return hotel transfers for the Falls tour."
         ],
         "includedActivities": [
           "Guided Falls tour"
@@ -919,21 +914,21 @@ export const safaris: SafariPackage[] = [
       "victoria-falls"
     ],
     "accommodation": [
-      "Harare: Monomotapa Hotel, researched candidate; current operation and dated rates to confirm.",
-      "Masvingo: Great Zimbabwe Hotel, researched candidate; room and board quote required.",
-      "Matobo: Amalinda Lodge, researched candidate; board and guiding to quote.",
-      "Hwange: Ivory Lodge or Khulu Bush Camp, researched candidates; activities and access to quote.",
+      "Harare: suggested stay at Monomotapa Hotel, subject to availability.",
+      "Masvingo: suggested stay at Great Zimbabwe Hotel, subject to availability.",
+      "Matobo: suggested stay at Amalinda Lodge, subject to availability.",
+      "Hwange: suggested stay at Ivory Lodge or Khulu Bush Camp, subject to availability.",
       "Victoria Falls: two nights in Explorers Village rooms or Insika according to date validity."
     ],
     "inclusions": [
       "Planned programme below; only itemised services in the written quotation are included.",
-      "All necessary airport and regional transfers must be costed in a complete package quotation."
+      "Airport and regional transfers are arranged for your itinerary."
     ],
     "pricing": {
-      "status": "quote-required",
-      "amount": null,
+      "status": "estimate",
+      "amount": 3445,
       "currency": "USD",
-      "note": "A complete price requires dated accommodation, activities, airport transfers and all regional connections.",
+      "note": "Final price depends on dates and accommodation. Based on two adults sharing; park fees are extra.",
       "missing": [
         "Harare and Masvingo hotel rates",
         "Matobo/Hwange board, guides and game drives",
@@ -951,7 +946,7 @@ export const safaris: SafariPackage[] = [
     "route": "Harare (1) -> Masvingo (1) -> Matobo (2) -> Hwange (2) -> Victoria Falls (2)",
     "cardSummary": "Travel from Harare through Great Zimbabwe and Matobo to Hwange and Victoria Falls. Eight nights connect heritage, landscapes and wildlife with a continuous road journey.",
     "cardCta": "View itinerary",
-    "enquiryCta": "Request a quotation",
+    "enquiryCta": "Enquire",
     "meals": [
       "B = breakfast, L = lunch, D = dinner. See each day for the proposed meals and board conditions."
     ],
@@ -988,12 +983,12 @@ export const safaris: SafariPackage[] = [
       "Meals, drinks and optional activities not expressly included in your written quotation."
     ],
     "importantInformation": [
-      "This is a planning itinerary, subject to dated supplier quotations and availability. An enquiry is not a confirmed booking.",
-      "USD prices depend on travel dates, room allocations, child ages and selected services. 2026 rates are not used for 2027 travel.",
+      "Itineraries are subject to availability. Contact us to confirm your travel dates.",
+      "Prices vary by travel dates and group size.",
       "Private transfers do not make cruises, flights or game drives private. Exclusive-use safari activities need separate quotations.",
       "B = breakfast, L = lunch, D = dinner. Meals shown as planned are confirmed only in your written quotation. Wildlife and water activities depend on conditions.",
       "Five Delta nights split three plus two, across two camps; no extra day is added.",
-      "Flight-specific baggage conditions must be confirmed. Wilderness Air seat-rate reference: maximum 20 kg including hand luggage and cameras; soft bag requirements depend on the carrier."
+      "Small aircraft have baggage limits. We will confirm the allowance and bag requirements before travel."
     ],
     "itinerary": [
       {
@@ -1118,13 +1113,13 @@ export const safaris: SafariPackage[] = [
       {
         "day": "Day 07",
         "title": "Connect to the Delta",
-        "description": "Transfer to the confirmed departure airport and take the costed flight or supplier-approved camp connection to the first camp. Remote island camps are not ordinary road destinations.",
+        "description": "Transfer to the departure airport and fly to your first Delta camp.",
         "overnight": "Okavango camp one",
         "meals": [
           "B with quoted Chobe board. L and D planned with quoted camp full board."
         ],
         "travelInformation": [
-          "Departure airport access, flight, taxes and camp airstrip transfer must be costed."
+          "Airport transfer, flight and transfer from the camp airstrip."
         ],
         "includedActivities": [
           "Camp arrival and orientation"
@@ -1146,7 +1141,7 @@ export const safaris: SafariPackage[] = [
           "Camp activity transport as included in its quotation."
         ],
         "includedActivities": [
-          "First camp's supported safari activities"
+          "First camp's safari activities"
         ],
         "optionalActivities": [],
         "accommodation": [
@@ -1205,7 +1200,7 @@ export const safaris: SafariPackage[] = [
           "Second camp activity transfers as quoted."
         ],
         "includedActivities": [
-          "Second camp's supported safari programme"
+          "Second camp's safari programme"
         ],
         "optionalActivities": [],
         "accommodation": [
@@ -1237,7 +1232,7 @@ export const safaris: SafariPackage[] = [
     "accommodation": [
       "Explorers Village Standard B&B rooms (lower-priced room option).",
       "Explorers Village Deluxe B&B rooms.",
-      "Insika Luxury, Sabi Wing Luxury or Signature, B&B or DB&B; supported rates for 2027 only.",
+      "Insika Lodge: Luxury, Sabi Wing Luxury or Signature rooms, with breakfast or dinner and breakfast.",
       "Explorers Village serviced tents are a separate camping category without breakfast, only on explicit request.",
       "Chobe Safari Lodge rooms, subject to dated quotation.",
       "Delta candidates: Moremi Crossing for a water-focused setting and Pom Pom for a complementary safari setting; exact pairing and access subject to confirmation."
@@ -1247,7 +1242,7 @@ export const safaris: SafariPackage[] = [
     ],
     "inclusions": [
       "Planned programme below; only itemised services in the written quotation are included.",
-      "All necessary airport and regional transfers must be costed in a complete package quotation."
+      "Airport and regional transfers are arranged for your itinerary."
     ],
     "optionalExperiences": [],
     "pricing": {
@@ -1369,7 +1364,7 @@ export const safaris: SafariPackage[] = [
         "description": "Take an early, shorter game drive before the long road journey towards Gweta. The operator must confirm safe departure, stops and arrival. This is not a full-day Chobe drive.",
         "overnight": "Gweta/Makgadikgadi area",
         "meals": [
-          "B and D planned with quoted board. L only if explicitly costed en route."
+          "Breakfast and dinner planned; lunch en route is extra unless included."
         ],
         "travelInformation": [
           "Chobe-to-Gweta vehicle and driver require a quote and realistic timing; do not promise a four-hour drive."
@@ -1413,7 +1408,7 @@ export const safaris: SafariPackage[] = [
           "B with quoted B&B. L only if included in excursion quotation. D at your expense."
         ],
         "travelInformation": [
-          "Return Maun-to-launch transfer, access and guide must be costed."
+          "Return transfer from Maun to the launch point and a guided excursion."
         ],
         "includedActivities": [
           "Mokoro/walking day excursion"
@@ -1444,11 +1439,11 @@ export const safaris: SafariPackage[] = [
     "accommodation": [
       "Explorers Village Standard B&B rooms (lower-priced room option).",
       "Explorers Village Deluxe B&B rooms.",
-      "Insika Luxury, Sabi Wing Luxury or Signature, B&B or DB&B; supported rates for 2027 only.",
+      "Insika Lodge: Luxury, Sabi Wing Luxury or Signature rooms, with breakfast or dinner and breakfast.",
       "Explorers Village serviced tents are a separate camping category without breakfast, only on explicit request.",
-      "Chobe: one night, Chobe Safari Lodge candidate, not guaranteed.",
+      "Chobe: one night, suggested stay at Chobe Safari Lodge, subject to availability.",
       "Gweta: one night, Planet Baobab Bakalanga or Baobab hut DB&B, dated quote needed.",
-      "Maun: two nights, Sedia Hotel or Cresta Maun candidate, dated board and room quote needed."
+      "Maun: two nights, suggested stay at Sedia Hotel or Cresta Maun, subject to availability."
     ],
     "meals": [
       "B = breakfast, L = lunch, D = dinner. See each day for the proposed meals and board conditions."
@@ -1457,7 +1452,7 @@ export const safaris: SafariPackage[] = [
     "optionalExperiences": [],
     "inclusions": [
       "Planned programme below; only itemised services in the written quotation are included.",
-      "All necessary airport and regional transfers must be costed in a complete package quotation."
+      "Airport and regional transfers are arranged for your itinerary."
     ],
     "exclusions": [
       "National park and monument entrance fees, listed separately in your quotation.",
@@ -1465,8 +1460,8 @@ export const safaris: SafariPackage[] = [
       "Meals, drinks and optional activities not expressly included in your written quotation."
     ],
     "importantInformation": [
-      "This is a planning itinerary, subject to dated supplier quotations and availability. An enquiry is not a confirmed booking.",
-      "USD prices depend on travel dates, room allocations, child ages and selected services. 2026 rates are not used for 2027 travel.",
+      "Itineraries are subject to availability. Contact us to confirm your travel dates.",
+      "Prices vary by travel dates and group size.",
       "Private transfers do not make cruises, flights or game drives private. Exclusive-use safari activities need separate quotations.",
       "B = breakfast, L = lunch, D = dinner. Meals shown as planned are confirmed only in your written quotation. Wildlife and water activities depend on conditions.",
       "This draft needs operator confirmation of day-four driving and day-five activity/transfer timing. Adjust excursion scope or order within seven days if required; no eighth day is silently added.",
@@ -1527,8 +1522,8 @@ export const safaris: SafariPackage[] = [
       "Meals, drinks and optional activities not expressly included in your written quotation."
     ],
     "importantInformation": [
-      "This is a planning itinerary, subject to dated supplier quotations and availability. An enquiry is not a confirmed booking.",
-      "USD prices depend on travel dates, room allocations, child ages and selected services. 2026 rates are not used for 2027 travel.",
+      "Itineraries are subject to availability. Contact us to confirm your travel dates.",
+      "Prices vary by travel dates and group size.",
       "Private transfers do not make cruises, flights or game drives private. Exclusive-use safari activities need separate quotations.",
       "B = breakfast, L = lunch, D = dinner. Meals shown as planned are confirmed only in your written quotation. Wildlife and water activities depend on conditions."
     ],

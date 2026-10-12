@@ -1,3 +1,4 @@
+import { displayPrice } from "@/lib/price-display";
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import type { Metadata } from "next";
@@ -6,9 +7,6 @@ import { Button } from "@/components/ui/button";
 import { safaris } from "@/data/safaris";
 import { whatsappUrl } from "@/lib/contact";
 import { findBySlug } from "@/lib/utils";
-import { PackagePricePanel } from "@/components/PackagePricePanel";
-import { AccommodationRates } from "@/components/AccommodationRates";
-import { stayOptions } from "@/data/package-pricing";
 
 export function generateStaticParams() {
   return safaris.map(({ slug }) => ({ slug }));
@@ -40,7 +38,7 @@ export default async function SafariDetail({ params }: { params: Promise<{ slug:
   const facts = [
     safari.location && { label: "Location", value: safari.location },
     safari.duration && { label: "Duration", value: safari.duration },
-    safari.price && { label: "Package price (USD)", value: safari.price },
+    safari.price && { label: "Package price per person", value: displayPrice(safari.price) },
     safari.startTime && { label: "Start", value: safari.startTime },
     safari.finishTime && { label: "Finish", value: safari.finishTime },
     safari.experienceType && { label: "Experience type", value: safari.experienceType },
@@ -51,13 +49,14 @@ export default async function SafariDetail({ params }: { params: Promise<{ slug:
   const relatedPackages = safaris.filter(({ slug }) => slug !== safari.slug);
 
   return <>
-    <section className="detail-image package-detail-hero" style={{ backgroundImage: `linear-gradient(rgba(44,33,24,.28),rgba(44,33,24,.72)),url(${safari.image})` }}>
+    <section className="detail-image package-detail-hero" style={{ backgroundImage: `linear-gradient(rgba(44,33,24,.28),rgba(44,33,24,.72)),url("${encodeURI(safari.image)}")` }}>
       <div className="container">
         <Link className="package-back" href="/experiences#packages">&larr; All packages</Link>
         <p className="eyebrow">Safari package{safari.location ? ` \u00b7 ${safari.location}` : ""}</p>
         <h1>{safari.title}</h1>
         {safari.subtitle && <p className="large-text">{safari.subtitle}</p>}
         <p className="package-hero-summary">{safari.summary}</p>
+        {safari.pricing?.status === "estimate" && <p>{safari.pricing.note}</p>}
         {isStructuredJourney && <p>{safari.route}</p>}
         <dl className="package-hero-facts">{facts.map(fact => <div key={fact.label}><dt>{fact.label}</dt><dd>{fact.value}</dd></div>)}</dl>
         <div className="hero-actions"><Button href={enquiryHref}>{enquiryLabel}</Button><Button href={safari.itinerary?.length ? "#itinerary" : "#overview"} variant="secondary">Explore the journey</Button></div>
@@ -69,8 +68,6 @@ export default async function SafariDetail({ params }: { params: Promise<{ slug:
         <div className="package-detail-main">
           <section id="overview" className="package-overview" aria-labelledby="overview-title"><p className="eyebrow">Package overview</p><h2 id="overview-title">Your journey at a glance.</h2><p className="large-text">{safari.summary}</p>{safari.description.split("\n\n").map(paragraph => <p key={paragraph}>{paragraph}</p>)}{safari.route && !isStructuredJourney && <><h3>Your route</h3><p>{safari.route}</p></>}</section>
           <ListSection eyebrow="The journey" title={safari.showDayAtGlance ? "Experience Highlights" : "Highlights"} items={safari.highlights} />
-          <PackagePricePanel safari={safari} />
-          {!!safari.fallsNights && <section className="package-detail-block"><h2>Falls room and meal options</h2><AccommodationRates optionIds={stayOptions.map(option => option.id)} /></section>}
           {isStructuredJourney && <section id="journey-route" className="package-detail-block"><p className="eyebrow">Your route</p><h2>Journey Route</h2><p>{safari.route}</p></section>}
           {safari.inclusionsBeforeItinerary && <div id="package-inclusions">{inclusionSections}</div>}
           {safari.showDayAtGlance && safari.itinerary?.length ? <section id="day-at-a-glance" className="package-detail-block" aria-labelledby="day-at-a-glance-title"><p className="eyebrow">{isStructuredJourney ? "Your week on safari" : "From sunrise to evening"}</p><h2 id="day-at-a-glance-title">{safari.glanceTitle ?? "Day at a Glance"}</h2><ol className="package-list">{safari.itinerary.map((item, index) => <li key={item.title}><a href={`#itinerary-step-${index}`}><strong>{item.day}</strong><br />{item.title}</a>{item.glance && <p>{item.glance.join(" \u00b7 ")}</p>}</li>)}</ol></section> : null}

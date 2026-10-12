@@ -75,7 +75,7 @@ export function enquiryPricing(safari: SafariPackage | undefined, selection: Enq
     if (stayNights > 0) {
       // Zimbabwe Highlights reaches Falls after six other overnights.
       const offset = safari?.slug === "zimbabwe-highlights-journey" ? 6 : 0;
-      if (end - start < (safari?.nights ?? (offset + stayNights)) * msDay) notes.push("Your selected holiday dates are shorter than this itinerary’s overnight plan; we will discuss an adjusted route.");
+      if (end - start < (offset + stayNights) * msDay) notes.push("Your selected holiday dates are shorter than this itinerary’s overnight plan; we will discuss an adjusted route.");
       else estimate = accommodationEstimate(selection.optionId, new Date(start + offset * msDay).toISOString().slice(0, 10), stayNights, selection.adults, selection.ages as number[], selection.roomAllocation);
     } else notes.push("This day programme has no overnight stay; any additional accommodation needs a separate quotation.");
   }

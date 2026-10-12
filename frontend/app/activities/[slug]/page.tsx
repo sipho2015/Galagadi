@@ -1,3 +1,4 @@
+import { displayPrice } from "@/lib/price-display";
 import type { Metadata } from "next";
 import Image from "next/image";
 import { notFound } from "next/navigation";
@@ -34,7 +35,7 @@ export default async function ActivityDetail({ params }: { params: Promise<{ slu
   if (!activity) notFound();
 
   const heroFacts = [["Location", activity.location], ["Duration", activity.duration]].filter((fact): fact is [string, string] => Boolean(fact[1]));
-  const glanceFacts = [["Category", activity.category], ["Duration", activity.duration], ["Location", activity.location], ["Price", activity.price ?? "Price on request"]];
+  const glanceFacts = [["Category", activity.category], ["Duration", activity.duration], ["Location", activity.location], ["Price", displayPrice(activity.price)]];
   const hasInclusionDetails = Boolean(activity.included?.length || activity.excluded?.length);
 
   return <article className="activity-editorial">
